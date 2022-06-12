@@ -1,0 +1,5 @@
+site_name: WRF-SFIRE documentation         
+site_url: https://wrf-sfire.readthedocs.io/en/latest/ 
+nav:
+    - Home: index.md
+theme: readthedocs
