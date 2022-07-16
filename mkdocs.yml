@@ -1,4 +1,6 @@
-site_name: Basic MkDocs Example Project
+site_name: Center for Computational Mathematics
+ University of Colorado Denver 
+site_url: https://ccm-docs.readthedocs.io/en/latest/ 
 theme:
   name: readthedocs
   highlightjs: true
