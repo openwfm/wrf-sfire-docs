@@ -4,6 +4,8 @@ site_url: https://ccm-docs.readthedocs.io/en/latest/
 theme:
   name: readthedocs
   highlightjs: true
+  features:
+    - navigation.instant
 plugins:
   - search
   - mkdocstrings:
