@@ -14,7 +14,7 @@ Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt)
 
 ### 2022/07/15 
 
-* The high-memory/GPU nodes are math-alderaan-h[01-02] are back in operation.
+* The high-memory/GPU nodes math-alderaan-h[01-02] are back in operation.
 
 ### 2022/07/14 
 
