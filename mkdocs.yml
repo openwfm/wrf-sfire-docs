@@ -4,7 +4,7 @@ site_url: https://ccm-docs.readthedocs.io/en/latest/
 repo_url: https://github.com/ccmucdenver/ccm-docs 
 site_description: Documentation for computing resources at the CCM
 theme:
-  name: mkdocs
+  name: readthedocs
   highlightjs: true
   features:
     - navigation.instant
