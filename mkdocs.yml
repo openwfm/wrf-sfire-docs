@@ -16,3 +16,21 @@ markdown_extensions:
   - markdown_include.include:
       base_path: .
   - admonition
+nav:
+    - Home: index.md
+    - News and status updates: updates.md
+    - Overview: overview.md
+    - Clusters Guide: clusters_guide.md
+    - Examples: examples.md
+    - Accounts and Allocations: accounts.md
+    - Python: python.md
+    - Environment modules: modules.md
+    - Alderaan Cluster: alderaan.md
+    - Colibri Cluster: colibri.md
+    - Score Cluster: score.md
+    - Research Storage: storage.md
+    - Singularity Containers: singularity.md
+    - JupyterHub Server: jupyterhub.md
+    - Local network: local.md
+    - External Resources: external.md
+    - Facilities, Equipment, and Other Resources: facilities.md
