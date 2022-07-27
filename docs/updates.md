@@ -8,7 +8,7 @@ Real-time  &nbsp;  &nbsp; [Room temperature](https://demo.openwfm.org/web/aldera
 
 
 **To protect the computer hardware, should Alderaan CPUs get too hot, the jobs running on them are 
-suspended automatically. This should happen rarely. The jobs resume after the temperature drops, which 
+suspended automatically. This should happen only rarely now. The jobs resume after the temperature drops, which 
 should not take more than few minutes.**
 Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt) for details.
 
