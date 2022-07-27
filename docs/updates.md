@@ -7,14 +7,24 @@ Reload the page to see the latest information. Your browser may be caching an ol
 Real-time  &nbsp;  &nbsp; [Room temperature](https://demo.openwfm.org/web/alderaan/temp.txt) &nbsp; &nbsp; [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt)  &nbsp; &nbsp; [CPU load](https://demo.openwfm.org/web/alderaan/cpu.txt) &nbsp; &nbsp; [Memory](https://demo.openwfm.org/web/alderaan/mem.txt) &nbsp; &nbsp; [Swap](https://demo.openwfm.org/web/alderaan/swp.txt) &nbsp; &nbsp; [Partitions](https://demo.openwfm.org/web/alderaan/sinfo.txt)
 
 
-**To protect the computer hardware, jobs running on Alderaan CPUs which get too hot are 
-suspended automatically. The jobs resume after the temperature drops, which 
+**To protect the computer hardware, should Alderaan CPUs get too hot, the jobs running on them are 
+suspended automatically. This should happen rarely. The jobs resume after the temperature drops, which 
 should not take more than few minutes.**
 Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt) for details.
 
+### 2022/07/27
+
+* The data center temperature is lower now, and the CPU temperatures should exceed the temperature threshold only rarely. 
+
+* Maintenance of nodes math-alderaan-c[13-32] to improve cooling is planned for Friday 7/29 9am-3pm. Depending on the progress, maintenance may be extended to nodes math-alderaan-c[01-12] too.
+
+* The cause of the downtime of math-alderaan-c[29-32] was established and it should be corrected by the end of the day Friday 7/29 also.
+
+* Please continue to run jobs, just know that they may be interrupted for maintenance. The downtime of individual nodes will be kept to a minimum possible. Individual nodes will be put in drain state few hours in advance of power off so that no new jobs can start there.
+
 ### 2022/07/21
 
-* Maintenance in progress. Node math-alderaan-c01 is back online. Nodes math-alderaan-c[29-32] are down, investigating. No jobs were cancelled.
+* Node math-alderaan-c01 is back online. Nodes math-alderaan-c[29-32] are down, investigating. No jobs were cancelled.
 
 * The [TDP](https://community.amd.com/t5/processors/what-do-amd-mean-by-tdp/td-p/221727) on math-alderaan-c01 and math-alderaan-c07 was changed. 
 Their availability will be limited until testing is completed. 
