@@ -18,6 +18,12 @@ Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt)
 
 * Please continue to run jobs, just know that they may be interrupted for maintenance. The downtime of individual nodes will be kept to a minimum possible. Individual nodes will be put in drain state few hours in advance of power off so that no new jobs can start there.
 
+### 2022/07/28
+
+* In preparation for maintenance on 7/29, nodes math-alderaan-c[13-32] are draining. The nodes will be resumed one by one as soon as possible.
+
+* Thermal management was modified temporarily so that it does not resume suspended nodes (and jobs on them) automatically. Since the ambient temperature is low enough for nothing to get suspended, this is not expected to make a difference
+
 ### 2022/07/27
 
 * Reconfiguration of slurm to recognize GPUs as a resource in progress. Please let me know should you see any unusual behavior. 
