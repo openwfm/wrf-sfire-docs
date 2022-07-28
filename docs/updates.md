@@ -12,15 +12,19 @@ suspended automatically. This should happen only rarely now. The jobs resume aft
 should not take more than few minutes.**
 Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt) for details.
 
-### 2022/07/27
-
-* The data center temperature is lower now, and the CPU temperatures should exceed the temperature threshold only rarely. 
+### 2022/07/29
 
 * Maintenance of nodes math-alderaan-c[13-32] to improve cooling is planned for Friday 7/29 9am-3pm. Depending on the progress, maintenance may be extended to nodes math-alderaan-c[01-12] too.
 
-* The cause of the downtime of math-alderaan-c[29-32] was established and it should be corrected by the end of the day Friday 7/29 also.
-
 * Please continue to run jobs, just know that they may be interrupted for maintenance. The downtime of individual nodes will be kept to a minimum possible. Individual nodes will be put in drain state few hours in advance of power off so that no new jobs can start there.
+
+### 2022/07/27
+
+* Reconfiguration of slurm to recognize GPUs as a resource in progress. Please let me know should you see any unusual behavior. 
+
+* The data center temperature is lower now. Job should not be getting suspended because of temperature any more, or only rarely.
+
+* The cause of the downtime of math-alderaan-c[29-32] was found and it should be corrected by the end of the day Friday 7/29.
 
 ### 2022/07/21
 
