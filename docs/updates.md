@@ -12,11 +12,13 @@ suspended automatically. This should happen only rarely now. The jobs resume aft
 should not take more than few minutes.**
 Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt) for details.
 
-### 2022/07/29
+### 2022/07/30
 
-* 8am Front end math-alderann is off. It will be back about 9:30. In the meantime, please use clas-compute to access running jobs.
+* About a half of nodes are offline. The slurm scheduler works with remaining nodes normally. 
 
-* Maintenance of nodes math-alderaan-c[13-32] to improve cooling is planned for Friday 7/29 9am-3pm. Depending on the progress, maintenance may be extended to nodes math-alderaan-c[01-12] too.
+### 2022/07/29 
+
+* Maintenance of nodes math-alderaan-c[13-32] to improve cooling is planned for Friday 7/29 9am-3pm. 
 
 * Please continue to run jobs, just know that they may be interrupted for maintenance. The downtime of individual nodes will be kept to a minimum possible. 
 
