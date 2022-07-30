@@ -14,7 +14,9 @@ Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt)
 
 ### 2022/07/30
 
-* About a half of nodes are offline. The slurm scheduler works with remaining nodes normally. 
+* About a half of the nodes are offline. The slurm scheduler works with the remaining nodes normally. Temperature monitoring works normally.
+
+* Maintenance is scheduled to continue Tuesday 8/2/2022. 
 
 ### 2022/07/29 
 
