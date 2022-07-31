@@ -16,7 +16,7 @@ Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt)
 
 * Nodes math-alderaan-c[29-32] fixed, math-alderaan-c[13-26,28] still offline.
   Slurm and temperature monitoring work with all available nodes normally,
-  and they can be used at full load. 
+  and the nodes can be used at full load. 
 
 ### 2022/07/30
 
