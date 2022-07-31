@@ -4,7 +4,12 @@ Please contact jan.mandel@ucdenver.edu with any questions.
 
 Reload the page to see the latest information. Your browser may be caching an old version.
 
-Real-time &nbsp; [Alderaan Temperature Log](https://demo.openwfm.org/web/alderaan/temp.txt) &nbsp; &nbsp; [Status](https://demo.openwfm.org/web/alderaan/cpu_temp.txt) &nbsp; &nbsp; [Memory](https://demo.openwfm.org/web/alderaan/mem.txt) &nbsp; &nbsp; [Swap](https://demo.openwfm.org/web/alderaan/swp.txt) &nbsp; &nbsp; [All Slurm Partitions](https://demo.openwfm.org/web/alderaan/sinfo.txt)
+Real-time &nbsp; [Alderaan Temperature Log](https://demo.openwfm.org/web/alderaan/temp.txt) &nbsp; &nbsp;
+ [Status](https://demo.openwfm.org/web/alderaan/cpu_temp.txt) &nbsp; &nbsp;
+ [CPU Load](https://demo.openwfm.org/web/alderaan/cpu.txt) &nbsp; &nbsp;
+ [Memory](https://demo.openwfm.org/web/alderaan/mem.txt) &nbsp; &nbsp;
+ [Swap](https://demo.openwfm.org/web/alderaan/swp.txt) &nbsp; &nbsp; 
+ [Partitions](https://demo.openwfm.org/web/alderaan/sinfo.txt)
 
 
 **To protect the computer hardware, should Alderaan CPUs get too hot, the jobs running on them are 
