@@ -12,9 +12,17 @@ suspended automatically. This should happen only rarely now. The jobs resume aft
 should not take more than few minutes.**
 Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt) for details.
 
+### 2022/07/31
+
+* Nodes math-alderaan-c[29-32] fixed, math-alderaan-c[13-26,28] still offline.
+  Slurm and temperature monitoring work with all available nodes normally,
+  and they can be used at full load. 
+
 ### 2022/07/30
 
-* About a half of the nodes are offline. The slurm scheduler works with the remaining nodes normally. Temperature monitoring works normally.
+* Nodes math-alderaan-c[13-26] and math-alderaan-c[28-32] are offline. 
+  The slurm scheduler works with the remaining nodes normally. 
+  Temperature monitoring works normally.
 
 * Maintenance is scheduled to continue Tuesday 8/2/2022. 
 
