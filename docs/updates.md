@@ -17,6 +17,10 @@ suspended automatically. This should happen only rarely now. The jobs resume aft
 should not take more than few minutes.**
 Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt) for details.
 
+### 2022/08/02
+
+* Planned maintenance in progress. Alderaan not available.
+
 ### 2022/07/31
 
 * Nodes math-alderaan-c[29-32] fixed, math-alderaan-c[13-26,28] still offline.
