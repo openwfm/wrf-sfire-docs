@@ -19,7 +19,11 @@ Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt)
 
 ### 2022/08/02
 
-* Planned maintenance in progress. Alderaan not available.
+* Maintenance (rack reconfiguration to improve cooling) is scheduled to continue 8/4 with nodes math-alderaan-c[01-12], which will be down. Connectivity of other nodes may be affected for short periods.
+
+* 8pm: Planned hardware maintenance completed. All alderaan nodes work normally. Please let me know if you see any issues.
+
+* 9am: Planned maintenance in progress. Alderaan not available.
 
 ### 2022/07/31
 
