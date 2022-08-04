@@ -17,9 +17,15 @@ suspended automatically. This should happen only rarely now. The jobs resume aft
 should not take more than few minutes.**
 Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt) for details.
 
+### 2022/08/04
+
+* 10am: I plan to continue moving nodes and cables, and adding fan strips to improve air flow. Nodes math-alderann-c[01-12] will be powered off. Other nodes and functionality may be affected too.
+
+* 12am: Nodes math-alderaan-c[01-12] are draining, no new jobs can start on them. Existing jobs can continue while the nodes remain up. Any nodes suspended automatically for CPU overheating will remain suspended until the maintennce is completed.
+
 ### 2022/08/02
 
-* Maintenance (rack reconfiguration to improve cooling) is scheduled to continue 8/4 with nodes math-alderaan-c[01-12], which will be down. Connectivity of other nodes may be affected for short periods.
+* Maintenance (rack reconfiguration to improve cooling) is scheduled to continue 8/4 with nodes math-alderaan-c[01-12], which will be down. Other nodes may be affected for shorter periods.
 
 * 8pm: Planned hardware maintenance completed. All alderaan nodes work normally. Please let me know if you see any issues.
 
