@@ -23,7 +23,7 @@ markdown_extensions:
   - admonition
 nav:
     - Home: index.md
-    - News and status: updates.md
+    - News and Status Updates: updates.md
     - Overview: overview.md
     - Clusters Guide: clusters_guide.md
     - Examples: examples.md
