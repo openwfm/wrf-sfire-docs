@@ -32,7 +32,7 @@ Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt)
 
 * 10am: Maintenance started: continue moving nodes and cables improve air flow and adding fan strips.  Nodes math-alderann-c[01-12] will be powered off. Other nodes and functionality may be affected too.
 
-* 12am: Nodes math-alderaan-c[01-12] are draining, no new jobs can start on them. Existing jobs can continue while the nodes remain up. Any nodes suspended automatically for CPU overheating will remain suspended until the maintennce is completed.
+* 12am: Nodes math-alderaan-c[01-12] are draining, no new jobs can start on them. Existing jobs can continue while the nodes remain up. Any nodes suspended automatically for CPU overheating will remain suspended until the maintenance is completed.
 
 ### 2022/08/02
 
