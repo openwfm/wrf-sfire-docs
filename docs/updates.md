@@ -17,6 +17,15 @@ suspended automatically. This should happen only rarely now. The jobs resume aft
 should not take more than few minutes.**
 Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt) for details.
 
+### 2022/08/08
+
+* Software maintenance planned on math-alderaan-h[01-02]. No user jobs will be allowed to run until the maintenance is completed.
+ Other nodes should not be affected. 
+ 
+### 2022/08/06
+
+*  Nodes math-alderaan-h[01-02] draining to prepare for a scheduled maintenance.
+
 ### 2022/08/04
 
 * 5pm: Maintenance completed, operations normal. 
