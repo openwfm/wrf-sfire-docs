@@ -19,7 +19,7 @@ Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt)
 
 ### 2022/08/08
 
-* Software maintenance planned on math-alderaan-h[01-02]. No user jobs will be allowed to run until the maintenance is completed.
+* Software maintenance planned on math-alderaan-h[01-02] to configure Slurm with GPUs. No user jobs will be allowed to run until the maintenance is completed.
  Other nodes should not be affected. 
  
 ### 2022/08/06
