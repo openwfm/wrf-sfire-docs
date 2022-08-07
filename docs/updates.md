@@ -24,7 +24,7 @@ Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt)
  
 ### 2022/08/06
 
-*  Nodes math-alderaan-h[01-02] draining to prepare for a scheduled maintenance.
+*  Nodes math-alderaan-h[01-02] draining, no new jobs can start to prepare for a scheduled maintenance. 
 
 ### 2022/08/04
 
