@@ -31,6 +31,7 @@ Example batch script `alderaan_single_gpu.sh`:
      #!/bin/bash
      #SBATCH --job-name=gpu
      #SBATCH --partition=math-alderaan-gpu
+     #SBATCH --gres=gpu:a100:1
      #SBATCH --time=1-1:00:00                  # Max wall-clock time 1 day 1 hour
      #SBATCH --ntasks=1                        # number of cores 
 
@@ -39,6 +40,8 @@ Example batch script `alderaan_single_gpu.sh`:
      singularity exec /storage/singularity/tensorflow.sif python3 gpucode.py >& gpucode.log 
      # copy the output to the job output for reference
      cat gpucode.log
+
+** Please do not use Alderaan GPUs without allocating them by --gres as above first.** 
 
 Example python code `gpucode.py`:
 
@@ -62,9 +65,9 @@ Look which host you are on. You should be on the head node.
 
 Start an interactive job on a GPU node
 
-     > srun -p math-alderaan-gpu --time=02:00:0 -N 1 -n 1 --pty bash -i 
+     > srun -p math-alderaan-gpu --time=02:00:0 -N 1 -n 1 --pty bash -i --gres=gpu:a100:1
 
-Check where you are. You should be on a high memory/gpu node.
+Check where you are. If a GPU is available, you should be on a high memory/gpu node with a GPU allocated to you.
 
      > hostname
      math-alderaan-h01

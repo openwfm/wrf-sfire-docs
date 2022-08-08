@@ -239,6 +239,21 @@ You can request the number of nodes. The scheduler will then split the tasks ove
      mpirun -np 10 examples/mpi_hello_world.exe # replace by your own executable and number of processors
      # do not use more MPI processes than nodes*ntasks
      
+#### How to run with GPU on alderaan
+
+    #!/bin/bash
+    #SBATCH --job-name=gpu
+    #SBATCH --gres=gpu:a100:1
+    #SBATCH --partition=math-alderaan-gpu
+    #SBATCH --time=1:00:00                  # Max wall-clock time 1 day 1 hour
+    #SBATCH --ntasks=1                        # number of cores
+    singularity exec /storage/singularity/tensorflow.sif python3 yourgpucode.py
+
+** Please do not use Alderaan GPUs without allocating them by `--gres` as above first. Please do not request an entire node by `--nodes` unless you really need all of it. **
+
+Of course instead of singularity you can run another GPU code. It is recommended to use the tensorflow singularity container it has updated CUDA drivers. To use Colibri GPUs, do not use --gres but reserve a whole node by #SBATCH --nodes=1. Singularity containers work on Colibri, but newer versions of tensorflow will not because current tensorflow requires the AVX2 instruction, which Colibri CPUs do not have.
+ 
+    
 ## Interactive jobs through the scheduler
 
 Remember you should not directly ssh to a node to run your job. For interactive access to a compute node, do instead
