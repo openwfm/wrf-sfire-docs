@@ -267,24 +267,50 @@ Of course, instead of singularity you can run another GPU code. It is recommende
     
 ## Interactive jobs through the scheduler
 
-Remember you should not directly ssh to a node to run your job. For interactive access to a compute node, do instead
+Remember you should not directly ssh to a node to run your job. For interactive access to a compute node, do instead:
 
 ```
 srun -p math-alderaan --time=2:00:0 -N 1 -n 1 --pty bash -i
 ```
-This will request a session for you as a job in a single core slot on a compute node in the math-alderaan partition for up to 2 hours. After the job starts, your session is transfered to the node. The job will end when you exit or the time runs out.
+This will request a session for you as a job in a single core slot on a compute node in the math-alderaan partition for up to 2 hours. After the job starts, your session is transfered to the node. The job will end when you exit or the time runs out. Of course you can do the same for other partitions and add other flags such as to request a GPU. 
 
-## Viewing Job Queues and Job Status
+To start an interactive job on Alderaan with a GPU:
+```
+srun -p math-alderaan-gpu --time=2:00:0 -N 1 -n 1 --gres=gpu:a100:1 --pty bash -i
+```
 
-The <code>squeue</code> command is used to gather information from the scheduler. Just <code>squeue</code> will show one line for each
+## Viewing Job Queues, Job Status, and System Status
+
+The command <code>squeue</code> will show one line for each
 job running on the system.
+
+The command <code>sinfo</code> will show a summary of jobs and partitions status on the system:
+
+    PARTITION         AVAIL  TIMELIMIT  NODES  STATE NODELIST
+    math-alderaan        up 7-00:00:00     10    mix math-alderaan-c[01-10]
+    math-alderaan        up 7-00:00:00      8  alloc math-alderaan-c[11-15,29,31-32]
+    math-alderaan        up 7-00:00:00     14   idle math-alderaan-c[16-28,30]
+    math-alderaan-gpu    up 7-00:00:00      1   drng math-alderaan-h01
+    math-alderaan-gpu    up 7-00:00:00      1    mix math-alderaan-h02
+    math-colibri-gpu     up   infinite     24   idle math-colibri-c[01-24]
+    math-score           up   infinite      5   idle math-score-c[01-05]
+    chem-xenon           up   infinite      6  down* chem-xenon-c[01-06]
+    clas-interactive     up   infinite      1  down* math-score-i01
+    clas-interactive     up   infinite      1   idle math-colibri-i02
+    math-alderaan-osg    up 1-00:00:00     10    mix math-alderaan-c[01-10]
+    math-alderaan-osg    up 1-00:00:00      8  alloc math-alderaan-c[11-15,29,31-32]
+    math-alderaan-osg    up 1-00:00:00     14   idle math-alderaan-c[16-28,30]
+    clas-dev             up   infinite      1   idle clas-devnode-c01
+
+Real-time system status including temperature, load, and the partitins from `sinfo`, is available in [News and Status Updates](./updates/).
+
 
 ## Custom application software
 
 Additional software can be installed as modules. Software in a module is on the system all the time, "loading" a module just changes your environment to make it available to you. Software modules need to be compatible with the operating system, and the modules on our different clusers are generally different. See [modules](../modules) for more information.
 
-We also use Singularity containters, which provide a complete enviroment, avoid software conflicts, and can execute anywhere on the clusters. The disadvantage, however, is that you can use the system software installed in the container; the system you are on is not visible inside a container
-.
+We also use Singularity containters, which provide a complete enviroment, avoid software conflicts, and can execute anywhere on the clusters. The disadvantage, however, is that you can use only the system software installed in the container; the system you are on is not visible from inside the container.
+
 Using singularity is easy. Type, for example, 
 
     singularity shell /storage/singularity/tensorflow
