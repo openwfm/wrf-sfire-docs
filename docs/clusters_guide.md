@@ -197,7 +197,7 @@ The <code>sbatch job_script</code> command is used to submit a job into a queue.
 
 The templates batch scripts and simple examples to run are in <code>/storage/templates</code>. You can copy the scripts from there, or git clone your own from [https://github.com/ccmucdenver/templates.git](https://github.com/ccmucdenver/templates.git) and build also the examples: Type <code>make</code> in the <code>examples</code> directory. 
 
-#### Single-core job
+### Single-core job
 
 This script will be sufficient for many jobs, such as those you code yourself which do not use multiprocessing.
 
@@ -213,7 +213,7 @@ If you run an application that can use more cores, you can requests the number o
 
 If you expect that your application will use more memory than 8GB (our nodes have 512GB memory and 64 cores each), you should request more tasks, about the expected memory usage in GB divided by 8. Otherwise the node memory may get overloaded when the machine gets busy with many jobs, and everyone's jobs may stall or crash. Note: this may change once we start allocating memory use, but at the moment we do not.
  
-#### A simple MPI job template
+### A simple MPI job template
 
      #!/bin/bash
      # alderaan_mpi.sh
@@ -224,7 +224,7 @@ If you expect that your application will use more memory than 8GB (our nodes hav
      #SBATCH --ntasks=360                      # Total number of MPI processes, no need for --nodes
      mpirun examples/mpi_hello_world.exe       # replace by your own executable, no need for -np
 
-#### A more general MPI job template
+### A more general MPI job template
 
 You can request the number of nodes. The scheduler will then split the tasks over the nodes.
 
@@ -239,7 +239,7 @@ You can request the number of nodes. The scheduler will then split the tasks ove
      mpirun -np 10 examples/mpi_hello_world.exe # replace by your own executable and number of processors
      # do not use more MPI processes than nodes*ntasks
      
-#### How to run with GPU on alderaan
+### How to run with GPU on Alderaan
 
     #!/bin/bash
     #SBATCH --job-name=gpu
@@ -249,10 +249,21 @@ You can request the number of nodes. The scheduler will then split the tasks ove
     #SBATCH --ntasks=1                        # number of cores
     singularity exec /storage/singularity/tensorflow.sif python3 yourgpucode.py
 
-** Please do not use Alderaan GPUs without allocating them by `--gres` as above first. Please do not request an entire node by `--nodes` unless you really need all of it. **
+Of course, instead of singularity you can run another GPU code. It is recommended to use the tensorflow singularity container it has updated CUDA drivers.
 
-Of course instead of singularity you can run another GPU code. It is recommended to use the tensorflow singularity container it has updated CUDA drivers. To use Colibri GPUs, do not use --gres but reserve a whole node by #SBATCH --nodes=1. Singularity containers work on Colibri, but newer versions of tensorflow will not because current tensorflow requires the AVX2 instruction, which Colibri CPUs do not have.
+** Please do not use Alderaan GPUs without allocating them by `--gres` as above first. Please do not request an entire node on Alderaan by `--nodes`, unless you really need all of it. **
+
+### How to run with GPU on Colibri
+
+ To use Colibri GPUs, do not use `--gres` but reserve a whole node by `--nodes=1`. Singularity containers work on Colibri, but newer versions of tensorflow will not run on Colibri CPUs. So:
  
+    #!/bin/bash
+    #SBATCH --job-name=gpu
+    #SBATCH --gres=gpu:a100:1
+    #SBATCH --partition=math-colibri-gpu
+    #SBATCH --time=1:00:00                  # Max wall-clock time 1 day 1 hour
+    #SBATCH --nodes=1                       # number of nodes
+    singularity exec /storage/singularity/tensorflow-v1.3.sif python3 yourgpucode.py
     
 ## Interactive jobs through the scheduler
 
