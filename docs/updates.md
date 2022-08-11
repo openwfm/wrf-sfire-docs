@@ -17,9 +17,17 @@ suspended automatically. This should happen only rarely now. The jobs resume aft
 should not take more than few minutes.**
 Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt) for details.
 
-### 2022/08/12
+### 2022/08/TBD
 
 * Maintenance planned on math-alderaan-h[01-02] to configure Slurm with GPUs. The nodes are draining and no new jobs can start on them.  Please let me know if you want to submit something in the meantime and I can lift the drain state temporarily.
+
+### 2022/08/15
+
+* Hardware maintenance on math-alderaan-c01 and several other compute nodes from 12:30pm. The nodes will be put in drain state in advance. Other Alderaan nodes should not be affected but connectivity may be limited temporarily.
+
+### 2022/08/11
+
+* Node math-alderaan-c01 is down.
 
 ### 2022/08/08
 
