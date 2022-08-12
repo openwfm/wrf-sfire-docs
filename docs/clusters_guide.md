@@ -302,10 +302,10 @@ The command <code>sinfo</code> will show a summary of jobs and partitions status
     math-alderaan-osg    up 1-00:00:00     14   idle math-alderaan-c[16-28,30]
     clas-dev             up   infinite      1   idle clas-devnode-c01
 
-Real-time system status including temperature, load, and the partitins from `sinfo`, is available in [News and Status Updates](./updates/).
+Real-time system status including temperature, load, and the partitions from `sinfo`, is available in [News and Status Updates](./updates/).
 
 
-## Custom application software
+## Custom Application Software
 
 Additional software can be installed as modules. Software in a module is on the system all the time, "loading" a module just changes your environment to make it available to you. Software modules need to be compatible with the operating system, and the modules on our different clusers are generally different. See [modules](../modules) for more information.
 
@@ -320,3 +320,13 @@ and you can use many Python packages for machine learning. We have containers wi
 and more. See [Singularity](../singularity/) for more details. 
 
 **We will be happy to install software and build containers for you, do not hesitate to ask!** 
+
+## Building Your Own Software
+
+Here are the best practices when you compile and link your own software:
+
+* Use `math-alderaan` head node to build software for use on the Alderaan cluster. Use `module avail` to see which tools are available in [modules](./modules/). We can add other tools and package them in modules on request.
+
+* Use `clas-compute` or `math-colibri-i02` to build software for the Colibri cluster, and `clas-compute` or `math-score-i01` for the Score cluster. You can download and build libraries and other package in your own account.
+
+* Alderaan runs Centos 8, while `clas-compute` and Colibri and Score clusters Centos 7. Software built on one will normally not work on the other. 
