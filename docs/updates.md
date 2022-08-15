@@ -19,7 +19,7 @@ Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt)
 
 ### 2022/08/TBD
 
-* Maintenance planned on math-alderaan-h[01-02] to configure Slurm with GPUs. The nodes are draining and no new jobs can start on them.  Please let me know if you want to submit something in the meantime and I can lift the drain state temporarily.
+* Software maintenance planned on math-alderaan-h[01-02] to improve Slurm configuration for GPUs is postponed.
 
 ### 2022/08/15
 
