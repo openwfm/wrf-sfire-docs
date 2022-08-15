@@ -23,7 +23,7 @@ Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt)
 
 ### 2022/08/15
 
-* Hardware maintenance on math-alderaan-c01 and several other compute nodes from about 12:30pm. The nodes will be put in drain state in advance. Nodes suspended for CPU overheating will be included and not resumed automatically.  Other Alderaan nodes should not be affected but connectivity may be limited temporarily.
+* Hardware maintenance on math-alderaan-c01 and several other compute nodes from about 1pm. The nodes will be put in drain state in advance. Nodes suspended for CPU overheating will be included and not resumed automatically.  Other Alderaan nodes should not be affected but connectivity may be limited temporarily.
 
 ### 2022/08/11
 
