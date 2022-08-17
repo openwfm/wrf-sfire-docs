@@ -311,9 +311,9 @@ Real-time system status including temperature, load, and the partitions from `si
 
 ## Custom Application Software
 
-Additional software can be installed as modules. Software in a module is on the system all the time, "loading" a module just changes your environment to make it available to you. Software modules need to be compatible with the operating system, and the modules on our different clusers are generally different. See [modules](../modules) for more information.
+Additional software can be installed as modules. Software in a module is on the system all the time, "loading" a module just changes your environment so that your commands can find it. Installed software and environment modules on our different clusters are generally different. See [modules](../modules) for more information.
 
-We also use Singularity containters, which provide a complete enviroment, avoid software conflicts, and can execute anywhere on the clusters. The disadvantage, however, is that you can use only the system software installed in the container; the system you are on is not visible from inside the container.
+We also use Singularity containters, which provide a complete enviroment, avoid software conflicts, and can execute anywhere on the clusters. The disadvantage, however, is that you can use only the software installed in the container; the system you are on is not visible from inside the container.
 
 Using singularity is easy. Type, for example, 
 
