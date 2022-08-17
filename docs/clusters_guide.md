@@ -19,7 +19,7 @@ On Windows, you will need an SSH client. There are several out there, but genera
 [[File:Puttywindows.png|center|PuTTY Windows]]
 -->
 
-You can also use the [Windows 10 subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10), where you install a Linux distribution as an app and can use it to ssh out like from a terminal window like on any Linux machine. This is often more stable than Putty, which tends to get stuck on some computers.
+You can also use the [Windows 10 subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10), where you install a Linux distribution as an app and can use it to ssh out like from a terminal window on any Linux machine. This is often more stable than Putty, which tends to get stuck on some computers.
 
 Either way, from a terminal window, at the command line prompt type in:
 
