@@ -259,7 +259,7 @@ Of course, instead of singularity you can run another GPU code. It is recommende
 
 ### How to run with GPU on Colibri
 
- To use Colibri GPUs, do not use `--gres` but reserve a whole node by `--nodes=1`. Singularity containers work on Colibri, but current version of tensorflow does not support the CPUs on Colibri. You can use an older version instead:
+ To use Colibri GPUs, do not use `--gres` but reserve a whole node by `--nodes=1`. Singularity containers work on Colibri, but current versions of tensorflow do not support the CPUs on Colibri. You can use an older version instead:
  
     #!/bin/bash
     #SBATCH --job-name=gpu
