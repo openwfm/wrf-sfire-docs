@@ -17,9 +17,9 @@ suspended automatically. This should happen only rarely now. The jobs resume aft
 should not take more than few minutes.**
 Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt) for details.
 
-### 2022/08/TBD
+### 2022/08/16
 
-* Software maintenance planned on math-alderaan-h[01-02] to improve Slurm configuration for GPUs is postponed.
+* Software maintenance planned on math-alderaan-h[01-02] is postponed. Please continue using the existing GPU directions in the [Clusters guide](./clusters_guide/#how-to-run-with-gpu-on-alderaan).
 
 ### 2022/08/15
 
