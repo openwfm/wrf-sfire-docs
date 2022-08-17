@@ -245,6 +245,10 @@ You can request the number of nodes. The scheduler will then split the tasks ove
      
 ### How to run with GPU on Alderaan
 
+The high memory/GPU nodes `math-alderann-h[01,02]` have two NVIDIA A-100 40GB GPUs each, and 2TB memory each. Use `--gres=gpu:a100:1` to request one GPU and `--gres=gpu:a100:2` to request two GPUs. At the moment, Alderaan does not support explicit memory allocation by the --mem flag. 
+ 
+** Please do not use Alderaan GPUs without allocating them by `--gres` as above first. Please do not request an entire node on Alderaan by `--nodes` or `-N`, unless you really need all of it. Large memory jobs and GPUs jobs can run on the same node at the same time. 
+
     #!/bin/bash
     #SBATCH --job-name=gpu
     #SBATCH --gres=gpu:a100:1
@@ -255,7 +259,6 @@ You can request the number of nodes. The scheduler will then split the tasks ove
 
 Of course, instead of singularity you can run another GPU code. It is recommended to use the tensorflow singularity container because it has updated CUDA drivers.
 
-** Please do not use Alderaan GPUs without allocating them by `--gres` as above first. Please do not request an entire node on Alderaan by `--nodes`, unless you really need all of it. **
 
 ### How to run with GPU on Colibri
 
