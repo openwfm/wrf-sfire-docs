@@ -253,13 +253,13 @@ You can request the number of nodes. The scheduler will then split the tasks ove
     #SBATCH --ntasks=1                        # number of cores
     singularity exec /storage/singularity/tensorflow.sif python3 yourgpucode.py
 
-Of course, instead of singularity you can run another GPU code. It is recommended to use the tensorflow singularity container it has updated CUDA drivers.
+Of course, instead of singularity you can run another GPU code. It is recommended to use the tensorflow singularity container because it has updated CUDA drivers.
 
 ** Please do not use Alderaan GPUs without allocating them by `--gres` as above first. Please do not request an entire node on Alderaan by `--nodes`, unless you really need all of it. **
 
 ### How to run with GPU on Colibri
 
- To use Colibri GPUs, do not use `--gres` but reserve a whole node by `--nodes=1`. Singularity containers work on Colibri, but newer versions of tensorflow will not run on Colibri CPUs. So:
+ To use Colibri GPUs, do not use `--gres` but reserve a whole node by `--nodes=1`. Singularity containers work on Colibri, but current version of tensorflow does not support the CPUs on Colibri. You can use an older version instead:
  
     #!/bin/bash
     #SBATCH --job-name=gpu
@@ -269,18 +269,18 @@ Of course, instead of singularity you can run another GPU code. It is recommende
     #SBATCH --nodes=1                       # number of nodes
     singularity exec /storage/singularity/tensorflow-v1.3.sif python3 yourgpucode.py
     
-## Interactive jobs through the scheduler
+## Interactive jobs
 
-Remember you should not directly ssh to a node to run your job. For interactive access to a compute node, do instead:
+Remember you should not directly ssh to a node because it would interfere with jobs scheduled to run on that node. For interactive access to a compute node, do instead:
 
 ```
-srun -p math-alderaan --time=2:00:0 -N 1 -n 1 --pty bash -i
+srun -p math-alderaan --time=2:00:0 -n 1 --pty bash -i
 ```
-This will request a session for you as a job in a single core slot on a compute node in the math-alderaan partition for up to 2 hours. After the job starts, your session is transfered to the node. The job will end when you exit or the time runs out. Of course you can do the same for other partitions and add other flags such as to request a GPU. 
+This will request a session for you as a job in a single core slot on a compute node in the math-alderaan partition for up to 2 hours. After the job starts, your session is transfered to the node. The job will end when you exit or the time runs out. Of course you can do the same for other partitions and add other flags such as to request more cores or a GPU. 
 
 To start an interactive job on Alderaan with a GPU:
 ```
-srun -p math-alderaan-gpu --time=2:00:0 -N 1 -n 1 --gres=gpu:a100:1 --pty bash -i
+srun -p math-alderaan-gpu --time=2:00:0 -n 1 --gres=gpu:a100:1 --pty bash -i
 ```
 
 ## Viewing Job Queues, Job Status, and System Status
