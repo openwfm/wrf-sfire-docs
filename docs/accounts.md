@@ -1,16 +1,16 @@
 # Accounts and Allocations
 ## Eligibility
 Employees and students with `ucdenver.edu` or `cuanschutz.edu` login credentials. 
-External collaborators with VPN access, sponsoered by a faculty member, 
+External collaborators with VPN access, sponsored by a faculty member, 
 upon approval.
 
 ## How to get an account
 
-Please use [this form](https://forms.office.com/r/GQ9ef7ei4i) to request accounts and allocations requests. **The form should be filled by a faculty member and it can list other users the faculty member wants to sponsor, such as students or external collaborators.** 
+Please use [this form](https://forms.office.com/r/GQ9ef7ei4i) to request accounts and allocations requests. **The form should be filled by a faculty member and list users in their group, such as students or external collaborators.** 
 
-* a brief description of the project (title and a sentence or few),
-* funding source, if any, with an agency, grant number, and title,
-* the CU Denver usernames of users who participate in the project. 
+* A brief description of the project (title and a line on two),
+* Funding source, if any, with an agency, grant title
+* The CU Denver email or CU Denver username for all accounts to be created.
 
 If you need more than the default core or storage resources below, your request should contain a statement and brief justification of the resources needed.
 

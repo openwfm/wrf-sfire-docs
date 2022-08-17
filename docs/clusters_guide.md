@@ -195,7 +195,11 @@ The <code>sbatch job_script</code> command is used to submit a job into a queue.
 
 ### Template batch job scripts
 
-The templates batch scripts and simple examples to run are in <code>/storage/templates</code>. You can copy the scripts from there, or git clone your own from [https://github.com/ccmucdenver/templates.git](https://github.com/ccmucdenver/templates.git) and build also the examples: Type <code>make</code> in the <code>examples</code> directory. 
+The template batch scripts and simple examples to run are available. Get your copy by
+    
+        git clone https://github.com/ccmucdenver/templates.git 
+        
+To build the examples, type <code>make</code> in the <code>examples</code> directory. 
 
 ### Single-core job
 
