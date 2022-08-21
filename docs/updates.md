@@ -17,11 +17,13 @@ suspended automatically. This should happen only rarely now. The jobs resume aft
 should not take more than few minutes.**
 Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt) for details.
 
-### 2022/08/16
+### 2022/08/18
 
-* Software maintenance planned on math-alderaan-h[01-02] is postponed. Please continue using the existing GPU directions in the [Clusters guide](../clusters_guide/#how-to-run-with-gpu-on-alderaan).
+* NetCDF C and Fortran libraries rebuilt with the updated Intel compiler 2022.1.0. `module load intel` and `module load netcdf` will automatically select the latest versions.
 
 ### 2022/08/15
+
+* 4pm Node math-alderaan-c01 is back, all nodes operational.
 
 * Hardware maintenance on math-alderaan-c01 and several other compute nodes from about 1pm. The nodes will be put in drain state in advance. Nodes suspended for CPU overheating will be included and not resumed automatically.  Other Alderaan nodes should not be affected but connectivity may be limited temporarily.
 
