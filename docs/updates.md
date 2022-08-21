@@ -21,6 +21,10 @@ Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt)
 
 * NetCDF C and Fortran libraries rebuilt with the updated Intel compiler 2022.1.0. `module load intel` and `module load netcdf` will automatically select the latest versions.
 
+### 2022/08/16
+
+* Software maintenance planned on math-alderaan-h[01-02] is postponed. Please continue using the existing GPU directions in the [Clusters guide](../clusters_guide/#how-to-run-with-gpu-on-alderaan).
+
 ### 2022/08/15
 
 * 4pm Node math-alderaan-c01 is back, all nodes operational.
