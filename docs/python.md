@@ -31,7 +31,7 @@ accept the license, and follow through with the installation. You should see
     
     Do you wish the installer to initialize Anaconda3 by running conda init? [yes|no]
     
-Answer yes. Then, stop Conda from activating if you do not use it,
+Answer yes. Then, to stop Conda from activating on login if you do not want to use it every time you log in,
 
     conda config --set auto_activate_base false
 
