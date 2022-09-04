@@ -17,6 +17,10 @@ suspended automatically. This should happen only rarely now. The jobs resume aft
 should not take more than few minutes.**
 Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt) for details.
 
+### 2022/09/02  
+
+ * All Colibri compute nodes math-colibri-c[01-24] and also math-colibri-i01 are not accessible. The large memory interactive node math-colibri-i02 works normally.
+
 ### 2022/08/18
 
 * NetCDF C and Fortran libraries rebuilt with the updated Intel compiler 2022.1.0. `module load intel` and `module load netcdf` will automatically select the latest versions.
