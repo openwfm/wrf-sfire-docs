@@ -17,6 +17,10 @@ suspended automatically. This should happen only rarely now. The jobs resume aft
 should not take more than few minutes.**
 Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt) for details.
 
+### 2022/09/05
+
+* 5pm Large scale network outage at CU-Denver https://stspg.io/cm2wj5ff4k89  Last Alderaan updates at 4:31pm.
+
 ### 2022/09/04  
 
 * Node math-alderaan-c01 is down. I'll work on it after the Labor Day weekend.
