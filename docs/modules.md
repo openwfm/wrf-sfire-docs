@@ -16,7 +16,8 @@ Alderaan modules include compilers (GNU, AMD, and Intel) and MPI.
 
 `module unload modulename` - make the software pointed to by the module unavailable
 
-`module purge` -  unload all modules
+`module purge` -  unload all modules, strongly recommended before loading modules to start clear and assure a predictable environment
+
 
 `module list`  - list which modules are loaded
 

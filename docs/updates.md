@@ -23,7 +23,7 @@ Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt)
 
 ### 2022/08/18
 
-* NetCDF C and Fortran libraries rebuilt with the updated Intel compiler 2022.1.0. `module load intel` and `module load netcdf` will automatically select the latest versions.
+* NetCDF C and Fortran libraries rebuilt with the updated Intel compiler 2022.1.0. `module load intel` and `module load netcdf` will automatically select the latest versions. Please do `module purge` to start clean when loading  modules and assure a predictable environment.
 
 ### 2022/08/16
 
