@@ -19,7 +19,7 @@ Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt)
 
 ### 2022/09/05
 
-* 5pm [Large scale network outage at CU Denver](https://stspg.io/cm2wj5ff4k89). Last Alderaan updates are from 4:31pm.
+* 5pm [Large scale network outage at CU Denver](https://stspg.io/cm2wj5ff4k89), clusters not accessible. Last Alderaan updates are from 4:31pm.
 
 ### 2022/09/04  
 
