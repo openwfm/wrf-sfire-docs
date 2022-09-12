@@ -17,11 +17,15 @@ suspended automatically. This should happen only rarely now. The jobs resume aft
 should not take more than few minutes.**
 Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt) for details.
 
+### 2022/09/12
+
+*  Colibri nodes are now available. The cause was a power issue on the uplink switch.
+
 ### 2022/09/05
 
 * 5pm [Large scale network outage at CU Denver](https://stspg.io/cm2wj5ff4k89), clusters not accessible. Last Alderaan updates are from 4:31pm. The cause is a power outage.
 
-* 11:58pm OIT restored the power. All running jobs were killed by the power interruption. All alderaan nodes were reser and are now back.
+* 11:58pm OIT restored the power. All running jobs were killed by the power interruption. All alderaan nodes were reset and are now back. Colibri nodes continue to be not accessible.
 
 ### 2022/09/04  
 
