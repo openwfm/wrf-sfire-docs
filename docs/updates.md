@@ -17,9 +17,13 @@ suspended automatically. This should happen only rarely now. The jobs resume aft
 should not take more than few minutes.**
 Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt) for details.
 
+### 2022/09/13
+
+*  Node math-alderaan-c01 is down.
+
 ### 2022/09/12
 
-*  Colibri nodes are now available. The cause was a power issue on the uplink switch.
+*  All Colibri nodes are now available. The cause was a power issue in a network switch.
 
 ### 2022/09/05
 
