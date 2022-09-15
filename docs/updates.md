@@ -19,6 +19,10 @@ Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt)
 
 ### 2022/09/13
 
+*  Node math-alderaan-c01 is back. All operationds normal.
+
+### 2022/09/13
+
 *  Node math-alderaan-c01 is down.
 
 ### 2022/09/12

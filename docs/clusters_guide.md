@@ -201,6 +201,9 @@ The template batch scripts and simple examples to run are available. Get your co
         
 To build the examples, type <code>make</code> in the <code>examples</code> directory. 
 
+**Please do not request the number of nodes on Alderaan by `--nodes` or `-N`, unless you really need entire nodes for some reason. Request only the CPU cores you need by `--ntasks`, then the node or nodes you use can be shared with others.**
+
+
 ### Single-core job
 
 This script will be sufficient for many jobs, such as those you code yourself which do not use multiprocessing.
@@ -212,6 +215,7 @@ This script will be sufficient for many jobs, such as those you code yourself wh
      #SBATCH --time=1:00:00                    # Max wall-clock time
      #SBATCH --ntasks=1                        # number of cores, leave at 1
      examples/hello_world_fortran.exe          # replace by your own executable
+    
      
 If you run an application that can use more cores, you can requests the number of cores in <code>--ntask</code> parameter instead of 1. Your allocation will be charged for the time of all cores you requested, regardless if you use them or not.
 
@@ -243,7 +247,12 @@ You can request the number of nodes. The scheduler will then split the tasks ove
      mpirun -np 10 examples/mpi_hello_world.exe # replace by your own executable and number of processors
      # do not use more MPI processes than nodes*ntasks
      
-### How to run with GPU on Alderaan
+**Please do not request the number of nodes on Alderaan by `--nodes` or `-N`, unless you really need entire nodes for some reason. Request only the CPU cores you need by `--ntasks`, then the node or nodes you use can be shared with others.**
+
+     
+## How to use GPUs 
+
+### How to to run with GPUs on Alderaan
 
 The high memory/GPU nodes `math-alderann-h[01,02]` have two NVIDIA A-100 40GB GPUs each, and 2TB memory each. Use `--gres=gpu:a100:1` to request one GPU and `--gres=gpu:a100:2` to request two GPUs. At the moment, Alderaan does not support explicit memory allocation by the --mem flag. 
  
@@ -260,7 +269,7 @@ The high memory/GPU nodes `math-alderann-h[01,02]` have two NVIDIA A-100 40GB GP
 Of course, instead of singularity you can run another GPU code. It is recommended to use the tensorflow singularity container because it has updated CUDA drivers.
 
 
-### How to run with GPU on Colibri
+### How to run with GPUs on Colibri
 
  To use Colibri GPUs, do not use `--gres` but reserve a whole node by `--nodes=1`. Singularity containers work on Colibri, but current versions of tensorflow do not support the CPUs on Colibri. You can use an older version instead:
  
