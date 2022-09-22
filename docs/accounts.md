@@ -6,13 +6,15 @@ upon approval.
 
 ## How to get an account
 
-Please use [this form](https://forms.office.com/r/GQ9ef7ei4i) to request accounts and allocations requests. **The form should be filled by a faculty member and list users in their group, such as students or external collaborators.** 
+Please use [this form](https://forms.office.com/r/GQ9ef7ei4i) to request accounts and allocations requests. **The form should be filled by a faculty member and list users in their group, such as students or external collaborators.** External collaborators need a POI with VPN access first.
 
-* A brief description of the project (title and a line on two),
-* Funding source, if any, with an agency, grant title
-* The CU Denver email or CU Denver username for all accounts to be created.
+The form asks for the CU Denver email addresses for all accounts to be created, and
 
-If you need more than the default core or storage resources below, your request should contain a statement and brief justification of the resources needed.
+* A brief description of the project (few words is OK),
+* Funding source, if any
+* Promise include an acknowledgement of the resource in all publications and  presentations, and send us at least the citation.
+
+which is needed for reporting to the funding agency (annual reports, quad charts, PI meetings, etc.)
 
 ## Resources and Allocations
 **To encourage early use, storage and core time limits are not enforced for an initial period - we want you to work here**! They will be activated in future as needed to keep the resources available fairly for everyone.
