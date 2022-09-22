@@ -7,11 +7,11 @@ External collaborators sponsored by a faculty member.
 
 Please use [this form](https://forms.office.com/r/GQ9ef7ei4i) to request accounts and allocations requests. **The form should be filled by a faculty member and list users in their group, such as students or external collaborators.** External collaborators need a POI (a type of affiliate appointment) with VPN access first.
 
-The form asks for the CU Denver email addresses for all accounts to be created, and
+The form will ask for the **CU Denver email addresses** for all accounts to be created, and
 
 * a brief description of the project (few words is OK),
-* funding source, if any
-* promise include an acknowledgement of the NSF grant 2019089 in all publications and presentations, and send us at least the citation.
+* funding source, if any,
+* a promise include an acknowledgement of the NSF grant 2019089 in all publications and presentations, and send us at least the citation.
 
 This is needed for reporting to the funding agency (annual reports, quad charts, PI meetings, etc.)
 
