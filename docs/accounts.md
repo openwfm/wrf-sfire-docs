@@ -10,11 +10,11 @@ Please use [this form](https://forms.office.com/r/GQ9ef7ei4i) to request account
 
 The form asks for the CU Denver email addresses for all accounts to be created, and
 
-* A brief description of the project (few words is OK),
-* Funding source, if any
-* Promise include an acknowledgement of the resource in all publications and  presentations, and send us at least the citation.
+* a brief description of the project (few words is OK),
+* funding source, if any
+* promise include an acknowledgement of the NSF grant 2019089 in all publications and presentations, and send us at least the citation.
 
-which is needed for reporting to the funding agency (annual reports, quad charts, PI meetings, etc.)
+This is needed for reporting to the funding agency (annual reports, quad charts, PI meetings, etc.)
 
 ## Resources and Allocations
 **To encourage early use, storage and core time limits are not enforced for an initial period - we want you to work here**! They will be activated in future as needed to keep the resources available fairly for everyone.
