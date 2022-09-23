@@ -19,7 +19,9 @@ Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt)
 
 ### 2022/09/24
 
-* The 40TB /storage/math/projects partition is 100% full. Until this is corrected no one can add any files there. Moving the largest user directories to /scratch and conracting the users individually. The /scratch directory is accessible from all alderaan nodes but not /colibri or /score.
+* 10am The 40TB /storage/math/projects partition is 100% full. Until this is corrected no one can add any files there. Moving the largest user directories to /scratch and contacting the users individually. The /scratch directory is accessible from all alderaan nodes but not /colibri or /score.
+
+* 4pm /storage/math/projects is at 96%. Please do not put any large new files there, make a directory in /scratch instead.
 
 ### 2022/09/14
 
