@@ -17,6 +17,10 @@ suspended automatically. This should happen only rarely now. The jobs resume aft
 should not take more than few minutes.**
 Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt) for details.
 
+### 2022/09/24
+
+* Partition /storage/math/projects partition back under 50% utilization. All operations normal.
+
 ### 2022/09/23
 
 * 10am The 40TB /storage/math/projects partition is 100% full. Until this is corrected no one can add any files there. Moving the largest user directories to /scratch and contacting the users individually. The /scratch directory is accessible from all alderaan nodes but not /colibri or /score.
