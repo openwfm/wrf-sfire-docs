@@ -93,7 +93,7 @@ Type <code>chmod og-rwx file_or_directory_name</code> to make the file or direct
 
 ## File Transfer
 
-### On Linux or Mac
+### Linux or Mac
 
 On a Linux or Mac computer, you can use file transfer utilities, which are a part of the system, to transfer files between the clusters and your computer. [Rsync](https://en.wikipedia.org/wiki/Rsync) is recommended. Typing `man rsync` should give you the manual for the system you are on. Rsync can transfer file trees recursively and resume a transfer which was interrupted.
 
@@ -103,11 +103,19 @@ On Windows, you need to install an addidional application. There include, e.g., 
 
 ### From a Website
 
-### From Github
+coming soon
+
+### Github
+
+coming soon
 
 ### Dropbox
 
+coming soon
+
 ### Globus
+
+coming soon
 
 ## Requesting Information about the Environment
 
