@@ -57,13 +57,21 @@ Press Control-A and then Esc and scrolling up and down will work temporarily the
 
 The home directories are on a shared file server and linked as `/home/username`. Everyone can have also 
 a project directory `/storage/department/projects/username` 
-(where department may be one of many departments who use this system).
-The difference is that home directories are backed up occasionally 
+(where department may be one of many departments who use this system). Users from some departments have
+project directories created in `/data001/projects/username` instead. These are currently accessible from alderaan nodes only,
+i.e., not accessible from clas-compute and math-colibri or math-score nodes. The location of project directory is emailed to the user
+when the directory is created, usualy as a part of onboarding.
+
+The difference betwen project and home directories is that home directories are backed up occasionally 
 while project directories are not. Please keep your home directory small to make the backups possible.
 
-In addition, groups can have shared project directories also in `/storage/department/projects`.
+In addition, groups can reqquest shared project directories also in `/storage/department/projects' or `/data001/projects`. 
 
-If you need a lot of data storage, please contact us before filling everything you can find.
+Please monitor the usage of the partition you are on by 
+
+     df -h . 
+
+and if it nearing full check you you do not use more space than you are aware of by `df -h`. If you need a lot of data storage, please contact us before filling everything you can find.
 
 On Alderaan only, you can make your own directory in `/scratch`, which is on a large fast filesystem.
 When `/scratch` starts filling up, oldest files will be purged automatically. 
@@ -82,6 +90,24 @@ Type <code>chmod og-rwx file_or_directory_name</code> to make the file or direct
 <!---
 `df –h` will show you the storage arrays and how much space is available. There are different types of "empty" space in linux so it may say there is plenty of space in `df –h` yet the array is full.
 -->
+
+## File Transfer
+
+### On Linux or Mac
+
+On a Linux or Mac computer, you can use file transfer utilities, which are a part of the system, to transfer files between the clusters and your computer. [Rsync](https://en.wikipedia.org/wiki/Rsync) is recommended. Typing `man rsync` should give you the manual for the system you are on. Rsync can transfer file trees recursively and resume a transfer which was interrupted.
+
+### Windows
+
+On Windows, you need to install an addidional application. There include, e.g., FileZilla. 
+
+### From a Website
+
+### From Github
+
+### Dropbox
+
+### Globus
 
 ## Requesting Information about the Environment
 
