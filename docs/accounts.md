@@ -16,14 +16,16 @@ The form will ask for the **CU Denver email addresses** for all accounts to be c
 This is needed for reporting to the funding agency (annual reports, quad charts, PI meetings, etc.)
 
 ## Resources and Allocations
-**To encourage early use, storage and core time limits are not enforced for an initial period - we want you to work here**! They will be activated in future as needed to keep the resources available fairly for everyone.
+**To encourage early use, storage and core time limits are not enforced for an initial period - we want you to work here! Home directories over** They will be activated in future as needed to keep the resources available fairly for everyone.
 
 ### Storage 
-**Users are responsible for maintaining copies of their important files elsewhere. Files can be lost, even with backups.** 
+**Users are responsible for maintaining copies of their important files elsewhere. Files can be lost, even with backups.
  
-* **Home directories** – 25GB, more with an allocation request. Backed up weekly, keeping 4 backups from various times. Home directories are `/home/user`, usually implemented as soft links. 
-* **Project storage** -  250GB, more with an allocation request. **Not backed up.** Project directories are in  `/storage/department/projects/name`, often implemented as soft links. A project directory can be shared between a group of users.
+* **Home directories** – 25GB. Home directories are `/home/user`, implemented as soft links into disk partitions for each department. Home directories up to 2GB are backed up occasionally. **Home directories over 25GB are not backed up.** 
+* **Project storage** -  250GB. **Not backed up.** Project directories are in  `/storage/department/projects/name`, often implemented as soft links. We can make project directories which can be shared between a group of users.
 * **Scratch** - no limit, not backed up. Files with oldest access date will be purged automatically when the scratch space usage is over 80%. Please make your own subdirectories in `/scratch`.
+
+Use the command `du -sh` in a directory to see how much space you are using. Home directories and most project directories are on a storage which is using space very effieciently, so the space used can be much less than the actual size of your files as reported by `ls -l`.
 
 ### Cores
 * **Small** - up to 30,000 Alderaan core hours, max 128 concurrent cores per user, standard storage. Automatic with an account.
