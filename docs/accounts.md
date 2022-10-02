@@ -19,7 +19,7 @@ This is needed for reporting to the funding agency (annual reports, quad charts,
 **To encourage early use, storage and core time limits are not enforced for an initial period - we want you to work here! Home directories over** They will be activated in future as needed to keep the resources available fairly for everyone.
 
 ### Storage 
-**Users are responsible for maintaining copies of their important files elsewhere. Files can be lost, even with backups.
+**Users are responsible for maintaining copies of their important files elsewhere. Files can be lost, even with backups.**
  
 * **Home directories** – 25GB. Home directories are `/home/user`, implemented as soft links into disk partitions for each department. Home directories up to 25GB are backed up occasionally. **Home directories over 25GB are not backed up.** 
 * **Project storage** -  250GB. **Not backed up.** Project directories are in  `/storage/department/projects/name`, often implemented as soft links. We can make project directories which can be shared between a group of users.
