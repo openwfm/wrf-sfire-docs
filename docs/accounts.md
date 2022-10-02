@@ -21,7 +21,7 @@ This is needed for reporting to the funding agency (annual reports, quad charts,
 ### Storage 
 **Users are responsible for maintaining copies of their important files elsewhere. Files can be lost, even with backups.
  
-* **Home directories** – 25GB. Home directories are `/home/user`, implemented as soft links into disk partitions for each department. Home directories up to 2GB are backed up occasionally. **Home directories over 25GB are not backed up.** 
+* **Home directories** – 25GB. Home directories are `/home/user`, implemented as soft links into disk partitions for each department. Home directories up to 25GB are backed up occasionally. **Home directories over 25GB are not backed up.** 
 * **Project storage** -  250GB. **Not backed up.** Project directories are in  `/storage/department/projects/name`, often implemented as soft links. We can make project directories which can be shared between a group of users.
 * **Scratch** - no limit, not backed up. Files with oldest access date will be purged automatically when the scratch space usage is over 80%. Please make your own subdirectories in `/scratch`.
 
