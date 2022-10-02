@@ -25,7 +25,7 @@ This is needed for reporting to the funding agency (annual reports, quad charts,
 * **Project storage** -  250GB. **Not backed up.** Project directories are in  `/storage/department/projects/name`, often implemented as soft links. We can make project directories which can be shared between a group of users.
 * **Scratch** - no limit, not backed up. Files with oldest access date will be purged automatically when the scratch space usage is over 80%. Please make your own subdirectories in `/scratch`.
 
-Use the command `du -sh` in a directory to see how much space you are using. Home directories and most project directories are on a storage which is using space very effieciently, so the space used can be much less than the actual size of your files as reported by `ls -l`.
+Use the command `du -sh` in a directory to see how much space you are using. Home directories and most project directories are on a storage which is using space very efficiently, so the space used can be much less than the actual size of your files as reported by `ls -l`.
 
 ### Cores
 * **Small** - up to 30,000 Alderaan core hours, max 128 concurrent cores per user, standard storage. Automatic with an account.
