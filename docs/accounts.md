@@ -19,7 +19,7 @@ This is needed for reporting to the funding agency (annual reports, quad charts,
 
 To encourage early use, the folowing is in effect for an initial period - we want you to work here!
 
-* ****Home directories** – Home directories are `/home/username`. **Home directories over 25GB are not backed up. Users are responsible for maintaining copies of all their important files elsewhere. Files can be lost even with backups.**
+* **Home directories** – Home directories are `/home/username`. **Home directories over 25GB are not backed up. Users are responsible for maintaining copies of all their important files elsewhere. Files can be lost even with backups.**
 * **Project storage** -  **Not backed up.** Project directories are in  `/storage/department/projects/username`. We can make project directories which can be shared between a group of users. The default allocation is planned to be 250GB per user or group in future. 
 * **Scratch** - no limit, not backed up. Please make your own subdirectories in `/scratch` (accessible from Alderaan nodes only).
 * Users are set up with initial 500 Alderaan concurrent cores limit. More is possible upon request.
