@@ -9,25 +9,35 @@ Please use [this form](https://forms.office.com/r/GQ9ef7ei4i) to request account
 
 The form will ask for the **CU Denver email addresses** for all accounts to be created, and
 
-* a brief description of the project (few words is OK),
+* a brief description of the project (few words, one line is OK),
 * funding source, if any,
-* a promise include an acknowledgement of the NSF grant 2019089 in all publications and presentations, and send us at least the citation.
+* a promise include an acknowledgement of the NSF grant 2019089 in all publications and presentations, and send us at least a citation. The publication is always appreciated.
 
 This is needed for reporting to the funding agency (annual reports, quad charts, PI meetings, etc.)
 
 ## Resources and Allocations
-**To encourage early use, storage and core time limits are not enforced for an initial period - we want you to work here! Home directories over** They will be activated in future as needed to keep the resources available fairly for everyone.
+
+To encourage early use, the folowing is in effect for an initial period - we want you to work here!
+
+* ****Home directories** – Home directories are `/home/username`. **Home directories over 25GB are not backed up. Users are responsible for maintaining copies of all their important files elsewhere. Files can be lost even with backups.**
+* **Project storage** -  **Not backed up.** Project directories are in  `/storage/department/projects/username`. We can make project directories which can be shared between a group of users. The default allocation is planned to be 250GB per user or group in future. 
+* **Scratch** - no limit, not backed up. Please make your own subdirectories in `/scratch` (accessible from Alderaan nodes only).
+* Users are set up with initial 500 Alderaan concurrent cores limit. More is possible upon request.
+* Run time of Alderaan jobs is maximum 7 days. This is a hard limit. Job run time on other clusters (Colibri, Score) is unlimited.
+
+<!-- 
 
 ### Storage 
-**Users are responsible for maintaining copies of their important files elsewhere. Files can be lost, even with backups.**
+
+!Files with oldest access date may be purged automatically when the scratch space usage is over 80%.
  
-* **Home directories** – 25GB. Home directories are `/home/user`, implemented as soft links into disk partitions for each department. Home directories up to 25GB are backed up occasionally. **Home directories over 25GB are not backed up.** 
-* **Project storage** -  250GB. **Not backed up.** Project directories are in  `/storage/department/projects/name`, often implemented as soft links. We can make project directories which can be shared between a group of users.
-* **Scratch** - no limit, not backed up. Files with oldest access date will be purged automatically when the scratch space usage is over 80%. Please make your own subdirectories in `/scratch`.
+* **Home directories** – Home directories are `/home/username`. Home directories up to 25GB are backed up occasionally. The default allocation is planned to be 25GB per user in future. 
 
-Use the command `du -sh` in a directory to see how much space you are using. Home directories and most project directories are on a storage which is using space very efficiently, so the space used can be much less than the actual size of your files as reported by `ls -l`.
 
-### Cores
+Use the command `du -sh` in a directory to see how much storage space you are using, and `df` to monitor the overall storage space. Home directories and most project directories are on a storage system which is using space very efficiently, so the space used can be much less than the actual size of your files as reported by `ls -l`.
+
+The planned allocaton  in future are:
+
 * **Small** - up to 30,000 Alderaan core hours, max 128 concurrent cores per user, standard storage. Automatic with an account.
 * **Medium** - up to 150,000 Alderaan core hours, max 640 concurrent cores, additional storage.
 * **Large** - larger than medium. 
@@ -35,14 +45,9 @@ Use the command `du -sh` in a directory to see how much space you are using. Hom
 Jobs are charged for the total reserved core time, whether used or not. 
 Jobs on Alderaan GPU/high memory nodes are charged for all 64 cores on the node. 
 
-Core time on other clusters than Alderaan is not limited.
-### Transitional
+-->
 
-Existing home directories under 25GB are being migrated to backed-up space. **Existing home directories larger than 25GB are not backed up**. Users should bring their home directories under the limit so that they can be migrated to backed-up space. 
-
-Existing projects get initial storage allocation equal to the current use + 10% + the standard project quota. 
-
-## Old files
+## Old Files
  
 Upon project or user inactivation, the files will be deleted after a notification (if the user's university email still works) and a grace period. 
 
