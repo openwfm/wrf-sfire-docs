@@ -14,10 +14,8 @@ On Linux or a Mac, you can use simply the Terminal app, which is built into the 
 
 On Windows, you will need an SSH client. There are several out there, but generally most people use PuTTY which is available for download [here](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). You can use either 32 or 64 bit versions - computers that require the 32 bit version are rather rare (early Windows 7/Vista/XP). 
 
-<!---
-(image is from the old system, but same difference)
-[[File:Puttywindows.png|center|PuTTY Windows]]
--->
+![Putty Windows](img/Puttywindows.png)
+
 
 You can also use the [Windows 10 subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10), where you install a Linux distribution as an app and can use it to ssh out like from a terminal window on any Linux machine. This is often more stable than Putty, which tends to get stuck on some computers.
 
