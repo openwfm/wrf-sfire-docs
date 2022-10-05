@@ -100,13 +100,10 @@ The Go language with gcc/gfortran 9 and development tools, based on Ubuntu.
 
 R 4.1.2 with numerous standard and custom packages and datasets, see the definition file.
 
-### pyscipopt.sif
-
-[PySCIPOpt](https://pypi.org/project/PySCIPOpt) 3.2.2 interface to the SCIP Optimization Suite, python 3.7.11.
-
-### pyscipopt-miniconda.sif
-[PySCIPOpt](https://pypi.org/project/PySCIPOpt) 4.2.0 interface to the SCIP Optimization Suite, in a small python 3.9.13 installation. Ask if you need any python packages added.
+### pyscipopt-geopandas.sif
  
+[PySCIPOpt](https://pypi.org/project/PySCIPOpt) 4.2.0 interface to the SCIP Optimization Suite, geopandas, and inequalipy in a minimal python 3.9.13 installation.
+
 ### qvina.sif
 
 Modecular chemistry software [QuickVina](https://github.com/QVina/qvina), gcc, gfortran, python3.
