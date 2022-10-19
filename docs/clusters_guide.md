@@ -282,14 +282,15 @@ You can request the number of nodes. The scheduler will then split the tasks ove
 **Please do not request the number of nodes on Alderaan by `--nodes` or `-N`, unless you really need entire nodes for some reason. Request only the CPU cores you need by `--ntasks`, then the node or nodes you use can be shared with others.**
 
      
-## How to use GPUs 
+## How to use GPU 
 
-### How to to run with GPUs on Alderaan
+### How to to run with GPU on Alderaan
 
-The high memory/GPU nodes `math-alderann-h[01,02]` have two NVIDIA A-100 40GB GPUs each, and 2TB memory each. Use `--gres=gpu:a100:1` to request one GPU and `--gres=gpu:a100:2` to request two GPUs. At the moment, Alderaan does not support explicit memory allocation by the --mem flag. 
+The partition math-alderaan-gpu has two high memory/GPU nodes`math-alderann-h[01,02]` with two NVIDIA A-100 40GB GPUs and 2TB memory each. Use `--partition=math-alderaan-gpu` with `--gres=gpu:a100:1` to request one GPU and `--gres=gpu:a100:2` to request two GPUs. At the moment, Alderaan does not support explicit memory allocation by the --mem flag. 
  
 **Please do not use Alderaan GPUs without allocating them by `--gres` as above first. Please do not request an entire node on Alderaan by `--nodes` or `-N`, unless you really need all of it, request only the CPU cores you need by `--ntasks`. Large memory jobs and GPUs jobs can share the same node.**
 
+An example job script:
     #!/bin/bash
     #SBATCH --job-name=gpu
     #SBATCH --gres=gpu:a100:1
