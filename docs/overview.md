@@ -1,5 +1,7 @@
 # Clusters Overview
 ![cluster](img/cluster.png)
+See the [Clusters guide](../clusters_guide) for details.
+
 ## Quick basics 
 
 * Connect by command line ssh to one of the head nodes,  
@@ -14,7 +16,8 @@ using your university username and password.
  
 * The scheduler finds a compute node with enough free cores, marks the cores as allocated, and starts executing the job script on the node.
 
-## More advanced use
+
+## More basics 
 
 * If you need special software that is not installed on the compute nodes, have the job execute your code in a [singularity container](../singularity), which can carry the complete software environment with it.
 
