@@ -11,7 +11,7 @@ The form will ask for the **CU Denver email addresses** for all accounts to be c
 
 * a brief description of the project (few words, one line is OK),
 * funding source, if any,
-* a promise include an acknowledgement of the NSF grant 2019089 in all publications and presentations, and send us at least a citation. The publication is always appreciated.
+* affirmation of the [Terms of Use]l(..//#terms-of-use), which include an acknowledgement of the NSF grant 2019089 in all publications and presentations, and send us at least a citation. The publication itself is always appreciated.
 
 This is needed for reporting to the funding agency (annual reports, quad charts, PI meetings, etc.)
 
