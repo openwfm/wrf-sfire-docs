@@ -6,7 +6,7 @@ Please see the navigation links on the left for contents. Go to [Allocations](./
 
 ### Acknowledgment
 
-All work must acknowledge CCM and include NSF funding by grant number. Suggested form: **"This work used the computing resources at the Center for Computational Mathematics, University of Colorado Denver, including the Alderaan cluster, supported by the National Science Foundation award [OAC-2019089](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2019089)."** Users should send the PI jan.mandel@ucdenver.edu copies or links to all such work published or posted.
+All work must acknowledge the CCM and the NSF grant number. Suggested form: **"This work used the computing resources at the Center for Computational Mathematics, University of Colorado Denver, including the Alderaan cluster, supported by the National Science Foundation award [OAC-2019089](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2019089)."** Users should send the PI jan.mandel@ucdenver.edu copies or links to all such work published or posted.
 
 ### Storage
 
