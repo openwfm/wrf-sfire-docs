@@ -47,7 +47,7 @@ Notes:If you already have your own custom settings
 in `~/.bash_profile` or `~/.bashrc`, you should review them to make sure that they do what you intended, 
 because a login shell will now source both files and the resulting behavior may change.   
 Initializing anaconda makes changes to your `~/.bashrc` file. 
-When a new shell starts it will source `~/.bashrc` and make `conda` available, 
+When a new interactive shell starts it will source `~/.bashrc` and make `conda` available, 
 but a login shell will source `~/.bash_profile` instead. See
 `man bash` and search for INVOCATION for more details. 
 You can't change `bash` to another shell because of the way how the authentication is set up on the clusters.
@@ -94,8 +94,8 @@ Make a batch script like this:
     #SBATCH --time=1:00:00                    # Max wall time
     #SBATCH --ntasks=1                      # Number of tasks per job
     #
-    # first emulate what happens at login
-    eval "$($HOME/anaconda3/bin/conda shell.bash hook)"
+    # first emulate what happens at login or interactive shell
+    source ~/.bashrc
     # now we can do what we normally would at the command line
     conda activate myenv
     python mycode.py
