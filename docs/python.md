@@ -65,7 +65,8 @@ You should see your prompt change to start with `(base)`. Create your first envi
 Of course, these are just examples,  use names of the packages and their versions that **you** need. Note that you can request specific versions of everything, even Python itself.
 
  Conda will search for a combination of the versions of dependencies that allows it
-to install what you asked for. It is best to install all packages at once to minimize the chances of a version conflict. If Conda says that some packages cannot be found, leave installing them for the next step. 
+to install what you asked for. It is best to install all packages at once to minimize the chances of a version conflict. 
+If Conda says that some packages cannot be found, leave installing them for the next step. 
 
 Now, use the conda-forge repository to add into the environment the packages that could not be found in the previous step:
 
@@ -78,7 +79,6 @@ Finally, use pip to install packages that cannot be found even on conda-forge:
 
 You may want to deactivate Conda when you are not using the environment:
 
-    conda deactivate
     conda deactivate
     
 To make more environments, it is best to start again from the base environment like above.
@@ -107,9 +107,10 @@ and submit to the scheduler using sbatch as usual.
 Sometimes you may need to uninstall Anaconda, e.g. to save space, or if something goes wrong and you need to start over.
 Delete the Anaconda install directory
 
-    cd; rm -rf anaconda3
+    cd
+    rm -rf anaconda3
     
-Then, find the startup file where the Anaconda installer made its changes, usually `~/.bashrc`, and delete the lines from
+Then, edit `~/.bashrc` and delete the lines from
 
     # >>> conda initialize >>>
     
@@ -117,7 +118,6 @@ to
 
     # <<< conda initialize <<<
     
-
 
     
     
