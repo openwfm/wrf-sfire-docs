@@ -35,7 +35,7 @@ Answer yes. When you either start a new shell by `bash` or run
 
     source .bashrc
     
-the conda command becomes available.  Note: log out and back does not work because bash does not read `.bashrc` when starting a login shell.
+the conda command becomes available.  Note: logging out and back does not work because bash does not read .bashrc when starting a login shell.
 
 Then, to stop Conda from activating on login if you do not want to use it every time you log in,
 
