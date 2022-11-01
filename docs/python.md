@@ -27,15 +27,21 @@ and press enter. (The file name will change in future versions.) After the insta
 
     /bin/sh Anaconda3-2021.11-Linux-x86_64.sh
     
-accept the license, and follow through with the installation. You should see 
+and folow the directions. You should see 
     
     Do you wish the installer to initialize Anaconda3 by running conda init? [yes|no]
     
-Answer yes. Then, to stop Conda from activating on login if you do not want to use it every time you log in,
+Answer yes. When you either start a new shell by `bash` or run
+
+    source .bashrc
+    
+the conda command becomes available.  Note: log out and back does not work because bash does not read `.bashrc` when starting a login shell.
+
+Then, to stop Conda from activating on login if you do not want to use it every time you log in,
 
     conda config --set auto_activate_base false
 
-as suggested by the installer. Log out and log in back again.
+as suggested by the installer. 
 
 ## Create Conda environments and install packages
 
