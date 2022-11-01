@@ -43,9 +43,9 @@ You can stop Conda from activating on login if you do not want to use it every t
 
 as suggested by the Anaconda installer. 
 
-Notes:If you already have your own custom settings
-in `~/.bash_profile` or `~/.bashrc`, you should review them to make sure that they do what you intended, 
-because a login shell will now source both files and the resulting behavior may change.   
+Notes: If you already have your own custom settings
+in `~/.bash_profile` or `~/.bashrc`, you should review both files to make sure that they do what you intended, 
+because a login shell will now source both files and the resulting environment may change. 
 Initializing anaconda makes changes to your `~/.bashrc` file. 
 When a new interactive shell starts it will source `~/.bashrc` and make `conda` available, 
 but a login shell will source `~/.bash_profile` instead. See
