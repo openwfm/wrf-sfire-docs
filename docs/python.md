@@ -31,17 +31,23 @@ and folow the directions. You should see
     
     Do you wish the installer to initialize Anaconda3 by running conda init? [yes|no]
     
-Answer yes. When you either start a new shell by `bash` or run
+Answer yes. This will modify or create your `~/.bashrc` file to make `conda` available. Edit your `~/.bash_profile` file to add the line  
 
     source .bashrc
     
-the conda command becomes available.  Note: logging out and back does not work because bash does not read .bashrc when starting a login shell.
-
-Then, to stop Conda from activating on login if you do not want to use it every time you log in,
+so that the shell reads `~/.bashrc` automtically on login, then log out and back in. 
+ 
+Then you can stop Conda from activating on login if you do not want to use it every time you log in,
 
     conda config --set auto_activate_base false
 
 as suggested by the installer. 
+
+Notes: If you already have your own custom esttings
+in `~/.bash_profile` or `~/.bashrc`, you should review them to make sure that they do what you intended, 
+because a login shell will now source both files and the resulting behavior may change.  See 
+`man bash` and search for INVOCATION for more information on what happens when the shell starts up. You can't change `bash` to another
+because of the way how the authentication is set up on the clusters.
 
 ## Create Conda environments and install packages
 
