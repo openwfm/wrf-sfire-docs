@@ -37,16 +37,19 @@ Answer yes.  Edit your `~/.bash_profile` file to add the line
     
 then log out and back in. The `conda` command should now be available
  
-Then you can stop Conda from activating on login if you do not want to use it every time you log in,
+You can stop Conda from activating on login if you do not want to use it every time you log in, by
 
     conda config --set auto_activate_base false
 
 as suggested by the Anaconda installer. 
 
-Notes: If you already have your own custom esttings
+Notes:If you already have your own custom settings
 in `~/.bash_profile` or `~/.bashrc`, you should review them to make sure that they do what you intended, 
-because a login shell will now source both files and the resulting behavior may change.  See 
-`man bash` and search for INVOCATION for more information on what happens when the shell starts up. 
+because a login shell will now source both files and the resulting behavior may change.   
+Initializing anaconda makes changes to your `~/.bashrc` file. 
+When a new shell starts it will source `~/.bashrc` and make `conda` available, 
+but a login shell will source `~/.bash_profile` instead. See
+`man bash` and search for INVOCATION for more details. 
 You can't change `bash` to another shell because of the way how the authentication is set up on the clusters.
 
 ## Create Conda environments and install packages
