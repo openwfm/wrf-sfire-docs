@@ -17,10 +17,10 @@ suspended automatically. This should happen only rarely now. The jobs resume aft
 should not take more than few minutes.**
 Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt) for details.
 
-### 2022/11/01
+### 2022/11/04
 
-* The `/storage/singularity/mixtures.sif`container was upgraded to current R, Pythin, and packages versions, and several packages added. The old container is at `/storage/singularity/archive/mixtures-nov2-2022.sif`
-* Operations normal.
+* The `/storage/singularity/mixtures.sif`container was updated and several packages added. The old container is at `/storage/singularity/archive/mixtures-nov2-2022.sif`
+* All operations are normal.
 
 ### 2022/09/24
 
