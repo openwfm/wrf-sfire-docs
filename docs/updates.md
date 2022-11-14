@@ -17,6 +17,10 @@ suspended automatically. This should happen only rarely now. The jobs resume aft
 should not take more than few minutes.**
 Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt) for details.
 
+### 2022/11/14
+
+* Jobs submitted by sbatch or srun may not be starting properly for some users, possibly due to authentication issues. Investigating. Please let me know at jan.mandel@ucdenver.edu if this happens to you, even intermittently.
+
 ### 2022/11/04
 
 * The `/storage/singularity/mixtures.sif`container was updated and several packages added. The old container is at `/storage/singularity/archive/mixtures-nov2-2022.sif`
