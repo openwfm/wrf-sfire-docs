@@ -19,7 +19,7 @@ Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt)
 
 ### 2022/11/14
 
-* Jobs submitted by sbatch or srun may not be starting properly for some users, possibly due to authentication issues. Investigating. Please let me know at jan.mandel@ucdenver.edu if this happens to you, even intermittently.
+* Jobs submitted by sbatch or srun may not be starting properly for some users intermitently, possibly due to authentication or network issues. Investigating. Please let me know at jan.mandel@ucdenver.edu if you see this happen.
 
 ### 2022/11/04
 
