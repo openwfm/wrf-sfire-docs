@@ -8,7 +8,7 @@ The system uses CentOS 7 and 8 operating system. There are two head nodes (entry
 
 At this time, the main way of using the system is to use an SSH client to login to a terminal session on clas-compute or math-alderaan. You will need to be on the CU Denver network (wired or CU Denver wireless, not CU Denver Guest), or using the university's VPN.
 
-This system uses your normal portal/email username and password, but user account must be set up before using the system. Please go to [accounts](./accounts/) to request an account.
+This system uses your normal portal/email username and password, but user account must be set up before using the system. Please go to [accounts](../accounts/) to request an account.
 
 On Linux or a Mac, you can use simply the Terminal app, which is built into the operating system. It is hidden away in Applications -> Utilities folder on a Mac and in similar places on various Linux desktops. You may want to drag it to your dock (on a Mac) or the desktop (on Linux) so that it is available more conveniently next time.
 
