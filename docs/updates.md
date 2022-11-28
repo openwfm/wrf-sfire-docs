@@ -17,6 +17,10 @@ suspended automatically. This should happen only rarely now. The jobs resume aft
 should not take more than few minutes.**
 Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt) for details.
 
+### 2022/11/23
+
+* Node math-alderaan-c01 is down.
+
 ### 2022/11/14
 
 * Jobs submitted by sbatch or srun may not be starting properly for some users intermitently, possibly due to authentication or network issues. Investigating. Please let me know at jan.mandel@ucdenver.edu if you see this happen.
