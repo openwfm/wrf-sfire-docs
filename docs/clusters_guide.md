@@ -29,7 +29,7 @@ or
 
     ssh username@math-alderaan.ucdenver.pvt
 
-The username is your account name, a single short word which you can use to log into the CU Denver portal instead of email, not the firstname.lastname in your university email. Contact us if you do not know what is.
+The username is your account name, a single short word which you can use to log into the university portal instead of email address, not the firstname.lastname in your university email. Contact us or OIT helpdesk at [ucd-oit-helpdesk@cuanschutz.edu](mailto:ucd-oit-helpdesk@cuanschutz.edu) if you do not know what your account name is.
 
 After connecting, ssh should ask for your CU Denver password and you enter it at this point. You should be then at the `math-alderaan` or `clas-compute` prompt and in your home directory, which is `/home/username`. 
 
