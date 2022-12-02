@@ -12,7 +12,9 @@ This system uses your normal portal/email username and password, but user accoun
 
 On Linux or a Mac, you can use simply the Terminal app, which is built into the operating system. It is hidden away in Applications -> Utilities folder on a Mac and in similar places on various Linux desktops. You may want to drag it to your dock (on a Mac) or the desktop (on Linux) so that it is available more conveniently next time.
 
-On Windows, you will need an SSH client. There are several out there, but generally most people use PuTTY which is available for download [here](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). You can use either 32 or 64 bit versions - computers that require the 32 bit version are rather rare (early Windows 7/Vista/XP). 
+On Windows, you will need an SSH client.  Recent builds of Windows 10 and 11 have a [native ssh client](https://learn.microsoft.com/en-us/windows/terminal/tutorials/ssh) - just type `ssh` in a terminal window (also called powershell window or command window). The ssh client also has `scp` and `sftp` for file transfer. 
+
+Otherwise you can use PuTTY which is available for download [here](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). You can use either 32 or 64 bit versions - computers that require the 32 bit version are rather rare (early Windows 7/Vista/XP).
 
 ![Putty Windows](img/Puttywindows.png)
 
@@ -27,7 +29,9 @@ or
 
     ssh username@math-alderaan.ucdenver.pvt
 
-After connecting, it should ask for your CU Denver password and you enter it at this point. You should be then at the `clas-compute` prompt or `math-alderaan` prompt and in your home directory. 
+The username is your account name, a single short word which you can use to log into the CU Denver portal instead of email, not the firstname.lastname in your university email. Contact us if you do not know what is.
+
+After connecting, ssh should ask for your CU Denver password and you enter it at this point. You should be then at the `math-alderaan` or `clas-compute` prompt and in your home directory, which is `/home/username`. 
 
 ### Interactive use
 
