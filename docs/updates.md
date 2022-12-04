@@ -17,9 +17,13 @@ suspended automatically. This should happen only rarely now. The jobs resume aft
 should not take more than few minutes.**
 Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt) for details.
 
+### 2022/12/03
+
+* The filesystem mounts on several nodes were dropped. This wa causing problems including users not being able to login, access files, submit jobs, as well as issues with jobs already running. The filesystems were mounted again.
+
 ### 2022/11/23
 
-* Node math-alderaan-c01 is down.
+* Node math-alderaan-c01 is down. Investigating.
 
 ### 2022/11/14
 
