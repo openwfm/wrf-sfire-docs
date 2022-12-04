@@ -17,9 +17,19 @@ suspended automatically. This should happen only rarely now. The jobs resume aft
 should not take more than few minutes.**
 Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt) for details.
 
+### 2022/12/04
+
+* Node math-alderaan-c01 still down until further notice
+
+* 1pm sbatch error resolved, operations normal.
+
+* 11pm Users unable to submit slurm jobs, error "sbatch: error: Batch job submission failed: Invalid account or account/partition combination specified"
+
 ### 2022/12/03
 
-* The filesystem mounts on several nodes were dropped. This wa causing problems including users not being able to login, access files, submit jobs, as well as issues with jobs already running. The filesystems were mounted again.
+* 11pm The filesystem mounts on math-alderaan and several compute nodes were found to be dropped. This was causing problems including users not being able to login, access files, submit jobs, as well as issues with jobs already running. The filesystems were mounted again.
+
+* Data center power outage 7pm-9pm
 
 ### 2022/11/23
 
