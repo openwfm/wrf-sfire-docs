@@ -17,6 +17,10 @@ suspended automatically. This should happen only rarely now. The jobs resume aft
 should not take more than few minutes.**
 Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt) for details.
 
+### 2022/16/07
+
+* Nodes math-alderaan-c[01-04] are removed from the cluster until further notice.
+
 ### 2022/12/06
 
 * Nodes math-alderaan-c[02-04] are draining. They will be powered off tomorrow at 2pm and any jobs on them killed. The chassis with nodes math-alderaan-c[01-04] needs to be sent to the vendor for repairs.
