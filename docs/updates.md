@@ -19,7 +19,7 @@ Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt)
 
 ### 2022/12/07
 
-* Nodes math-alderaan-c[01-04] are removed from the cluster until further notice.
+* Nodes math-alderaan-c[01-04] are with the vendor for repairs.
 
 ### 2022/12/06
 
