@@ -16,8 +16,8 @@ The Center for Computational Mathematics (CCM) and the Department of Mathematica
 *   A large collection of software is available to CU Denver students and faculty through the Office of Information for free or at reduced costs, including a MATLAB site license.
 
 ## Personnel Resources
-* The CCM and the Department of Mathematical and Statistical Sciences share a full-time Senior IT Professional. 
-* The Senior IT Professional is a part of the College of Liberal Arts and Sciences IT group, which is running the IT resources in the College and cross-training so that they can substitute for each other. 
+
+* The system admnistration is managed by the CCM Director and backed by the College of Liberal Arts and Sciences IT group. 
 
 ## Other Resources
 * CU Denver is member of the the [Rocky Mountain Advanced Computing Consortium](https://rmacc.org) (RMACC). The RMACC [Summit cluster](https://www.colorado.edu/rc/resources/summit) has 10,800 Intel Xeon E5-2680 v3 2.50GHz cores in compute nodes and 20 NVidia Tesla K80 GPUs. The Summit cluser is accessible through XSEDE, and allocations are available to CU Denver students and faculty from the RMACC 10% share.
