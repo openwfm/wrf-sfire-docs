@@ -20,6 +20,5 @@ The Center for Computational Mathematics (CCM) and the Department of Mathematica
 * The system admnistration is managed by the CCM Director and backed by the College of Liberal Arts and Sciences IT group. 
 
 ## Other Resources
-* CU Denver is member of the the [Rocky Mountain Advanced Computing Consortium](https://rmacc.org) (RMACC). The RMACC operates the [RMACC Summit cluster](https://www.colorado.edu/rc/resources/summit) and [Alpine](https://www.colorado.edu/rc/alpine) supercomputer, and allocations are available to CU Denver students and faculty.
 
-* The CU Denver|Anschutz [Office of Information Technology](https://www.ucdenver.edu/offices/office-of-information-technology) (OIT) is operating a HIPAA-compliant HPC facility [Rosalind](https://www.ucdenver.edu/offices/office-of-information-technology/ticr-high-performance-computing) with 768 cores at the Colorado Center for Personalized Medicine on the CU Anschutz campus, and HIPAA-compliant Google Cloud facility, both for a fee. Their cost can be charged to sponsored projects.
+* CU Denver is member of the the [Rocky Mountain Advanced Computing Consortium](https://rmacc.org) (RMACC). The RMACC operates the [RMACC Summit cluster](https://www.colorado.edu/rc/resources/summit) and [Alpine](https://www.colorado.edu/rc/alpine) supercomputer, and allocations are available to CU Denver students and faculty.
