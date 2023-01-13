@@ -8,7 +8,7 @@
 
 ### Registration
 
-Please register [here](https://forms.office.com/r/0FN7UbtgCn). Optional for existing users, nut **we need to hear in advance from those who do not have an account on math-alderaan or math-compute set up yet, or can't log in for some reason.** We can set up temporary accounts for students who register at least one day in advance, but we won't have enough time to set up or fix accounts during the workshop. Faculty can also [request a regular account](../accounts) for themselves or their students.
+Please register [here](https://forms.office.com/r/0FN7UbtgCn). Optional for existing users, but **we need to hear in advance from those who do not have their account set up yet, or maybe used to have but can't log in for some reason.** We can set up temporary accounts for participants who register at least one day in advance, but we won't have enough time to set up or fix accounts during the workshop. Faculty can also [request a regular account](../accounts) for themselves or their students.
 
 ### Agenda
 
@@ -21,7 +21,7 @@ Please register [here](https://forms.office.com/r/0FN7UbtgCn). Optional for exis
 
 * CU Denver | Anschutz account, know your account name (short name, not only email) and password.  
 
-* Mac, Linux, or Windows 10 or 11 computer. Windows must be fully updated ahead of time, otherwise they may not have the software needed for the connection.
+* Mac, Linux, or Windows 10 or 11 computer. Windows OS must be fully updated ahead of time, otherwise it may not have the software needed for the connection.
  
 * Connection to the CU Denver Wi-Fi (not the Guest network), or connection by VPN for remote participants.
 
