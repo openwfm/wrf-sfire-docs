@@ -8,7 +8,7 @@
 
 ### Registration
 
-Please register [here](https://forms.office.com/r/0FN7UbtgCn).  **We particularly need to hear in advance from those who do not have an account on math-alderaan or math-compute set up yet, or can't log in for some reason.** We can set up a limited temporary account good for a week if you register at least one day in advance, but we won't have enough time to set up or fix accounts during the workshop. Please have your faculty research advisor [request a full permanent account](../accounts) if you need one. 
+Please register [here](https://forms.office.com/r/0FN7UbtgCn). Optional for existing users, nut **we need to hear in advance from those who do not have an account on math-alderaan or math-compute set up yet, or can't log in for some reason.** We can set up a training account good for a week if you register at least one day in advance, but we won't have enough time to set up or fix accounts during the workshop. Please have your faculty research advisor [request a regular account](../accounts) if you need one. 
 
 ### Agenda
 
