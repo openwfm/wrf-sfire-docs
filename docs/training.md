@@ -1,10 +1,6 @@
 # Training and Events
 
-## Hands-on Workshop 2022/01/23
-
-### Date and place
-
-Monday January 23, 12:30-1:30 p.m. in room SCB 4125
+## Hands-on Workshop 2022/01/23 12:30-1:30 p.m. in room SCB 4125
 
 Remote participation will be also possible [zoom link coming soon], but we will not be able to help remote participants individually. 
 
@@ -23,10 +19,11 @@ Please register here [coming soon].  **We particularly need to hear in advance f
 
 * Working CU Denver account, know your account name (short name, not email) and password. 
 
-* Mac, Lnux, or Windows 10 or 11 computer. Windows computers must be fully updated ahead of time, otherwise they may not have the software needed for a connection.
+* Mac, Linux, or Windows 10 or 11 computer. Windows must be fully updated ahead of time, otherwise they may not have the software needed for the connection.
  
-* The computer needs to be able to connect to the CU Denver Wi-Fi (not the Guest anetwork), or VPN for remote participants.
+* Working connection to the CU Denver Wi-Fi (not the Guest anetwork), or connection by VPN for remote participants.
 
-* Some knowledge of Linux command line basics is useful, e.g. [here](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview) except you can skip opening a terminal on Linux desktop.
+* Some knowledge of Linux command line basics is useful, e.g., [Sections 4 and 5 from here](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview) except you can skip opening a terminal on Linux desktop.
  
+
 
