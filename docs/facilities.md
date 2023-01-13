@@ -1,7 +1,7 @@
 # Facilities, Equipment, and Other Resources
 
-## Short version
-The Center for Computational Mathematics operates a network of computers including CU Denver's High Performance Computing cluster, used by researchers and students from both campusis, and also tied into the Open Science Grid (OSG). The cluster has total 2240 AMD EPYC cores, 20TB memory, 4 NVIDIA A-100 GPUs, HDR100 Infiniband interconnect, and 816TB storage. Installed software includes MATLAB, R, GNU and Intel compilers, Python, and TensorFlow.
+## The short version
+The Center for Computational Mathematics operates a network of computers including CU Denver's High Performance Computing cluster, used by researchers and students from both campuses, and also tied into the Open Science Grid (OSG). The cluster has total 2240 AMD EPYC cores, 20TB memory, 4 NVIDIA A-100 GPUs, HDR100 Infiniband interconnect, and 816TB storage. Installed software includes MATLAB, R, GNU and Intel compilers, Python, and TensorFlow.
 
 ## The full version
 ### Computing Facilities 
