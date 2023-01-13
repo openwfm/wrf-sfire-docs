@@ -17,13 +17,13 @@ Please register here [coming soon].  **We particularly need to hear in advance f
  
 ### Prerequisites:
 
-* CU Denver account, know your account name (short name, not email) and password. 
+* CU Denver | Anschutz account, know your account name (short name, not only email) and password.  
 
 * Mac, Linux, or Windows 10 or 11 computer. Windows must be fully updated ahead of time, otherwise they may not have the software needed for the connection.
  
 * Connection to the CU Denver Wi-Fi (not the Guest network), or connection by VPN for remote participants.
 
-* Some knowledge of Linux command line basics is useful, e.g., [Sections 4 and 5 from here](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview) except you can skip opening a terminal on Linux desktop.
+* Some knowledge of Linux command line basics is useful, e.g., [Sections 4 and 5 from here](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview) but not absolutely required ahead of time.
  
 
 
