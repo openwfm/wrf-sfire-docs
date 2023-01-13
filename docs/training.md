@@ -4,11 +4,11 @@
 
 * 2022/01/23 12:30-1:30 p.m. in room SCB 4125
 
-* Remote participation will be also possible [zoom link coming soon], but we will not be able to help remote participants individually. 
+* Remote participation will be also possible. See the [email announcement](https://olucdenver-my.sharepoint.com/:b:/g/personal/jan_mandel_ucdenver_edu/EdjYMTpX6kdFnj45VWT49xsB5hxW6JqxMfB0wj0BhptG6g?e=BqWny9) for the zoom link.  We will not be able to help remote participants individually, however.
 
 ### Registration
 
-Please register [here](https://forms.office.com/r/0FN7UbtgCn). Optional for existing users, nut **we need to hear in advance from those who do not have an account on math-alderaan or math-compute set up yet, or can't log in for some reason.** We can set up a training account good for a week if you register at least one day in advance, but we won't have enough time to set up or fix accounts during the workshop. Please have your faculty research advisor [request a regular account](../accounts) if you need one. 
+Please register [here](https://forms.office.com/r/0FN7UbtgCn). Optional for existing users, nut **we need to hear in advance from those who do not have an account on math-alderaan or math-compute set up yet, or can't log in for some reason.** We can set up temporary accounts for students who register at least one day in advance, but we won't have enough time to set up or fix accounts during the workshop. Faculty can also [request a regular account](../accounts) for themselves or their students.
 
 ### Agenda
 
