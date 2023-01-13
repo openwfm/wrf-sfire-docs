@@ -15,6 +15,8 @@ The form will ask for the **CU Denver email addresses** for all accounts to be c
 
 This is needed for reporting to the funding agency (annual reports, quad charts, PI meetings, etc.)
 
+Temporary accounts can be set up for training workshops. 
+
 ## Resources and Allocations
 
 To encourage early use, the folowing is in effect for an initial period - we want you to work here! A more formal allocation process will start when needed.
