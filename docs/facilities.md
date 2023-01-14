@@ -3,7 +3,7 @@
 ## The short version
 The Center for Computational Mathematics operates a network of computers including CU Denver's High Performance Computing cluster Alderaan, used by researchers and students from both campuses, and also tied into the Open Science Grid (OSG). The cluster has total 2240 AMD EPYC cores, 20TB memory, 4 NVIDIA A-100 GPUs, HDR100 Infiniband interconnect, and 816TB storage. Installed software includes MATLAB, R, GNU and Intel compilers, Python, and TensorFlow.
 
-    The cluster was funded by the NSF CC* program and installed in 2021. It has currently over 100 users, mostly graduate students. It is being used for projects in areas including genomic, fluid dynamics, machine learning, statistics, wildfire simulation, optimization, and equity.
+    The cluster was funded by the National Science Foundation and installed in 2021. It has currently over 100 users, mostly graduate students. It is being used for projects in areas including genomic, fluid dynamics, machine learning, statistics, wildfire simulation, optimization, and equity.
 
 ## The full version
 ### Computing Facilities 
