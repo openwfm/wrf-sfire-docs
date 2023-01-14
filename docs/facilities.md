@@ -23,7 +23,7 @@ The Center for Computational Mathematics (CCM) and the Department of Mathematica
 
 ### Personnel Resources
 
-* The system admnistrator is currently the CCM Director Jan Mandel, backed by the College of Liberal Arts and Sciences IT. 
+* The system administration is done by the CCM Director Jan Mandel, backed by the College of Liberal Arts and Sciences IT, and assisted by student staff. 
 
 ### Other Resources
 
