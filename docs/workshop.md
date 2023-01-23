@@ -45,6 +45,6 @@ Contact: Megan Duff and Jan Mandel will be happy to answer any questions!
 * The magical incantation *srun -p math-alderaan --time=2:00:0 -n 1 --pty bash -i* will teleport your session to a compute node for two hours with one core reserved for you. Try it! Your interactive job will not interfere with CPU usage of other. Try *matlab -nodesktop*, run something CPU intensive, ssh to the node from another terminal window, and try *top* 
 
 ## Memory
-* Our compute nodes have 64 cores and 512GB memory each. This seems like a lot, but you may be sharing it with others. We do not control memory as an allocatable resource yet, so if you need use a large amount of memory, talk to us first.
+* Our compute nodes have 64 cores and 512GB memory each. This seems like a lot, but you may be sharing it with others. We do not control memory as an allocatable resource yet, so if you need to use a large amount of memory, talk to us first.
 
 
