@@ -38,7 +38,7 @@ Contact: Megan Duff and Jan Mandel will be happy to answer any questions!
 * Our containers are in */storage/singularity*. See [Singularity](../singularity/) for what containers we have and more details.
 * *alderaan_single_gpu.sh* you used before runs tensorflow in a singularity container. Look at the script how it works!
 * *singularity_alderaan_shell.slurm* allows you to run an entire shell script in a singularity container. Try to add another command. Try to use another container.
-* **Extra credit:** run the examples from https://github.com/janmandel/Intro_GPU_Acceleration here.
+* **Extra credit:** run the examples from https://github.com/ResearchComputing/Intro_GPU_Acceleration .
 
 ## Interactive jobs
 * Please do not ssh to work on compute nodes, you could interfere with jobs running there which would make you very unpopular. It is OK to ssh to compute nodes to check on your running jobs submitted through sbatch, however.
