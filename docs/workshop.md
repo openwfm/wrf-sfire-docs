@@ -2,11 +2,16 @@
 
 Contact Megan Duff or Jan Mandel will be happy to answer any questions!
 
-1. Log in
-    1.1 know your CU Denver username
-    1.1 open a Terminal (mac), xterm (linux), or command/powershell (windows 10 or 11) 
-    1.1 type in the window: *ssh username@math-alderaan.ucdenver.pvt* f
-    3. Enter your CU Denver password
+## Log in
+* know your CU Denver username
+* open a Terminal (mac), xterm (linux), or command/powershell (windows 10 or 11) 
+* type into the window: *ssh username@math-alderaan.ucdenver.pvt* f
+* Enter your CU Denver password
     
-2. Check out the easiest text editor: type *nano*, exit by *control-x*
+## Check out the command line
+* the easiest text editor is *nano*, exit by *control-x*
+* *mkdir* to make a directory, *cd* to change directory. *cd ..* will go to the parent directory.
+* man commandname* to get help. Try *man nano*
+
+3. 
 
