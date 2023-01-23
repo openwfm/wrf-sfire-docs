@@ -19,7 +19,7 @@ Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt)
 
 ### 2023/01/23
 
-* Hands-on workshop - details coming soon
+* [Hands-on workshop](../training/)
 
 ### 2022/12/07
 

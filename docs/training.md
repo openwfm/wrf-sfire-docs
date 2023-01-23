@@ -4,6 +4,8 @@
 
 * 2022/01/23 12:30-1:30 p.m. in room SCB 4125
 
+* Workhop materials are now available [here](../workshop/).
+
 * Remote participation will be also possible. See the [email announcement](https://olucdenver-my.sharepoint.com/:b:/g/personal/jan_mandel_ucdenver_edu/EdjYMTpX6kdFnj45VWT49xsB5hxW6JqxMfB0wj0BhptG6g?e=BqWny9) for the zoom link.  We will not be able to help remote participants individually, however.
 
 ### Registration
