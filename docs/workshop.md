@@ -6,8 +6,8 @@ Contact: Megan Duff and Jan Mandel will be happy to answer any questions!
 
 ## Log in
 * know your CU Denver username
-* open a Terminal (mac), xterm (linux), or command/powershell (windows 10 or 11) 
-* type into the window: *ssh username@math-alderaan.ucdenver.pvt* f
+* open a Terminal (mac or linux), or command/powershell window (windows 10 or 11) 
+* type into the window: *ssh your_username@math-alderaan.ucdenver.pvt* (replace *your_username* by your own username, of course)
 * Enter your CU Denver password
     
 ## Check out the command line
