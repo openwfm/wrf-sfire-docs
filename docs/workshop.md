@@ -11,7 +11,7 @@ Contact Megan Duff or Jan Mandel will be happy to answer any questions!
 ## Check out the command line
 * the easiest text editor is *nano*, exit by *control-x*
 * *mkdir* to make a directory, *cd* to change directory. *cd ..* will go to the parent directory.
-* man commandname* to get help. Try *man nano*
+* man commandname* to get help about a command. Try *man nano*
 
 3. 
 
