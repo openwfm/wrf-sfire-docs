@@ -1,6 +1,5 @@
 # Clusters Overview
 ![cluster](img/cluster.png)
-See the [Clusters guide](../clusters_guide) for details.
 
 ## Quick basics 
 
