@@ -36,8 +36,4 @@ All users must keep their home directories under 25GB so that backup of all home
 Additional project storage is available, which is not backed up. 
 
 
-### How to contribute
-
-This site is hosted from a [git repository](https://github.com/ccmucdenver/ccm-docs). Contributions are welcome. If you would like to make a suggestion, please [open an issue](https://github.com/ccmucdenver/ccm-docs/issues/new/choose). If you would like to add or change something, please [make a pull request](pull_request/).
-
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
