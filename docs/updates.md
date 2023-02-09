@@ -19,7 +19,8 @@ Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt)
 
 ### 2023/02/08
 
-* Taking math-alderaan-h02 down for a quick repair
+* Taking math-alderaan-h02 down for diagnostics/repair
+* math-alderaan-c[01-04] are back
 
 ### 2023/02/03
 
