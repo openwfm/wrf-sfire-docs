@@ -19,7 +19,7 @@ So, if you plan to do anything of substance, first ssh to an interactive node (r
 
 Then start a shell in a container,
 
-     singularity shell containerpath.sif
+    singularity shell containerpath.sif
 
 for example
 

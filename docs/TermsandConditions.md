@@ -13,8 +13,8 @@ including the Alderaan cluster, supported by the National Science Foundation awa
 [OAC-2019089](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2019089)."* 
 
 ### Legal
-**You (the user) are responsible for ensuring compliance of the data restrictions as outlined below. Failure to adhere
-to these policies may result in account deactivation, and immediate deletion of any or all data.**
+**You (the user) are responsible for ensuring compliance to the data restrictions as outlined below. Failure to adhere
+to these restrictions may result in account deactivation, and immediate deletion of any or all data.**
 
 No export controlled technology or technical data related to the Export Administration Regulations (EAR)
 or the International Traffic in Arms  Regulations (ITAR) is permitted on University of Colorado Denver Research
@@ -25,7 +25,7 @@ Do not keep any confidential or sensitive files on this system. In particular, n
 grades, social security numbers, etc. If you use ssh keys to connect elsewhere from this system (such as github or 
 another computer account), it is highly recommended to make an ssh key with a passcode.
 
-All use of this resource must be fundamental research, intended to be published with no restrictions or approval
+All usage of this resource must be fundamental research, intended to be published with no restrictions or approval
 requirement by the sponsor, or any restriction on the nationality of the participants.
 
 ### Storage
@@ -34,7 +34,14 @@ important files elsewhere.**
 
 All users must keep their home directories under 25GB so that backup of all home directories is possible.
 Additional project storage is available, which is not backed up. 
+By default, files and directories, including your home directory, are created such that all other users have read
+permissions. This is Linux default to encourage collaboration. If you want to keep a file or directory private from 
+users other than system administrators, you need to manually change the permissions for that file or directory.
+ To do so type the command below:
 
+    chmod og-rwx file_or_directory_name
+
+for more information on storage, see [link]
 
 ### How to contribute
 
