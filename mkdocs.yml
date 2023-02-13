@@ -22,6 +22,7 @@ markdown_extensions:
       base_path: .
   - admonition
 nav:
+    - Welcome: index.md
     - Terms and Conditions: TermsandConditions.md
     - Workshop: workshop.md
     - Training: training.md

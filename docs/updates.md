@@ -17,6 +17,16 @@ suspended automatically. This should happen only rarely now. The jobs resume aft
 should not take more than few minutes.**
 Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt) for details.
 
+### 2023/02/08
+
+* Taking math-alderaan-h02 down for diagnostics/repair
+* math-alderaan-c[01-04] are back
+
+### 2023/02/03
+
+* Node math-alderaan-h02 in drain state for GPU diagnostics, please do not use
+* 10:40pm: Node math-alderaan-h02 available 
+
 ### 2023/01/23
 
 * [Hands-on workshop](../training/)
