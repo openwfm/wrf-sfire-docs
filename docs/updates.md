@@ -19,7 +19,7 @@ Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt)
 
 ### 2023/02/18
 
-* Front end math-alderaan is down. Investigating. The cluster is accessible through the alternate front end clas-compute and appears to be working normally.
+* Front end math-alderaan is running at a reduced level apparently since 02/17 7:22pm. Ssh logins are not possible. The cluster is accessible through the alternate front end clas-compute.ucdenver.pvt. Slurm and all compute nodes are working normally.
 
 ### 2023/02/10
 
