@@ -21,6 +21,10 @@ Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt)
 
 * Front end math-alderaan is down. Investigating. The cluster is accessible through the alternate front end clas-compute and appears to be working normally.
 
+### 2023/02/10
+
+* math-alderaan-h02 is available
+
 ### 2023/02/08
 
 * Taking math-alderaan-h02 down for diagnostics/repair
