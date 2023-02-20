@@ -29,9 +29,9 @@ The Alderaan cluster is accessible through the alternate front end by
 * Modules and custom software installed in /shared are not available. 
 Other filesystems are not affected.
 
-* Project directories in /data001 and /data002 and /scratch are accessible from alderaan nodes but not from clas-compute, colibri, or score.
-
 * System monitoring is not being updated.
+
+* Note that some project directories and the /scratch directory are in /data001 and /data002 filesystems, which are not accessible from clas-compute head node, colibri cluster, and the score cluster.
 
 ### 2023/02/10
 
