@@ -14,6 +14,5 @@ This site is hosted from a [git repository](https://github.com/ccmucdenver/ccm-d
 
 Jan Mandel,
 Director, Center for Computational Mathematics,
-University of Colorado Denver
-
+University of Colorado Denver,
 jan.mandel@ucdenver.edu
