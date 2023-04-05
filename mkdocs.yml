@@ -24,9 +24,9 @@ markdown_extensions:
 nav:
     - Welcome: index.md
     - Terms and Conditions: TermsandConditions.md
+    - System Status and News:  updates.md
     - Workshop: workshop.md
     - Training: training.md
-    - News and Status Updates:  updates.md
     - Overview: overview.md
     - Clusters Guide: clusters_guide.md
     - Examples: examples.md
