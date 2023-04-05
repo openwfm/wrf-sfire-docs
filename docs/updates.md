@@ -17,6 +17,14 @@ suspended automatically. This should happen only rarely now. The jobs resume aft
 should not take more than few minutes.**
 Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt) for details.
 
+### 2023/04/04
+
+* The data center is too warm for running nodes at 100% load. 
+Jobs on nodes that are running too hot are getting periodically suspended to
+allow the CPUs to cool down. 
+See the real-time
+[Status](https://demo.openwfm.org/web/alderaan/cpu_temp.txt) for more detail.
+
 ### 2023/03/07
 
 * Optimization solver Gurobi with one year site license added to the  /storage/singularity/pyscipopt-geopandas.sif container.
