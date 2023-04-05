@@ -19,14 +19,14 @@ Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt)
 
 ### 2023/04/04
 
-* The data center is too warm for running nodes at 100% load. 
+* The data center is too warm for running Alderaan nodes at full CPU load. 
 Jobs on nodes that are running too hot are getting suspended automatically
 until the CPUs cool down. 
 See the real-time
 [Status](https://demo.openwfm.org/web/alderaan/cpu_temp.txt) for more detail.
-The temperature cutoffs were adjusted lower to keep the system safe.
+The temperature cutoffs were adjusted lower to keep the system from overheating.
 
-* Node math-alderaan-c07 was taken down for repair because its temperature rise was too fast and cycling could not keep it at safe temperature.
+* Node math-alderaan-c07 is out for repair. Its temperature rise was too fast and cycling could not keep it at safe temperature.
 
 ### 2023/03/07
 
