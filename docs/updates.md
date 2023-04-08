@@ -17,11 +17,18 @@ suspended automatically. This should happen only rarely now. The jobs resume aft
 should not take more than few minutes. However, to protect the datacenter, jobs will not resume if the datacenter temperature is too high. **
 Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt) for details.
 
+### 2023/04/08 
+
+* Nodes math-alderaan-c[01,02,05,06] are draining for heat-related testing. After the current jobs on them complete, no new jobs will be able to start on them 
+until the testing is completed.
+
+* Node math-alderaan-c07 remains drained.
+
 ### 2023/04/04
 
 * The data center is too warm for running Alderaan nodes at full CPU load. 
 Jobs on nodes that are running too hot are getting suspended automatically
-until the CPUs cool down. 
+until the CPUs cool down, in particular math-alderaan-c[05,07].
 See the real-time
 [Status](https://demo.openwfm.org/web/alderaan/cpu_temp.txt) for more detail.
 The temperature cutoffs were adjusted lower to keep the system from overheating.
