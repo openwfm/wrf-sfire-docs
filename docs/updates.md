@@ -17,9 +17,13 @@ suspended automatically. This should happen only rarely now. The jobs resume aft
 should not take more than few minutes. However, to protect the datacenter, jobs will not resume if the datacenter temperature is too high. **
 Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt) for details.
 
+### 2023/04/09
+
+* Heat testing complete. Node math-alderaan-c07 remains drained and unavailable.
+
 ### 2023/04/08 
 
-* Nodes math-alderaan-c[01,02,05,06] are draining for heat-related testing. After the current jobs on them complete, no new jobs will be able to start on them 
+* Various nodes are draining for heat testing of math-alderaan-c05 under parallel load. After the current jobs on them complete, no new jobs will be able to start on them 
 until the testing is completed.
 
 * Node math-alderaan-c07 remains drained.
