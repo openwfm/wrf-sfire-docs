@@ -103,7 +103,7 @@ Other filesystems are not affected.
 
 ### 2022/11/23
 
-* Node math-alderaan-c01 is down. Investigating.
+* Node math-alderaan-c01 is down again. Investigating.
 
 ### 2022/11/14
 
