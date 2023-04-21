@@ -38,7 +38,7 @@ After a little while, you should get a link. Copy and paste the link to your bro
 # Security notes
 * Your personal endpoint makes an outgoing connection which is typically not blocked by firewalls and does not need any incoming ports open. 
 * Your personal endpoint runs as you and in principle it has access to any files on the computer that you have. 
-* Personal endpoint seems to refuse access to files outside of your home directory, even if they are owned by you, such as on another disk.
+* Personal endpoint seems to refuse access to some other filesystems and to some files outside of your home directory, even if they are owned by you.
 * Your personal endpoint is visible to anyone on Globus but it is accessible from your own Globus account only.
 
 # Works with
@@ -47,6 +47,7 @@ This guide was tested in the following environments. It should work in other cas
 * math-alderaan, Centos 8, 2023-04-21
 
 # Some Globus Connect Server endpoints
+(needs updating)
 
 * [https://hpc.nih.gov/docs/globus_endpoint.html NIH]
 * [https://portal.xsede.org/software/globus XSEDE]
@@ -55,6 +56,7 @@ This guide was tested in the following environments. It should work in other cas
 * [https://www2.cisl.ucar.edu/resources/storage-and-file-systems/globus-file-transfers NCAR]
 
 # External links
+(needs updating)
 
 https://docs.globus.org/how-to/globus-connect-personal-windows/
 
