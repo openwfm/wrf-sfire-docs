@@ -30,7 +30,7 @@ After a little while, you should get a link. Copy and paste the link to your bro
 
 * Kill the terminal window or detach from the terminal session by Ctrl-A d. Your endpoint now runs in a virtual terminal until system reboot. You can reconnect to the virtual terminal if you need to by `screen -r globus`.
 
-* Log into [globus.org](https://globus.org) again and search for your personal endpoint name. Click on the your endpoint name, you should see files in your home directory! You can now transfer data between this endpoint and any Server endpoint you can log into.
+* Log into [globus.org](https://globus.org) again and search for your personal endpoint name in the Collections box Click on the your endpoint name, you should see files in your home directory! You can now transfer data between this endpoint and any Server endpoint you can log into.
 
 * Optional: Make a Personal endpoint on your computer the same way following [instructions](https://www.globus.org/globus-connect-personal). You can now transfer data between any Server endpoint and your computer.
 
@@ -46,13 +46,9 @@ This guide was tested in the following environments. It should work in other cas
 * math-alderaan, Centos 8, 2023-04-21
 
 # Some Globus Connect Server endpoints
-(needs updating)
 
-* [https://hpc.nih.gov/docs/globus_endpoint.html NIH]
-* [https://portal.xsede.org/software/globus XSEDE]
-* [https://www.rc.colorado.edu/support/user-guide/file-transfer.html CU Boulder]
-* [https://www.chpc.utah.edu/documentation/software/globus.php University of Utah]
-* [https://www2.cisl.ucar.edu/resources/storage-and-file-systems/globus-file-transfers NCAR]
+* RMACC Alpine at CU Boulder - use `CU Boulder Research Computing ACCESS`, choose link identity `ACCESS CI`
+* NCAR - use `NCAR Data Sharing Service`
 
 # External links
 (needs updating)
