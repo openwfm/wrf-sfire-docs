@@ -1,14 +1,14 @@
-=Globus File Transfer=
+# Globus File Transfer=
 
 [https://www.globus.org/Globus] is a standard free open-source software for robust transfer of large amounts without having to monitor the connection, and can work transparently through firewalls. It is also convenient service [https://www.globus.org/our-story from the University of Chicago], which provides access to a network of computers running the Globus software, free for personal use.
 
-==Globus basics==
+## Globus basics
 
 Globus data transfer runs between two software installations, called [https://docs.globus.org/faq/globus-connect-endpoints endpoints]. The transfer is initiated and can be monitored from a web interface. There are two kinds of endpoints, ''Server'' and ''Personal''. A subscription is required to run a Server endpoint or for transfer between two Personal endpoints. Without subscription, at least one of the endpoints needs to be a Server endpoint. Users gain access to a Server endpoint by existing login credentials to that endpoint, such as system login and password, federated login, or a token. A Personal endpoint runs as the user and does not require any additional authentication. 
 
-With a subscription, you can set up your own Globus Server endpoints connecting to your own account at a cloud platform, such as {{wp|Google Drive}} or {{wp|Amazon S3}}, but there seem to be no general, publicly accessible Globus endpoints on such cloud platforms.
+With a subscription, you can set up your own Globus Server endpoints connecting to your own account at a cloud platform, such as {{wp|Google Drive}} or {{wp|Amazon S3}}. However, there seem to be no general, publicly accessible Globus endpoints on such cloud platforms.
 
-==How to connect to Globus==
+## How to connect to Globus==
 
 CU Denver does not have Globus subscription and thus we do not have any Server endpoints. But you can install Globus Personal endpoint in your account on our Linux servers.
 
@@ -28,33 +28,33 @@ After a little while, you should get a link. Copy and paste the link to your bro
 
     screen -S globus
     ./globusconnectpersonal -start
-</pre>
+
 * Kill the terminal window or detach from the terminal session by Ctrl-A d. Your endpoint now runs in a virtual terminal until system reboot. You can reconnect to the virtual terminal if you need to by `screen -r globus`.
 
 * Log into [globus.org[(https://globus.org) again and search for your personal endpoint name. Click on the your endpoint name, you should see files in your home directory! You can now transfer data between this endpoint and any Server endpoint you have credentials for.
 
 * Optional: Make a Personal endpoint on your computer the same way following [instructions](https://www.globus.org/globus-connect-personal). You can now transfer data between any Server endpoint and your computer.
 
-==Security notes==
-* Personal endpoint makes an outgoing connection which is typically not blocked by firewalls and does not need any incoming ports open. 
-* Personal endpoint runs as you and in principle it has access to any files on the computer that you have. 
+# Security notes
+* Your personal endpoint makes an outgoing connection which is typically not blocked by firewalls and does not need any incoming ports open. 
+* Your personal endpoint runs as you and in principle it has access to any files on the computer that you have. 
 * Personal endpoint seems to refuse access to files outside of your home directory, even if they are owned by you, such as on another disk.
-* Your personal endpoint is visible to anyone but it is accessible from your own Globus account only.
+* Your personal endpoint is visible to anyone on Globus but it is accessible from your own Globus account only.
 
-==Works with==
+# Works with
 This guide was tested in the following environments. It should work in other cases too.
 
-* Globus connect software and servers as of December 2017
-* CENTOS 6.5, 6.8, 6.9, OSX 10.11
+* math-alderaan, Centos 8, 2023-04-21
 
-==Some Globus Connect Server endpoints==
+# Some Globus Connect Server endpoints
+
 * [https://hpc.nih.gov/docs/globus_endpoint.html NIH]
 * [https://portal.xsede.org/software/globus XSEDE]
 * [https://www.rc.colorado.edu/support/user-guide/file-transfer.html CU Boulder]
 * [https://www.chpc.utah.edu/documentation/software/globus.php University of Utah]
 * [https://www2.cisl.ucar.edu/resources/storage-and-file-systems/globus-file-transfers NCAR]
 
-==External links==
+# External links
 
 https://docs.globus.org/how-to/globus-connect-personal-windows/
 
