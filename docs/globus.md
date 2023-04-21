@@ -30,7 +30,7 @@ After a little while, you should get a link. Copy and paste the link to your bro
 
 * Kill the terminal window or detach from the terminal session by Ctrl-A d. Your endpoint now runs in a virtual terminal until system reboot. You can reconnect to the virtual terminal if you need to by `screen -r globus`.
 
-* Log into [globus.org[(https://globus.org) again and search for your personal endpoint name. Click on the your endpoint name, you should see files in your home directory! You can now transfer data between this endpoint and any Server endpoint you have credentials for.
+* Log into [globus.org](https://globus.org) again and search for your personal endpoint name. Click on the your endpoint name, you should see files in your home directory! You can now transfer data between this endpoint and any Server endpoint you can log into.
 
 * Optional: Make a Personal endpoint on your computer the same way following [instructions](https://www.globus.org/globus-connect-personal). You can now transfer data between any Server endpoint and your computer.
 
