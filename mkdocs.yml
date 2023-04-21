@@ -31,8 +31,9 @@ nav:
     - Clusters Guide: clusters_guide.md
     - Examples: examples.md
     - Accounts and Allocations: accounts.md
-    - Python: python.md
     - Environment modules: modules.md
+    - Globus file transfer: globus.md
+    - Python: python.md
     - Alderaan Cluster: alderaan.md
     - Colibri Cluster: colibri.md
     - Score Cluster: score.md

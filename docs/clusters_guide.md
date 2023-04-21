@@ -97,19 +97,21 @@ Type <code>chmod og-rwx file_or_directory_name</code> to make the file or direct
 
 ### Linux or Mac
 
-On a Linux or Mac computer, you can use file transfer utilities, which are a part of the system, to transfer files between the clusters and your computer. [Rsync](https://en.wikipedia.org/wiki/Rsync) is recommended. Typing `man rsync` should give you the manual for the system you are on. Rsync can transfer file trees recursively and resume a transfer which was interrupted.
+On a Linux or Mac computer, you can use file transfer utilities `rsync`, `scp`, `sftp` on your computer to transfer files and entire directores between your computer and clusters. These utilities are normally a part of the system, if not you can install them from your Linux distribution. [Rsync](https://en.wikipedia.org/wiki/Rsync) is recommended. Typing `man rsync` should give you the manual for the system you are on. Rsync can transfer file trees recursively and resume a transfer which was interrupted.
 
 ### Windows
 
-On Windows, you need to install an addidional application. There include, e.g., FileZilla. 
+On current Windows PC, you can use `scp` and `sftp` from the command window (a.k.a. Powershell window). 
 
 ### From a Website
 
-coming soon
+You can download a file from a website using simply `wget` followed by the URL of the file. You can get the URL of a file posted on the web by a right-click and selectingv something like "Copy link address".
 
 ### Github
 
-coming soon
+The easiest way to download files from Github is to clone the entrire repository. On the repository main page, click green button "Code" and copy the link. Then
+
+    git clone <the link you just copied>
 
 ### Dropbox
 
@@ -117,7 +119,8 @@ coming soon
 
 ### Globus
 
-coming soon
+Globus is a free service which can transfer large files (many GB and TB) between servers on the internet using a simple web interface and without supervision. 
+See the [Globus](../globus/) section how to use Globus here.
 
 ## Requesting Information about the Environment
 
