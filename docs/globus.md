@@ -1,6 +1,6 @@
 # Globus File Transfer
 
-[Globus]([Globus](https://www.globus.org)) (sometimes called Globus Connect) is a service for a robust transfer of large amounts of data without having to monitor the connection and transparently through firewalls. It provides access to a network of computers running the Globus software, free for personal use in the US academia.
+[Globus](https://www.globus.org), sometimes called Globus Connect, is a service for robust transfer of large amounts of data without having to monitor the connection and transparently through firewalls. It provides access to a network of computers running the Globus software, free for personal use in the US academia.
 
 ## Globus basics
 
@@ -11,8 +11,7 @@ Globus data transfer runs between two software installations, called [endpoints]
 CU Denver does not have Globus subscription and thus we do not have any Server endpoints. But you can install Globus Personal endpoint in your account on our Linux servers or your PC and transfer data to and from any Server endpoint you are allowed to log into.
 
 Log into your account on the `math-alderaan` or `clas-compute`, and install the 
-endpoint from the command line, following the 
-[instructions](https://docs.globus.org/how-to/globus-connect-personal-linux) from Globus with a grain of salt:
+endpoint from the command line:
 
     mkdir globus
     cd globus
@@ -21,6 +20,7 @@ endpoint from the command line, following the
     cd globusconnectpersonal-x.y.z  (replace x.y.z by the version from the downloaded file)
     ./globusconnectpersonal -setup
     
+(See also the [instructions](https://docs.globus.org/how-to/globus-connect-personal-linux) for further details.)
 After a little while, you should get a link. Copy and paste the link to your browser and log in with your CU Denver credentials. The Globus website should give you a temporary access code, copy and paste it after `Enter the auth code:` and press enter. The setup should ask for an endpoint name, make it something you can find easily, such as `math-alderaan-`your-name. Your email address will be visible to anyone on Globus who searches for an endpoint anyway. 
     
 Run the endpoint:
