@@ -10,7 +10,9 @@ Globus data transfer runs between two software installations, called [endpoints]
 
 CU Denver does not have Globus subscription and thus we do not have any Server endpoints. But you can install Globus Personal endpoint in your account on our Linux servers or your PC and transfer data to and from any Server endpoint you are allowed to log into.
 
-* Log into your account on the `math-alderaan` or `clas-compute`, and install the endpoint from the command line, following the [instructions](https://docs.globus.org/how-to/globus-connect-personal-linux) from Globus with a grain of salt:
+* Log into your account on the `math-alderaan` or `clas-compute`, and install the 
+endpoint from the command line, following the 
+[instructions](https://docs.globus.org/how-to/globus-connect-personal-linux) from Globus with a grain of salt:
 
     mkdir globus
     cd globus
@@ -24,7 +26,7 @@ After a little while, you should get a link. Copy and paste the link to your bro
 * Run the endpoint:
 
     screen -S globus
-    ./globusconnectpersonal -start
+    ./globusconnectpersonal -start`
 
 * Kill the terminal window or detach from the terminal session by Ctrl-A d. Your endpoint now runs in a virtual terminal until system reboot. You can reconnect to the virtual terminal if you need to by `screen -r globus`.
 
