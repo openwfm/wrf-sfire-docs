@@ -20,7 +20,7 @@ endpoint from the command line, following the
     tar xvfz globusconnectpersonal-latest.tgz
     cd globusconnectpersonal-x.y.z  (replace x.y.z by the version from the downloaded file)
     ./globusconnectpersonal -setup
-
+    
 After a little while, you should get a link. Copy and paste the link to your browser and log in with your CU Denver credentials. The Globus website should give you a temporary access code, copy and paste it after `Enter the auth code:` and press enter. The setup should ask for an endpoint name, make it something you can find easily, such as `math-alderaan-`your-name. Your email address will be visible to anyone on Globus who searches for an endpoint anyway. 
     
 Run the endpoint:
@@ -41,9 +41,9 @@ Optional: Make a Personal endpoint on your computer the same way following [inst
 * Your personal endpoint is visible to anyone on Globus but it is accessible from your own Globus account only.
 
 # Works with
-This guide was tested in the following environments. It should work in other cases too.
+This guide was tested in the following environment. It should work in other similar cases too.
 
-* 2023-04-21 math-alderaan Centos 8
+* 2023-04-21 math-alderaan Centos 8, globus 3.2.0, command line ssh, no graphics
 
 # Some Globus Server endpoints
 
