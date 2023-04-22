@@ -10,7 +10,7 @@ Globus data transfer runs between two software installations, called [endpoints]
 
 CU Denver does not have Globus subscription and thus we do not have any Server endpoints. But you can install Globus Personal endpoint in your account on our Linux servers or your PC and transfer data to and from any Server endpoint you are allowed to log into.
 
-* Log into your account on the `math-alderaan` or `clas-compute`, and install the 
+Log into your account on the `math-alderaan` or `clas-compute`, and install the 
 endpoint from the command line, following the 
 [instructions](https://docs.globus.org/how-to/globus-connect-personal-linux) from Globus with a grain of salt:
 
@@ -23,16 +23,16 @@ endpoint from the command line, following the
 
 After a little while, you should get a link. Copy and paste the link to your browser and log in with your CU Denver credentials. The Globus website should give you a temporary access code, copy and paste it after `Enter the auth code:` and press enter. The setup should ask for an endpoint name, make it something you can find easily, such as `math-alderaan-`your-name. Your email address will be visible to anyone on Globus who searches for an endpoint anyway. 
     
-* Run the endpoint:
+Run the endpoint:
 
     screen -S globus
     ./globusconnectpersonal -start`
 
-* Kill the terminal window or detach from the terminal session by Ctrl-A d. Your endpoint now runs in a virtual terminal until system reboot. You can reconnect to the virtual terminal if you need to by `screen -r globus`.
+Kill the terminal window or detach from the terminal session by Ctrl-A d. Your endpoint now runs in a virtual terminal until system reboot. You can reconnect to the virtual terminal if you need to by `screen -r globus`.
 
-* Log into [Globus](https://globus.org) again and search for your personal endpoint in the Collections box. Click on the your endpoint name, and you should see the files in your home directory! You can now transfer data between this endpoint and any Server endpoint you can log into.
+Log into [Globus](https://globus.org) again and search for your personal endpoint in the Collections box. Click on the your endpoint name, and you should see the files in your home directory! You can now transfer data between this endpoint and any Server endpoint you can log into.
 
-* Optional: Make a Personal endpoint on your computer the same way following [instructions](https://www.globus.org/globus-connect-personal). You can now transfer data between any Server endpoint and your computer.
+Optional: Make a Personal endpoint on your computer the same way following [instructions](https://www.globus.org/globus-connect-personal). You can now transfer data between any Server endpoint and your computer.
 
 # Security notes
 
