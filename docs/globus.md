@@ -1,10 +1,10 @@
 # Globus File Transfer
 
-[Globus](https://www.globus.org) is a standard free open-source software for robust transfer of large amounts without having to monitor the connection, and can work transparently through firewalls. Globus is also convenient service from the University of Chicago, which provides access to a network of computers running the Globus software, free for personal use in the US academia.
+[Globus]([Globus](https://www.globus.org)) (sometimes called Globus Connect) is a service for a robust transfer of large amounts of data without having to monitor the connection and transparently through firewalls. It provides access to a network of computers running the Globus software, free for personal use in the US academia.
 
 ## Globus basics
 
-Globus data transfer runs between two software installations, called [endpoints](https://docs.globus.org/faq/globus-connect-endpoints). The transfer is initiated and can be monitored from a web interface. There are two kinds of endpoints, ''Server'' and ''Personal''. A subscription is required to run a Server endpoint or for transfer between two Personal endpoints. Without a subscription, at least one of the endpoints needs to be a Server endpoint. 
+Globus data transfer runs between two software installations, called [endpoints](https://docs.globus.org/faq/globus-connect-endpoints). The transfer is initiated and can be monitored from a web interface. There are two kinds of endpoints, ''Server'' and ''Personal'' paid subscription is required to run a Server endpoint or to transfer data between two Personal endpoints. Without a subscription, at least one of the endpoints needs to be a Server endpoint. Details of [Globus subscription](https://www.globus.org/subscriptions) vary over time. 
 
 ## How to connect to Globus
 
@@ -51,7 +51,10 @@ This guide was tested in the following environment. It should work in other simi
 * NCAR - use the `NCAR Data Sharing Service` endpoint
 
 # External links
-(needs updating)
+
+https://docs.globus.org/how-to/get-started/
+
+(links below need updating)
 
 https://docs.globus.org/how-to/globus-connect-personal-windows/
 
