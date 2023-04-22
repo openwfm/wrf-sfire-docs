@@ -17,6 +17,9 @@ suspended automatically. This should happen only rarely now. The jobs resume aft
 should not take more than few minutes. However, to protect the datacenter, jobs will not resume if the datacenter temperature is too high. **
 Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt) for details.
 
+### 2023/04/21
+
+* Guide [how to use Personal Globus endpoint](../globus) for data transfer is now available. It was ported from the legacy [wiki](http://ccm.ucdenver.edu), updated, and tested. Globus can transfer large quantities of data (many TB) and work through firewalls.
 
 ### 2023/04/08 
 
