@@ -47,8 +47,8 @@ This guide was tested in the following environments. It should work in other cas
 
 # Some Globus Server endpoints
 
-* RMACC Alpine at CU Boulder - use `CU Boulder Research Computing ACCESS` endpoint, choose link identity `ACCESS CI`
-* NCAR - use `NCAR Data Sharing Service` endpoint
+* RMACC Alpine at CU Boulder - use the `CU Boulder Research Computing ACCESS` endpoint, link you `ACCESS CI` identity 
+* NCAR - use the `NCAR Data Sharing Service` endpoint
 
 # External links
 (needs updating)
