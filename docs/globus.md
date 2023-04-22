@@ -16,7 +16,7 @@ endpoint from the command line, following the
 
     mkdir globus
     cd globus
-    wget  https://downloads.globus.org/globus-connect-personal/linux/stable/globusconnectpersonal-latest.tgz
+    wget https://downloads.globus.org/globus-connect-personal/linux/stable/globusconnectpersonal-latest.tgz
     tar xvfz globusconnectpersonal-latest.tgz
     cd globusconnectpersonal-x.y.z  (replace x.y.z by the version from the downloaded file)
     ./globusconnectpersonal -setup
