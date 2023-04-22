@@ -18,7 +18,7 @@ endpoint from the command line, following the
     cd globus
     wget  https://downloads.globus.org/globus-connect-personal/linux/stable/globusconnectpersonal-latest.tgz
     tar xvfz globusconnectpersonal-latest.tgz
-    cd globusconnectpersonal-x.y.z  # replace x.y.z by the version from the downloaded file
+    cd globusconnectpersonal-x.y.z  (replace x.y.z by the version from the downloaded file)
     ./globusconnectpersonal -setup
 
 After a little while, you should get a link. Copy and paste the link to your browser and log in with your CU Denver credentials. The Globus website should give you a temporary access code, copy and paste it after `Enter the auth code:` and press enter. The setup should ask for an endpoint name, make it something you can find easily, such as `math-alderaan-`your-name. Your email address will be visible to anyone on Globus who searches for an endpoint anyway. 
