@@ -23,8 +23,8 @@ After a little while, you should get a link. Copy and paste the link to your bro
     
 * Run the endpoint:
 
-    `screen -S globus`
-    `./globusconnectpersonal -start`
+    screen -S globus
+    ./globusconnectpersonal -start
 
 * Kill the terminal window or detach from the terminal session by Ctrl-A d. Your endpoint now runs in a virtual terminal until system reboot. You can reconnect to the virtual terminal if you need to by `screen -r globus`.
 
