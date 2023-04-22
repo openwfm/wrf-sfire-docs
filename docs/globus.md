@@ -1,6 +1,6 @@
 # Globus File Transfer
 
-[Globus](https://www.globus.org/Globus) is a standard free open-source software for robust transfer of large amounts without having to monitor the connection, and can work transparently through firewalls. Globus is also convenient [service from the University of Chicago](https://www.globus.org/our-story), which provides access to a network of computers running the Globus software, free for personal use in the US academia.
+[Globus](https://www.globus.org) is a standard free open-source software for robust transfer of large amounts without having to monitor the connection, and can work transparently through firewalls. Globus is also convenient [service from the University of Chicago](https://www.globus.org/our-story), which provides access to a network of computers running the Globus software, free for personal use in the US academia.
 
 ## Globus basics
 
