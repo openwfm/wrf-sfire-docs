@@ -306,8 +306,25 @@ An example job script:
     #SBATCH --ntasks=1                        # number of cores
     singularity exec /storage/singularity/tensorflow.sif python3 yourgpucode.py
 
-Of course, instead of singularity you can run another GPU code. It is recommended to use the tensorflow singularity container because it has updated CUDA drivers.
+Of course, instead of singularity you can run another GPU code on one of the GPU nodes directly. The nodes have currently installed CUDA 11.2. You will have to install tensorflow in your account yourself. A compatible version is [tensorflow 2.4.0] (https://docs.nvidia.com/deeplearning/frameworks/tensorflow-release-notes/rel_21-03.html).
 
+It is recommended to use the tensorflow singularity container because it has updated CUDA  (11.4) and a version of tensorflow compatible with the CUDA version.
+
+### Interactive jobs with GPU on Alderaan
+
+From the command line, 
+
+     srun -p math-alderaan-gpu --time=2:00:0 -n 1 --gres=gpu:a100:1 --pty bash -i
+     
+will give you an interactive shell on one of the GPU nodes with one GPU allocated. You can then start singluarity shell
+
+    singularity shell /storage/singularity/tensorflow.sif 
+
+You can also start the Singularity shell directly:
+
+    srun -p math-alderaan-gpu --time=2:00:0 -n 1 --gres=gpu:a100:1 singularity shell /storage/singularity/tensorflow.sif
+         
+will allocate one GPU, one core, and run an internactive sinularity shell.
 
 ### How to run with GPUs on Colibri
 
@@ -320,6 +337,7 @@ Of course, instead of singularity you can run another GPU code. It is recommende
     #SBATCH --time=1:00:00                  # Max wall-clock time 1 day 1 hour
     #SBATCH --nodes=1                       # number of nodes
     singularity exec /storage/singularity/tensorflow-v1.3.sif python3 yourgpucode.py
+    
     
 ## Interactive jobs
 
