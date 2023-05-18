@@ -23,7 +23,7 @@ Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt)
 
 ### 2023/05/18
 
-* Network outage this morning was fixed, but login issues persist. 
+* 12pm: Network outage this morning was fixed, but login issues persist. 
 Please check here or try later. Thanks for your patience! 
 
 
