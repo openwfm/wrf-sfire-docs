@@ -21,6 +21,13 @@ Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt)
 
 * Guide [how to use Personal Globus endpoint](../globus) for data transfer is now available. It was ported from the legacy [wiki](http://ccm.ucdenver.edu), updated, and tested. Globus can transfer large quantities of data (many TB) and work through firewalls.
 
+### 2023/05/18
+
+* Network outage this morning,  but login issues persist. 
+Please check here or try later. Thanks for your patience! 
+
+
+
 ### 2023/04/08 
 
 * Various nodes are draining for heat testing under load. After the current jobs 
