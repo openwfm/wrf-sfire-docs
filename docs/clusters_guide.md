@@ -109,9 +109,11 @@ You can download a file from a website using simply `wget` followed by the URL o
 
 ### Github
 
-The easiest way to download files from Github is to clone the entrire repository. On the repository main page, click green button "Code" and copy the link. Then
+The easiest way to download files from Github is to clone the entire repository. On the repository main page, click green button "Code" and copy the link. Then
 
     git clone <the link you just copied>
+    
+You can use https link if you want to clone the repository for reading only. If you want to push your changes to Github in future, [you need to use ssh](https://docs.github.com/en/authentication/connecting-to-github-with-ssh). It is strongly recommended to create a separate key secured by a strong passphrase for this. Otherwise, the security of your Github account is only as good as the protection of files here - anyone who gains administrator access here can log into your Github account. 
 
 ### Dropbox
 
