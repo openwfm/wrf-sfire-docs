@@ -1,5 +1,4 @@
-site_name: WRF-SFIRE documentation
- University of Colorado Denver 
+site_name: WRF-SFIRE
 site_url: https://wrf-sfire.readthedocs.io/en/latest/
 repo_url: https://github.com/openwfm/wrf-sfire-docs
 edit_uri: edit/main/docs/
