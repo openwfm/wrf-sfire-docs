@@ -19,7 +19,8 @@ Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt)
 
 ### 2023/07/08
 
-* approx 2:15pm Login issues to math-alderaan and clas-compute head nodes reported. Investigating.
+* approx 2:00pm Login issues to math-alderaan and clas-compute head nodes reported. 
+The file server is down, systems not accessible until further notice.
 
 ### 2023/05/18
 
