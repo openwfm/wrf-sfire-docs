@@ -17,9 +17,17 @@ suspended automatically. This should happen only rarely now. The jobs resume aft
 should not take more than few minutes. However, to protect the datacenter, jobs will not resume if the datacenter temperature is too high. **
 Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt) for details.
 
+### 2023/07/14
+
+* 2:30pm: Alderaan compute nodes automatically shutting down due to high data center temperature, jobs start getting suspended. 
+
+* 3:10-4:10: Complete outage of all compute nodes.
+
+* 4:30: Jobs resuming automatically, operations normal.
+
 ### 2023/07/08
 
-* approx 2:00pm Login issues to math-alderaan and clas-compute head nodes reported. 
+* approx 2:00pm: Login issues to math-alderaan and clas-compute head nodes reported. 
 The file server is down, systems not accessible until further notice.
 
 ### 2023/05/18
