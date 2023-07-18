@@ -30,6 +30,8 @@ Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt)
 * approx 2:00pm: Login issues to math-alderaan and clas-compute head nodes reported. 
 The file server is down, systems not accessible until further notice.
 
+* approx 8pm: service restored, operations normal.
+
 ### 2023/05/18
 
 * approx 2:30pm: Operations normal
