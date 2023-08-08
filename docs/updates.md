@@ -17,6 +17,17 @@ suspended automatically. This should happen only rarely now. The jobs resume aft
 should not take more than few minutes. However, to protect the datacenter, jobs will not resume if the datacenter temperature is too high. **
 Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt) for details.
 
+### 2023/08/07
+
+* MATLAB R2023a with all toolboxes in CU Denver license is now
+available on alderaan nodes. To activate access, type
+
+    module load matlab
+
+To return to the previous installation, type
+
+    module load matlab/R2021b
+
 ### 2023/07/14
 
 * 2:30pm: Alderaan compute nodes automatically shutting down due to high data center temperature, jobs start getting suspended. 
