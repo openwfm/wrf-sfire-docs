@@ -19,7 +19,9 @@ Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt)
 
 ### 2023/09/10
 
-* Approx 7:30pm-11:10pm The head node was stuck. Rebooted remotely.
+* 7:43pm math-alderaan not accepting ssh connections
+
+* 11:10pm The math-alderaan head node was stuck. Rebooted remotely.
 
 * When you can't log into math-alderaan, please use the alternative head node clas-compute.ucdenver.pvt. All user files are there and you can submit slurm jobs as usual. 
 
