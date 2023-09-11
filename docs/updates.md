@@ -17,6 +17,11 @@ suspended automatically. This should happen only rarely now. The jobs resume aft
 should not take more than few minutes. However, to protect the datacenter, jobs will not resume if the datacenter temperature is too high. **
 Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt) for details.
 
+### 2023/09/10
+
+* The head node is stuck and unfortunately none of the ways I have to reset it remotely worked. This will have to wait until the morning.
+In the meantime, please use the head node clas-compute.ucdenver.pvt. All user files are there and you can submit slurm jobs as usual. 
+
 ### 2023/08/08 
 
 * MATLAB was upgraded to R2023a with all toolboxes in CU Denver license installed. This is now the
