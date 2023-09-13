@@ -11,6 +11,8 @@ Please use [this form](https://forms.office.com/r/GQ9ef7ei4i) to request account
 
 **Workshop participants can also get an account by filling the form with "Workshop" in the project box.**
 
+We really need your "yes" for all those terms and conditions!
+
 External collaborators need a POI (a type of affiliate appointment) with VPN access first.
 
 The form will ask for the **CU Denver email addresses** for all accounts to be created, and
