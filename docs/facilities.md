@@ -10,6 +10,8 @@ The CU Denver Center for Computational Mathematics (CCM) operates a network of c
 *   [190TB storage array](../storage/).
 *   Workstations and servers, connected by 1Gbs Ethernet, with 10Gbs uplink to the campus backbone.
 
+Accounts are available for faculty and students at CU Denver | Anschutz campuses, as well as to their external collaborars with affiliate appointments.
+
 ### Software
 *   The clusters use a common SLURM batch scheduler.
 *   Installed software on the clusters network includes MATLAB, R, and GNU compilers. Additional software is installed on request on Alderaan or in Singularity containers for use anywhere.
