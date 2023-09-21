@@ -1,8 +1,10 @@
-# Hands-on Workshop January 23, 2023
+# Hands-on Workshop September 21, 2023
 
 Please see the [Clusters Guide][../clusters_guide/] and other documentation sections on the left for more information.
 
 Contact: Megan Duff and Jan Mandel will be happy to answer any questions!
+
+[Zoom link for online support (login required)]{https://olucdenver-my.sharepoint.com/:w:/g/personal/jan_mandel_ucdenver_edu/EfW7dw5ejYhOvaGY4GvdeUkB9OKWDeEcX05JiokcJUvw1Q?e=rNHemh)
 
 ## Log in
 * know your CU Denver username
