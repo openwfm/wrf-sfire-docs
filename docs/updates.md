@@ -23,6 +23,10 @@ Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt)
 
 ### 2023/09/10
 
+* Several nodes are draining and max concurrent cpus of large array users was rest in preparation for workshop at 11am
+
+### 2023/09/10
+
 * 7:43pm math-alderaan not accepting ssh connections
 
 * 11:10pm The math-alderaan head node was stuck. Rebooted remotely.
