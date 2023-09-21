@@ -4,7 +4,7 @@ Please see the [Clusters Guide][../clusters_guide/] and other documentation sect
 
 Contact: Megan Duff and Jan Mandel will be happy to answer any questions!
 
-[Zoom link for online support (login required)]{https://olucdenver-my.sharepoint.com/:w:/g/personal/jan_mandel_ucdenver_edu/EfW7dw5ejYhOvaGY4GvdeUkB9OKWDeEcX05JiokcJUvw1Q?e=rNHemh)
+[Zoom link for online support (login required)](https://olucdenver-my.sharepoint.com/:w:/g/personal/jan_mandel_ucdenver_edu/EfW7dw5ejYhOvaGY4GvdeUkB9OKWDeEcX05JiokcJUvw1Q?e=rNHemh)
 
 ## Log in
 * know your CU Denver username
