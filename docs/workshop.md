@@ -1,6 +1,6 @@
 # Hands-on Workshop September 21, 2023
 
-Please see the [Clusters Guide][../clusters_guide/] and other documentation sections on the left for more information.
+Please see the [Clusters Guide](../clusters_guide/) and other documentation sections on the left for more information.
 
 Contact: Megan Duff and Jan Mandel will be happy to answer any questions!
 
