@@ -1,6 +1,6 @@
 # Training and Events
 
-## Hands-on Workshop 2022/09/21 
+## Hands-on Workshop 2023/09/21 
 
 * 11:00-`12:00 p.m. in room SCB 4125
 
