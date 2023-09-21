@@ -1,16 +1,14 @@
 # Training and Events
 
-## Hands-on Workshop 2022/01/23 
+## Hands-on Workshop 2022/09/21 
 
-* 2022/01/23 12:30-1:30 p.m. in room SCB 4125
+* 11:00-`12:00 p.m. in room SCB 4125
 
 * Workhop materials are now available [here](../workshop/).
 
-* Remote participation will be also possible. See the [email announcement](https://olucdenver-my.sharepoint.com/:b:/g/personal/jan_mandel_ucdenver_edu/EdjYMTpX6kdFnj45VWT49xsB5hxW6JqxMfB0wj0BhptG6g?e=BqWny9) for the zoom link.  We will not be able to help remote participants individually, however.
-
 ### Registration
 
-Please register [here](https://forms.office.com/r/0FN7UbtgCn). Optional for existing users, but **we need to hear in advance from those who do not have their account set up yet, or maybe used to have but can't log in for some reason.** We can set up temporary accounts for participants who register at least one day in advance, but we won't have enough time to set up or fix accounts during the workshop. Faculty can also [request a regular account](../accounts) for themselves or their students.
+**We need to hear in advance from those who do not have their account set up yet, or maybe used to have but can't log in for some reason.** Please go  [here to request an account](../accounts). We can set up accounts for participants who register at least one day in advance, but we won't have enough time to set up or fix accounts during the workshop. Faculty can also [request an account](../accounts) for their students.
 
 ### Agenda
 
