@@ -42,11 +42,22 @@ Contact: Megan Duff and Jan Mandel will be happy to answer any questions!
 * *singularity_alderaan_shell.slurm* allows you to run an entire shell script in a singularity container. Try to add another command. Try to use another container.
 * **Extra credit:** run the examples from [https://github.com/ResearchComputing/Intro_GPU_Acceleration](https://github.com/ResearchComputing/Intro_GPU_Acceleration).
 
+## Environment Modules
+* Another way to set up a custom environment is by modules. Type *module avail* what is there and *man module* for more information.
+
+## Conda
+* Use one of the singularity containers with anacoda and make your own conda envirohments.
+* Or install your own anaconda or miniconda.
+
 ## Interactive jobs
 * Please do not ssh to work on compute nodes, you could interfere with jobs running there which would make you very unpopular. It is OK to ssh to compute nodes to check on your running jobs submitted through sbatch, however.
-* The magical incantation *srun -p math-alderaan --time=2:00:0 -n 1 --pty bash -i* will teleport your session to a compute node for two hours with one core reserved for you. Try it! Your interactive job will not interfere with CPU usage of other. Try *matlab -nodesktop*, run something CPU intensive, ssh to the node from another terminal window, and try *top* 
+* The magical incantation *srun -p math-alderaan --time=2:00:0 -n 1 --pty bash -i* will teleport your session to a compute node for two hours with one core reserved for you. Try it! Your interactive job will not interfere with CPU usage of other. Try *matlab -nodesktop*, run something CPU intensive, ssh to the node from another terminal window, and try *top*
+* Try a Python, R, or Matlab job!
+* Sorry no graphics
 
 ## Memory
 * Our compute nodes have 64 cores and 512GB memory each. This seems like a lot, but you may be sharing it with others. We do not control memory as an allocatable resource yet, so if you need to use a large amount of memory, talk to us first.
+
+## Try a Pyto
 
 
