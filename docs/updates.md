@@ -21,13 +21,13 @@ Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt)
 
 * All math-alderaan nodes returned to service after the workshop except 01 02 05 07 remain in drain state for heat stress testing. 
 
-* Due to no cpus available, all user accounts were reset to default maximum 500 concurrent cpus. There are some cpus available now (nodes showing as idle or mixed).
+* Due to no cpus available to start new jobs, all user accounts were reset to default maximum 500 concurrent cpus. There are some cpus available now (nodes showing as idle or mixed).
 
-* The max concurrent cpus limit can be increased on request or temporarily silently if the cluster is underutilized.
+* The maximum concurrent cpus limit can be increased on request or temporarily silently if the cluster is underutilized.
 
 ### 2023/09/20
 
-* Several nodes are draining and max concurrent cpus of large array users was rest in preparation for workshop at 11am
+* Several nodes are draining and max concurrent cpus of large array users was reset in preparation for the workshop at 11am.
 
 ### 2023/09/19
 
