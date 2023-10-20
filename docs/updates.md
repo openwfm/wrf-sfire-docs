@@ -27,6 +27,8 @@ Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt)
 
 ### 2023/09/21
 
+* Workshop: An Introduction to Computing on the Cluster (11AM-12PM in UC Denver SCB 4125)
+
 * All math-alderaan nodes returned to service after the workshop except 01 02 05 07 remain in drain state for heat stress testing. 
 
 * Due to no cpus available to start new jobs, all user accounts were reset to default maximum 500 concurrent cpus. There are some cpus available now (nodes showing as idle or mixed).
@@ -108,6 +110,10 @@ The temperature cutoffs were adjusted lower to keep the system from overheating.
 ### 2023/03/07
 
 * Optimization solver Gurobi with one year site license added to the  /storage/singularity/pyscipopt-geopandas.sif container.
+
+### 2023/03/06
+
+* Workshop: Introduction to Shell Scripting on Alderaan (12:30-1:30 p.m MST Hybrid)
 
 ### 2023/02/20
 
