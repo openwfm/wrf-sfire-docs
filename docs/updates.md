@@ -1,4 +1,4 @@
-# System Status Updates
+# News and Status Updates
 
 Please contact jan.mandel@ucdenver.edu with any questions.
 
