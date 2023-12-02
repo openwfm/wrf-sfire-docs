@@ -19,7 +19,7 @@ Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt)
 
 ### 2023/12/02
 
-* Slurm reconfiguration is in progress to improve job isolation and scheduling. Jobs already running should not be affected, but submitting new jobs may be afected for short periods. Please let me know if anything does not work as expected.
+* Slurm reconfiguration is in progress to improve job isolation and scheduling. Jobs already running should not be affected, but submitting new jobs may behave differently for short periods. Please let me know if anything does not work as expected.
 * The GPU nodes math-alderaan-h[01-02] are drained for testing and configuration. No new jobs can start on them.
 * Nodes math-alderaan-c[29-32] are draining, because math-alderaan-c29 has a bad memory board and they all will need to be powered down to install the replacement memory board when it arrives. No new jobs can start on them.
 * Nodes math-alderaan-c[01,05,07,10] are drained for heat diagnostics. No jobs can start on them.
