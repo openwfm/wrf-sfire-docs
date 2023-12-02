@@ -25,7 +25,7 @@ We are currently undergoing some important updates and maintenance on our HPC sy
 
 * **GPU Nodes Update:** The nodes math-alderaan-h[01-02] are temporarily offline for testing and configuration. During this period, no new jobs will be started on these nodes.
 
-* **Memory Board Replacement:** Nodes math-alderaan-c[29-32] are being prepared for maintenance due to a faulty memory board on math-alderaan-c29. These nodes will be powered down for the installation of a replacement memory board. New jobs will not start on these nodes until the maintenance is complete.
+* **Memory Board Replacement:** Nodes math-alderaan-c[29-32] are being prepared for maintenance due to a faulty memory board on math-alderaan-c29. These nodes will be powered down for the installation of a replacement memory board when it is received. New jobs will not start on these nodes until the maintenance is complete.
 
 * **Heat Diagnostics:** Nodes math-alderaan-c[01,05,07,10] are currently offline for heat diagnostics. No jobs can be initiated on these nodes during this period.
 
