@@ -19,11 +19,12 @@ Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt)
 
 ### 2023/12/02
 
-* Slurm reconfiguration in process this weekend to improve job isolation and scheduling. Jobs already running should not be affected. Please let me know if anything does not work as expected.
+* Slurm reconfiguration in progress to improve job isolation and scheduling. Jobs already running should not be affected, but submitting jobs may be afected for short periods. Please let me know if anything does not work as expected.
 * The GPU nodes math-alderaan-h[01-02] are drained for testing and configuration.
-* Nodes math-alderaan-c[29-32] are draining because nodemath-alderaan-c29 has a bad memory node and all 4 will need to be powered down to replace the board.
+* Nodes math-alderaan-c[29-32] are draining because math-alderaan-c29 has a bad memory board and they all will need to be powered down to replace the board when replacement arrives.
 * Nodes math-alderaan-c[01,05,07,10] are drained for heat diagnostics.
-* Plese do not ssh directly to any compute or GPU nodes as always. This includes the nodes above. Thank you.
+* Colibri nodes are offline.
+* Please do not ssh directly to any nodes directly as always, in particular to any nodes drained or draining. Thank you.
 
 ### 2023/10/19
 
