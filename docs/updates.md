@@ -17,6 +17,14 @@ suspended automatically. This should happen only rarely. The jobs resume after t
 should not take more than few minutes. However, to protect the datacenter, jobs will not resume if the datacenter temperature is too high. **
 Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt) for details.
 
+### 2023/12/02
+
+* Slurm reconfiguration in process this weekend to improve job isolation and scheduling. Jobs already running should not be affected. Please let me know if anything does not work as expected.
+* The GPU nodes math-alderaan-h[01-02] are drained for testing and configuration.
+* Nodes math-alderaan-c[29-32] are draining because nodemath-alderaan-c29 has a bad memory node and all 4 will need to be powered down to replace the board.
+* Nodes math-alderaan-c[01,05,07,10] are drained for heat diagnostics.
+* Plese do not ssh directly to any compute or GPU nodes as always. This includes the nodes above. Thank you.
+
 ### 2023/10/19
 
 * 08:30am Head node math-alderan stuck, rebooted.
