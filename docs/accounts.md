@@ -5,7 +5,7 @@ External collaborators sponsored by a faculty member.
 
 ## How to get an account
 
-Please use [this form](https://forms.office.com/r/GQ9ef7ei4i) to request accounts and allocations requests. 
+Please use [this form](https://forms.office.com/r/GQ9ef7ei4i) to request accounts and allocations. 
 
 **For a permanent account, the form should be filled by a faculty member and list users in their group, such as students or external collaborators.**
 
