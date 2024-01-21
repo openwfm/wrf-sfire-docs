@@ -17,6 +17,11 @@ suspended automatically. This should happen only rarely. The jobs resume after t
 should not take more than few minutes. However, to protect the datacenter, jobs will not resume if the datacenter temperature is too high. **
 Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt) for details.
 
+
+### 2024/01/20
+
+* 02:00pm All systems shut down because of datacenter temperature issue.
+
 ### 2023/12/02
 
 We are currently undergoing some important updates and maintenance on our HPC system. Here’s what you need to know:
