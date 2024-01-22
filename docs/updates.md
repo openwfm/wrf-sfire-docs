@@ -17,10 +17,13 @@ suspended automatically. This should happen only rarely. The jobs resume after t
 should not take more than few minutes. However, to protect the datacenter, jobs will not resume if the datacenter temperature is too high. **
 Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt) for details.
 
+### 2024/01/21
+
+* 11:30am The head nodes math-alderaan and clas-compute are up. User files are accessible. Score nodes are available but alderaan nodes are down until further notice.
 
 ### 2024/01/20
 
-* 02:00pm All systems shut down because of datacenter temperature issue.
+* 02:00pm All systems shut down because of datacenter cooling issue.
 
 ### 2023/12/02
 
