@@ -12,7 +12,7 @@ Real-time &nbsp; [Alderaan Temperature Log](https://demo.openwfm.org/web/alderaa
  [Partitions](https://demo.openwfm.org/web/alderaan/sinfo.txt)
 
 
-**To protect the hardware, should Alderaan CPUs get too hot, the jobs running on them are 
+To protect the hardware, should Alderaan CPUs get too hot, the jobs running on them are 
 suspended automatically. This should happen only rarely. The jobs resume after the temperature drops, which 
 should not take more than few minutes. Please see [CPU temperature](https://demo.openwfm.org/web/alderaan/cpu_temp.txt) for details. 
 To protect the datacenter, all jobs will be suspended if the datacenter temperature is too high, and 
