@@ -41,8 +41,9 @@ Use the command `du -sh` in a directory to see how much storage space you are us
 
 ### Running Jobs
 
-* Users are set up with initial 500 Alderaan concurrent cores limit. More is possible upon request.
+* Users are set up with the initial 500 concurrent cores limit. More is possible upon request.
 * Run time of Alderaan jobs is maximum 7 days. This is a hard limit. Job run time on other clusters (Colibri, Score) is unlimited.
+* The total usage of CPU and GPU hours is unlimited.
 
 
 <!-- 
