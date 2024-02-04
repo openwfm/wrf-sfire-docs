@@ -24,13 +24,13 @@ markdown_extensions:
 nav:
     - Welcome: index.md
     - Terms and Conditions: TermsandConditions.md
-    - News and Status Updates:  updates.md
+    - Updates:  updates.md
     - Workshop: workshop.md
     - Training: training.md
     - Overview: overview.md
     - Clusters Guide: clusters_guide.md
     - Examples: examples.md
-    - Accounts and Allocations: accounts.md
+    - Accounts: accounts.md
     - Environment modules: modules.md
     - Globus file transfer: globus.md
     - Python: python.md
