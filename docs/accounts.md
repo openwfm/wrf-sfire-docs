@@ -8,8 +8,7 @@ External collaborators sponsored by a faculty member.
 Please use [this form](https://forms.office.com/r/GQ9ef7ei4i) to request accounts. 
 
 **For a permanent account, the form should be filled by a faculty member (the PI of the project) and list users in their group, such as students or external collaborators.**
-
-**Workshop participants can also get an account by filling the form with "Workshop" in the project box.**
+External collaborators need a POI (a type of affiliate appointment) with VPN access first, talk to your department HR contact. Check "security" on their form.
 
 The form will ask for the **CU Denver email addresses** for all accounts to be created, and
 
@@ -21,9 +20,8 @@ This is needed for reporting to the funding agency (annual reports, quad charts,
 
 We really need the "yes" clicks for all those terms and conditions!
 
-Temporary accounts can be set up for training workshops. 
+**Workshop participants can also get an account by filling the form with "Workshop" in the project box.**
 
-External collaborators need a POI (a type of affiliate appointment) with VPN access first, talk to your department HR contact. Check "security" on their form.
 
 ## Resources and Allocations
 
