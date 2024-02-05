@@ -11,19 +11,19 @@ Please use [this form](https://forms.office.com/r/GQ9ef7ei4i) to request account
 
 **Workshop participants can also get an account by filling the form with "Workshop" in the project box.**
 
-We really need the "yes" clicks for all those terms and conditions!
-
-External collaborators need a POI (a type of affiliate appointment) with VPN access first, talk to your department HR contact. Check "security" on their form.
-
 The form will ask for the **CU Denver email addresses** for all accounts to be created, and
 
-* a brief description of the project (few words, one line is OK),
+* a brief description of the project (few words, one line is best),
 * funding source, if any,
 * affirmation of the [Terms of Use](../#terms-of-use), which include an acknowledgement of the NSF grant 2019089 in all publications and presentations, and send us at least a citation. The publication itself is always appreciated.
 
 This is needed for reporting to the funding agency (annual reports, quad charts, PI meetings, etc.)
 
+We really need the "yes" clicks for all those terms and conditions!
+
 Temporary accounts can be set up for training workshops. 
+
+External collaborators need a POI (a type of affiliate appointment) with VPN access first, talk to your department HR contact. Check "security" on their form.
 
 ## Resources and Allocations
 
