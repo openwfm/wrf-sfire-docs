@@ -2,7 +2,7 @@
 
 Welcome to the CCM!
 
-Please see the navigation links on the left for contents. Go to [Allocations](./accounts/) to request an account.
+Please see the navigation links on the left or in pancake above for the table of contents. Go to [Accounts](./accounts/) to request an account.
 
 ### How to contribute
 
