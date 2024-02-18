@@ -12,17 +12,17 @@ This system uses your normal portal/email username and password, but your accoun
 
 On Linux or a Mac, you can use simply the Terminal app, which is built into the operating system. It is hidden away in Applications -> Utilities folder on a Mac and in similar places on various Linux desktops. You may want to drag it to your dock (on a Mac) or the desktop (on Linux) so that it is available more conveniently next time.
 
-Current Windows 10 and 11 has a [native ssh client](https://learn.microsoft.com/en-us/windows/terminal/tutorials/ssh) - just type `ssh` in a terminal window (also called powershell window or command window). The ssh client also has `scp` and `sftp` for file transfer. 
+Current Windows 10/11 has a [native ssh client](https://learn.microsoft.com/en-us/windows/terminal/tutorials/ssh) - just type `ssh` in a terminal window (also called powershell window or command window). The ssh client also has `scp` and `sftp` for file transfer. 
 
 You can also use the [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) (SSL), where you install a Linux distribution as an app and can use it to ssh out like from a terminal window on any Linux machine. Note that the SSL may not work with VPN.
 
 Either way, from a terminal window, at the command line prompt type in:
 
-    ssh username@clas-compute.ucdenver.pvt
-    
-or
-
     ssh username@math-alderaan.ucdenver.pvt
+
+or 
+
+    ssh username@clas-compute.ucdenver.pvt
 
 The username is your account name, a single short word which you can use to log into the university portal instead of email address, not the firstname.lastname in your university email. Contact us or OIT helpdesk at [ucd-oit-helpdesk@cuanschutz.edu](mailto:ucd-oit-helpdesk@cuanschutz.edu) if you do not know what your account name is.
 
