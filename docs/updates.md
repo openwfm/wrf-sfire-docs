@@ -20,11 +20,11 @@ all nodes will be shut down automatically if the temperature keeps increasing fu
 
 ### 2024/02/24
 
-* Added a switch to CPU power saving mode in case of overheating, as an intermediate step before suspending nodes, which should happen only rarely now.
+* Added a switch to CPU power saving mode in case of overheating, as an intermediate step before suspending nodes, which should be happening only rarely now.
 
 ### 2024/01/26
 
-* Added 3 degrees of emergency shutdown in case of datacenter overheating: 1. suspend all jobs 2. gracefull shutdown 3. turn off power for all nodes
+* Added an independent monitor with 3 levels of emergency shutdown in case of datacenter overheating: 1. suspend all jobs 2. graceful shutdown of all compute and storage nodes  3. complete poweroff (not reversible remotely)
 
 ### 2024/01/25
 
