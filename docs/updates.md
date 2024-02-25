@@ -18,6 +18,14 @@ should not take more than few minutes. Please see [CPU temperature](https://demo
 To protect the datacenter, all jobs will be suspended if the datacenter temperature is too high, and 
 all nodes will be shut down automatically if the temperature keeps increasing further. 
 
+### 2024/02/24
+
+* Added a switch to CPU power saving mode in case of overheating, as an intermediate step before suspending nodes, which should happen only rarely now.
+
+### 2024/01/26
+
+* Added 3 degrees of emergency shutdown in case of datacenter overheating: 1. suspend all jobs 2. gracefull shutdown 3. turn off power for all nodes
+
 ### 2024/01/25
 
 * 10:30am All alderaan nodes are powered up. Held jobs released and running.
