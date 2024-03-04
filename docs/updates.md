@@ -18,6 +18,10 @@ should not take more than few minutes. Please see [CPU temperature](https://demo
 To protect the datacenter, all jobs will be suspended if the datacenter temperature is too high, and 
 all nodes will be shut down automatically if the temperature keeps increasing further. 
 
+### 2024/03/04
+
+* 08:12am Login to math-alderaan.ucdenver.pvt does not work. Investigating. Please use clas-compute.ucdenver.edu to submit and access slurm jobs for now.
+
 ### 2024/02/24
 
 * Added a switch to CPU power saving mode in case of overheating, as an intermediate step before suspending nodes, which should be happening only rarely now.
