@@ -21,6 +21,7 @@ all nodes will be shut down automatically if the temperature keeps increasing fu
 ### 2024/03/04
 
 * 08:12am Login to math-alderaan.ucdenver.pvt does not work. Investigating. Please use clas-compute.ucdenver.edu to submit and access slurm jobs for now.
+* Rebooted, all normal.
 
 ### 2024/02/24
 
