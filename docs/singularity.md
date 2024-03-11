@@ -1,15 +1,19 @@
-# Singularity Containers
+# What is a container?
 
-A singularity container provides a custom environment to run an application with all of its dependencies. It avoids conflicts when different applications require different versions of libraries or other dependences, and it can make your results reproducible. You can even copy a container to another machine with different version of operating system software (with some limitations of course) with singularity installed, and all will look to your application the same. 
+When running in a container, you have access to your files as usual, but the operating system and intstalled software are replaced by those in the container.
+
+Container is somewhat like another computer im iself, similar to a virtual machine. We install in containers custom software instead of installing it directly on the system. This allows us keep everything the software needs nicely together, and run the software on different nodes, even with different versions of linux, without reinstalling anything. 
+
+# How do we use containers?
+
+We are using a type of containers called Singularity, which was developed with HPC in mind. You may have heard about Docker, which is similar.
 
 Software with complicated dependencies is often distributed as singularity containters, with their own runtime environment. Singularity containers are **large** files, many GB. If you bring any containters of your own, pleasee put them in your project directory and **do not store singularity containers in your home directory.**
 
 We often install software requested by users in singularity containers rather than on the system itself to provide the required versions of dependencies, avoid software conflicts, and allow them to run on all of our clusters. 
 
-You will have access to your files as usual, but the operating system and applications are replaced by those in the container.
 
-
-## How to use Singularity interactively
+## How to use Singularity interactive
 
 **Please do not run computationally intensive jobs on the front end machines, math-alderaan or clas-compute.**
 
