@@ -97,53 +97,82 @@ You can see that the script is exactly like installing your own Linux machine af
 
 Then start a shell in the container as above, and you can do whatever you normally do to examine softwares and their versions.
 
-Note: building a container will pick up current version of software, so the versions below will change when containers are rebuilt.
+Note: Rebuilding a container usually picks up current version of software, so the versions listed below may change when containers are rebuilt.
 
 ### bfctools.sif
 
-Bioinformatics sofware bfctools 1.15.1 for processing and analyzing sequencing data.
+Bioinformatics sofware bfctools 1.15.1 for processing and analyzing sequencing data. Based on Ubuntu 20.04 with Development Tools.
+
+### bio-lowry.sif
+
+Ubuntu 20.04 with Development Tools and biology packages bbmap megahit megabat checkm gtdbtkUbuntu 20.04 with Development Tools and biology packages bbmap megahit megabat checkm gtdbtk.
+
+### biopython.sif
+
+Biopython 1.78 in Anacoda 3 Python 3.9.13 based on Ubuntu 20.04.
+
+### cactus-gpu.sif
+
+Imported Docker quay.io/comparative-genomics-toolkit/cactus:v2.5.2-gpu
 
 ### CentOS8-DevelopmentTools.sif
 
 CentOS Linux 8.4.2105, gcc 8.4.1 and standard Development Tools from Centos.
 
+### cuda-116.sif
+
+Imported Docker nvidia/cuda:11.6.1-devel-ubuntu20.04
+
+### cuda-120.sif
+
+Ubuntu 22.04 with cuda 12.0, NVIDIA compilers, tensorflow, pytorch, and other common machine learning packages
+
 ### go.sif
 
-The Go language with gcc/gfortran 9 and development tools, based on Ubuntu.
+The Go language with gcc/gfortran 9 and development tools, based on Ubuntu 20.04
 
 ### mixtures.sif
 
-R 4.1.2 with numerous standard and custom packages and datasets, see the definition file.
+Custom container for the mixtures project. R 4.1.2 with  raresim, plink2, Python with  regenie, bcftools, pliknk,hapgen2, bedtools. etc., and datasets. Based on Ubuntu 22.04
+
+### poppler.sif
+
+Container with python3-poppler-qt5, tensorflow, sklearn, matplotlib, keras, keras-tuner, tensorflow_datasets, pdf2image, jupyterhub, jupyter and pandas. No CUDA. Based on Ubuntu 22.04
 
 ### pyscipopt-geopandas.sif
  
-Optimization software [PySCIPOpt](https://pypi.org/project/PySCIPOpt) pyscipopt 4.2.0, ipopt, glpk, pyomo, gurobi, with geopandas.
+Optimization software [PySCIPOpt](https://pypi.org/project/PySCIPOpt) pyscipopt 4.2.0, ipopt, glpk, pyomo, gurobi, with geopandas in miniconda and Ubuntu 21.04 
 
 ### qvina.sif
 
-Modecular chemistry software [QuickVina](https://github.com/QVina/qvina), gcc, gfortran, python3.
+Modecular chemistry software [QuickVina](https://github.com/QVina/qvina), gcc, gfortran, python3 on Ubuntu 21.04
 
 ### sagemath.sif
 
-[SageMath](https://www.sagemath.org) mathematical sofrware, with python 3.9.5, R 4.0.4, and others.
+[SageMath](https://www.sagemath.org) mathematical sofrware, SAGE 9.5 with R 4.2.1 and Python 3.10.6 on Ubuntu 22.04.
 
 ### saige.sif
 
 Genomic software [saige](https://saigegit.github.io/SAIGE-doc/docs/Installation.html) container from docker image wzhou88/saige:1.1.6, comes with R 3.6.3.
 
+### tensorflow-1.4-new.sif
+
+Cuda 11, tensorflow 1.4, sklearn, matplotlib, keras, keras-tuner, tensorflow_datasets, pdf2image and pandas, on Ubuntu 20.04
+
+Note: Tensorflow will run with or without GPU, but it will crash python on most colibri nodes because their CPUs and GPUs are too old.
+
+### tensorflow-v1.4.sif
+
+cuda 11, tensorflow 1.4, sklearn, matplotlib, keras, keras-tuner, tensorflow_datasets, pdf2image and pandas.
+
+### tensorflow-2.6.0-cuda-1.1.2.sif
+
+NVIDIA nvidia/cuda:11.2.2-base-ubuntu20.04 with Anaconda and cuDNN 8 added. 
+
 ### tensorflow.sif
 
-python3.8.20 (gcc 9.3.9) as python 3, with numpy 1.22.2 and tensorflow 2.8.0 with sklearn matplotlib keras keras-tuner tensorflow_datasets pandas opencv-python-headless,
-CUDA 11.4, jupyter 1.0.0, jupyterhub 2.1.1
+Cuda 11, tensorflow, sklearn, matplotlib, keras, keras-tuner, tensorflow_datasets, pdf2image, jupyterhub, jupyter and pandas.
 
-Note: tensorflow will run with or without GPU, but it will crash python on most colibri nodes because their CPUs and GPUs are too old.
+### tensorflow_latest-gpu-jupyter.sif
 
-### tensorflow-v1.2.sif and tensorflow-v1.3.sif
-
-An earlier versions of tensorflow, which can run on older CPUs.
-
-
-
-
-
-
+Cuda 11, tensorflow 1.4, sklearn, matplotlib, keras, keras-tuner, tensorflow_datasets, pdf2image and pandas.
