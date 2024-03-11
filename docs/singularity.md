@@ -77,8 +77,6 @@ about 8 GB per core even if you may not use the cores. Otherwise, node memory ma
 overloaded with unfortunate consequences such as jobs stuck and 
 nodes down until someone resets them.**
 
-See [Examples](../examples) for more.
-
 ## How to run Singularity with MPI and on multiple nodes
 
 Not so easy for MPI over the fast interconnect InfiniBand. In future.
