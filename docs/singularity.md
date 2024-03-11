@@ -6,7 +6,7 @@ Container is somewhat like a different computer just for you, similar to a virtu
 
 # How do we use containers?
 
-We install in containers custom software instead of installing it directly on the system. This allows us keep everything the software needs nicely together, and run the software on different nodes, even with different versions of linux, without reinstalling anything. 
+A system administrator can build a containter with installed software instead of installing it directly on the system. This allows to keep everything the software needs nicely together, and to run the software on different nodes, even with different versions of linux, without reinstalling anything. 
 
 We are using a type of containers called Singularity, which was developed with HPC in mind. You may have heard about Docker, which is similar.
 
@@ -14,29 +14,34 @@ Software with complicated dependencies is often distributed as singularity conta
 
 We often install software requested by users in singularity containers rather than on the system itself to provide the required versions of dependencies, avoid software conflicts, and allow them to run on all of our clusters. 
 
+# How do I put software in a container?
 
+Ask and we may be able to build a container for you if we do not have one already. Most of our containers originated this way.
 
+Building a Singularity container requires root privileges, so you can't build a container directly on our systems yourself.
+But nothing stops you from setting up your own linux machine with the same version of Singularity we have, building a container, and copying it here. 
 
 ## How to use a Singularity container interactively
 
 **Please do not run computationally intensive jobs on the front end machines, math-alderaan or clas-compute.**
 
-So, if you plan to do anything of substance, first ssh to an interactive node (recommended math-colibri-i01 with 1TB memory, or math-score-i01 with faster newer cpu) or start an [interactive batch job](../clusters_guide/#interactive-jobs), e.g.,
+So, if you plan to do anything of substance, first ssh to an interactive node (recommended math-colibri-i01 with 1TB memory, or math-score-i01 with a faster and newer cpu). Or, start an [interactive batch job](../clusters_guide/#interactive-jobs), e.g.,
 
     srun -p math-alderaan --time=2:00:0 -n 1 --pty bash -i
 
-Then start a shell in a container, for example
+will start a slurm job with one code reserved for 2 hours and return with a standard shell prompt. Then start a shell in a container, for example
 
      singularity shell /storage/singularity/tensorflow.sif
      
+and start exploring.
 
-## How to run Singularity in a single-node batch job
+## How to run Singularity in a slurm batch job
 
-Prepare the commands you want to execute inside the container as a file, say `mycode.sh`, make it executable
+Prepare the commands you want to execute inside the container as a file, say `mycode.sh`, and make the file executable
      
      chmod +x mycode.sh
      
-and write a batch job script file that executes your code inside the container,
+Then, write a batch job script file that executes your code inside the container,
 say `singularity_alderaan_shell.slurm`, like this:
 
      #!/bin/bash
@@ -48,7 +53,7 @@ say `singularity_alderaan_shell.slurm`, like this:
 
      singularity exec /storage/singularity/container.sif ./mycode.sh
      
-where `container` is the container name. Instead of a shell script, you can use an executable binary such as compiled C code, or call python from inside the container like `python3 mycode.py`, etc. You can also copy your shell script inside the batch script and deal with only one file, like this:
+where `container` is the container name. Instead of a shell script, you can use an executable binary such as compiled C code, or call python from inside the container like `python3 mycode.py`, etc. You can also copy your shell script inside the batch script si that you can deal with only one file, like this:
 
      #!/bin/bash
      #SBATCH --job-name=singularity
@@ -76,19 +81,21 @@ See [Examples](../examples) for more.
 
 ## How to run Singularity with MPI and on multiple nodes
 
-Not so easy for MPI over the fast interconnect InfiniBand. Coming soon.
+Not so easy for MPI over the fast interconnect InfiniBand. In future.
                                                                                                                           
 ## What containers we have
 
-Containers we have built are in `/storage/singularity`.
+Containers we have built are in `/storage/singularity`. For convenience, `/storage/singularity/container.sif` points to a sample container.
 
 To see what is in a container, start with a short description which should be provided by every container:
 
-     singularity run-help containerpath.sif
+     singularity run-help /storage/singularity/container.sif
       
-For more details you can look how the software in the container was built. This is was done by a script, called definition file, which you can see by
+For more details, you can look how the software in the container was built. This is was done by a script, called definition file, which you can see by
 
-     singularity inspect --deffile containerpath.sif
+     singularity inspect --deffile /storage/singularity/container.sif
+
+You can see that the script is exactly like installing your own Linux machine after you installed a base system from distribution media.
 
 Then start a shell in the container as above, and you can do whatever you normally do to examine softwares and their versions.
 
