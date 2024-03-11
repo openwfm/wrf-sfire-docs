@@ -29,7 +29,7 @@ So, if you plan to do anything of substance, first ssh to an interactive node (r
 
     srun -p math-alderaan --time=2:00:0 -n 1 --pty bash -i
 
-will start a slurm job with one code reserved for 2 hours and return with a standard shell prompt. Then start a shell in a container, for example
+will start a slurm job with one core reserved for 2 hours and return with a standard shell prompt. Then start a shell in a container, for example
 
      singularity shell /storage/singularity/tensorflow.sif
      
