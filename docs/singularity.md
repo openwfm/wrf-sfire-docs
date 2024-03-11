@@ -2,7 +2,7 @@
 
 When running in a container, you have access to your files as usual, but the operating system and intstalled software are replaced by those in the container.
 
-Container is somewhat like another computer im iself, similar to a virtual machine. We install in containers custom software instead of installing it directly on the system. This allows us keep everything the software needs nicely together, and run the software on different nodes, even with different versions of linux, without reinstalling anything. 
+Container is somewhat like another computer just for you, similar to a virtual machine. We install in containers custom software instead of installing it directly on the system. This allows us keep everything the software needs nicely together, and run the software on different nodes, even with different versions of linux, without reinstalling anything. 
 
 # How do we use containers?
 
