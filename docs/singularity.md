@@ -15,7 +15,9 @@ Software with complicated dependencies is often distributed as singularity conta
 We often install software requested by users in singularity containers rather than on the system itself to provide the required versions of dependencies, avoid software conflicts, and allow them to run on all of our clusters. 
 
 
-## How to use Singularity interactive
+
+
+## How to use a Singularity container interactively
 
 **Please do not run computationally intensive jobs on the front end machines, math-alderaan or clas-compute.**
 
@@ -23,11 +25,7 @@ So, if you plan to do anything of substance, first ssh to an interactive node (r
 
     srun -p math-alderaan --time=2:00:0 -n 1 --pty bash -i
 
-Then start a shell in a container,
-
-    singularity shell containerpath.sif
-
-for example
+Then start a shell in a container, for example
 
      singularity shell /storage/singularity/tensorflow.sif
      
