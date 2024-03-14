@@ -5,14 +5,27 @@ Please contact jan.mandel@ucdenver.edu with any questions.
 Reload the page to see the latest information. Your browser may be caching an old version.
 
 Real-time &nbsp; [Alderaan Temperature Log](https://demo.openwfm.org/web/alderaan/temp.txt) &nbsp; &nbsp;
- [Status](https://demo.openwfm.org/web/alderaan/cpu_temp.txt) &nbsp; &nbsp;
  [CPU Load](https://demo.openwfm.org/web/alderaan/cpu.txt) &nbsp; &nbsp;
  [Memory](https://demo.openwfm.org/web/alderaan/mem.txt) &nbsp; &nbsp;
  [Swap](https://demo.openwfm.org/web/alderaan/swp.txt) &nbsp; &nbsp; 
  [Partitions](https://demo.openwfm.org/web/alderaan/sinfo.txt)
 
 
-To protect the hardware, should Alderaan CPUs get too hot, the CPUs will slow down intermittently and jobs running on them may be suspended automatically. If datacenter temperature is too high, jobs will be first suspended, and all alderaan nodes will be shut down automatically if temperature increases further.
+To protect the hardware, should Alderaan CPUs get too hot, the CPUs will slow down intermittently. If datacenter temperature is too high, jobs will be first suspended to protect the hardware and reduce heat output. If temperature increases further, all alderaan nodes will be shut down automatically.
+
+### 2024/03/18
+
+Maintenance,no disruption to operations anticipated.
+
+### 2024/03/13
+
+16 nodes are currently draining. When jobs on them end, no new jobs will start.
+The plan is to have at least 10 nodes with no jobs running on them available for
+maintenance planned 2024/03/18.  
+
+### 2024/03/11
+
+Singularity containers workshop 11am in SCB 4017.
 
 ### 2024/03/04
 
