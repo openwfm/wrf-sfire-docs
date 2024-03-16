@@ -15,9 +15,9 @@ To protect the hardware, should Alderaan CPUs get too hot, the CPUs will slow do
 
 ### 2024/03/18
 
-Maintenance,no disruption to operations anticipated.
+**Alderaan maintenance in progress**. Existing jobs should not be affected.
 
-### 2024/03/18
+### 2024/03/15
 
 **Alderaan maintenance in progress**. I am decreasing a maximum generated heat setting (called TDP) on all Alderaan CPUs. This should decrease the switching of the CPUs to a slower power saving mode when they overheat, and thus result in smoother and more reliable operation within the available cooling capacity. 
 
