@@ -23,7 +23,7 @@ To protect the hardware, should Alderaan CPUs get too hot, the CPUs will slow do
 
 The change was already done on Alderaan nodes c01 c05 c11 c31 c32, which will keep running normally. Currently, no new jobs can start on any remaining Alderaan nodes, including GPU nodes, but existing jobs are allowed to complete. Alderaan nodes that will have no jobs running on them by Monday 3/18 will be rebooted and have their TDP reset. All Alderaan nodes are expected to be available by the end of the day. No jobs will be cancelled.
 
-If you need to run something urgently between now and Monday and the large number of unavailable nodes is a problem, please let me know
+If you need to run something urgently between now and Monday and the large number of unavailable nodes is a problem, please let me know.
 
 ### 2024/03/13
 
