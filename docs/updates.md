@@ -19,9 +19,11 @@ Maintenance,no disruption to operations anticipated.
 
 ### 2024/03/18
 
-**Alderaan maintenance in progress**. I am lowering slightly the Thermal Design Profile (TDP) on all Alderaan CPUs. This should result in less frequent automatic switching of the CPUs to a slower powersave mode when they overheat, and smoother and more reliable HPC operation. The TDP change was already done on Alderaan nodes c01 c05 c11 c31 c32, which will keep running normally. No new jobs can start on any remaing Alderaan nodes, including GPU nodes, but existing jobs are allowed to complete. Alderaan nodes that have no jobs running on them by Monday 3/18 will be rebooted and have their TDP reset. All Alderaan nodes are expected to be available by the end of the day. No jobs will be cancelled. 
+**Alderaan maintenance in progress**. I am decreasing a maximum generated heat setting (called TDP) on all Alderaan CPUs. This should decrease the switching of the CPUs to a slower power saving mode when they overheat, and thus result in smoother and more reliable operation within the available cooling capacity. 
 
-If you need to run something urgently between now and Monday and the large number of unavailable nodes is a problem, please let me know.
+The change was already done on Alderaan nodes c01 c05 c11 c31 c32, which will keep running normally. Currently, no new jobs can start on any remaining Alderaan nodes, including GPU nodes, but existing jobs are allowed to complete. Alderaan nodes that will have no jobs running on them by Monday 3/18 will be rebooted and have their TDP reset. All Alderaan nodes are expected to be available by the end of the day. No jobs will be cancelled.
+
+If you need to run something urgently between now and Monday and the large number of unavailable nodes is a problem, please let me know
 
 ### 2024/03/13
 
