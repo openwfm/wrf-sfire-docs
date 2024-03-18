@@ -15,7 +15,7 @@ To protect the hardware, should Alderaan CPUs get too hot, the CPUs will slow do
 
 ### 2024/03/18
 
-**Alderaan maintenance in progress**. Existing jobs should not be affected.
+**3pm Alderaan maintenance completed**.  math-alderaan-c[02,14] are still draining and will have their heat envelope reset when they and I become available at the same time. math-alderaan-c06 has a bad memory board and will be down until fixed. All other nodes are available. Please let me know if you note anything odd.
 
 ### 2024/03/15
 
