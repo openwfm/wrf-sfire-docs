@@ -21,6 +21,8 @@ To protect the hardware, should Alderaan CPUs get too hot, the CPUs will slow do
 
 * All nodes are currently draining and no jobs can start on them to prepare for maintenance tomorrow.
 
+* Node math-alderaan-c06 is down and being sent for repair.
+
 ### 2024/03/18
 
 * **3pm Alderaan maintenance completed**.  math-alderaan-c[02,14] are still draining and will have their heat envelope reset when they and I become available at the same time. math-alderaan-c06 has a bad memory board and will be down until fixed. All other nodes are available. Please let me know if you note anything odd.
