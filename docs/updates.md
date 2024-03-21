@@ -13,21 +13,29 @@ Real-time &nbsp; [Alderaan Temperature Log](https://demo.openwfm.org/web/alderaa
 
 To protect the hardware, should Alderaan CPUs get too hot, the CPUs will slow down intermittently. If datacenter temperature is too high, jobs will be first suspended to protect the hardware and reduce heat output. If temperature increases further, all alderaan nodes will be shut down automatically.
 
+### 2024/03/21
+
+* **Alderaan maintenance planned** From about 10am, nodes which become idle will be rebooted to update their CPU power and heat settings further and returned to operation one by one. The rest of the nodes with jobs running on them will be updated later. No jobs will be cancelled. 
+
+### 2024/03/20
+
+* All nodes are currently draining and no jobs can start on them to prepare for maintenance tomorrow.
+
 ### 2024/03/18
 
-**3pm Alderaan maintenance completed**.  math-alderaan-c[02,14] are still draining and will have their heat envelope reset when they and I become available at the same time. math-alderaan-c06 has a bad memory board and will be down until fixed. All other nodes are available. Please let me know if you note anything odd.
+* **3pm Alderaan maintenance completed**.  math-alderaan-c[02,14] are still draining and will have their heat envelope reset when they and I become available at the same time. math-alderaan-c06 has a bad memory board and will be down until fixed. All other nodes are available. Please let me know if you note anything odd.
 
 ### 2024/03/15
 
-**Alderaan maintenance in progress**. I am decreasing a maximum generated heat setting (called TDP) on all Alderaan CPUs. This should decrease the switching of the CPUs to a slower power saving mode when they overheat, and thus result in smoother and more reliable operation within the available cooling capacity. 
+**Alderaan maintenance in progress**. I am decreasing a maximum generated heat setting (called TDP) on all Alderaan CPUs. This should decrease the switching of 
 
+* the CPUs to a slower power saving mode when they overheat, and thus result in smoother and more reliable operation within the available cooling capacity. 
 The change was already done on Alderaan nodes c01 c05 c11 c31 c32, which will keep running normally. Currently, no new jobs can start on any remaining Alderaan nodes, including GPU nodes, but existing jobs are allowed to complete. Alderaan nodes that will have no jobs running on them by Monday 3/18 will be rebooted and have their TDP reset. All Alderaan nodes are expected to be available by the end of the day. No jobs will be cancelled.
-
 If you need to run something urgently between now and Monday and the large number of unavailable nodes is a problem, please let me know.
 
 ### 2024/03/13
 
-16 nodes are currently draining. When jobs on them end, no new jobs will start.
+* 16 nodes are currently draining. When jobs on them end, no new jobs will start.
 The plan is to have at least 10 nodes with no jobs running on them available for
 maintenance planned 2024/03/18.  
 
