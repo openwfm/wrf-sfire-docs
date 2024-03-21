@@ -19,7 +19,7 @@ To protect the hardware, should Alderaan CPUs get too hot, the CPUs will slow do
 
 ### 2024/03/20
 
-* All nodes are currently draining and no jobs can start on them to prepare for maintenance tomorrow.
+* 10:45pm All nodes are currently draining and no jobs can start on them to prepare for maintenance tomorrow.
 
 * Node math-alderaan-c06 is down and being sent for repair.
 
