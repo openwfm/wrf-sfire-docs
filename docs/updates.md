@@ -17,7 +17,7 @@ To protect the hardware, should Alderaan CPUs get too hot, the CPUs will slow do
 
 * **Maintenance is planned  for Tuesday 3/26 from 10am.**
 The math-alderaan partition will keep running, but only on a subset of nodes, which will be
-shrinking as idle nodes become reserved for the upcoming maintance. I will maintain at least one idle node for new jobs.
+shrinking as idle nodes become reserved for the upcoming maintance. I will try to maintain at least one idle node for new jobs.
 The math-alderaan-short and math-alderaan-gpu-short partitions will not accept new jobs starting Monday 3/25 10am so that any running jobs can finish within the 1 day limit.
 The math-alderaan-gpu partition is not not accepting any new jobs until maintenance is complete.
 No jobs will be cancelled.
