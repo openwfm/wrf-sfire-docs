@@ -46,7 +46,7 @@ singularity shell /storage/singularity/tensorflow.sif
 jupyter hub
 ```
 <pre style="font-family: inherit; background: none; border: none;">
-You should see instructions with link similar to
+You should see instructions with a link similar to
 </pre>
 ```
 http://127.0.0.1:8888/?token=cbdfb610423a3e58f6ab9132db0cf00ef02d1b455cb21a13
