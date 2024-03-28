@@ -6,7 +6,7 @@
 
 The main entry point to the system is `math-alderaan.ucdenver.pvt`, which is similar to Alderaan nodes. You can also log in through  `clas-compute.ucdenver.pvt`, which is similar to nodes of the other clusters, Score and Colibri. You can submit and monitor your batch jobs to any ofthe cluster from either entry pint.  The system uses CentOS 7 and 8 operating system.  Alderaan cluster runs Centos 8 while the other clusters and `clas-compute` run Centos 7.
 
-At this time, the main way of using the system is to use an SSH client to login to a terminal session on math-alderaan or clas-compute. You will need to be on the CU Denver private network (wired or CU Denver wireless, not CU Denver Guest). To connect from the internet, you need to use the [university's VPN](https://www.ucdenver.edu/offices/office-of-information-technology/get-help/remote-access-vpn) or [remote access](https://remote.ucdenver.edu) (click "Complimentary" to start Windows, then the Windows icon and search for Powershell). See [here](https://www.ucdenver.edu/docs/default-source/offices-oit-documents/vpn-client-software/multi-factor-vmware-horizon-user-guide.pdf?sfvrsn=3d3a4db9_2) for more on the remote client.
+At this time, the main way of using the system is to use an SSH client to login to a terminal session on math-alderaan or clas-compute. You will need to be on the CU Denver private network (wired or CU Denver wireless, not CU Denver Guest). To connect from the internet, you need to use the [university's VPN](https://www.ucdenver.edu/offices/office-of-information-technology/get-help/remote-access-vpn) or [remote access](https://remote.ucdenver.edu) (click "Complimentary" to start Windows, then the Windows icon and search for Powershell). It is highly recommended to download and use the VMware Horizon app instead of continuing the browser. Either way, log in and click on the "Complimentary" button, which will give you a Windows virtual machine on the campus network. Then open a Powershell window (Windows button, search box opens, type `shell`, select `Powershell`). Type `ssh math-alderaan` in the Powershell window. See [here](https://www.ucdenver.edu/docs/default-source/offices-oit-documents/vpn-client-software/multi-factor-vmware-horizon-user-guide.pdf?sfvrsn=3d3a4db9_2) for more on the remote client.
 
 This system uses your normal portal/email username and password, but your account must be set up before using the system. Please go to [accounts](../accounts/) to request an account; if you are a student, the faculty project lead should request your account.
 
@@ -49,9 +49,9 @@ Press Control-A and then Esc and scrolling up and down will work temporarily the
 
 ## Jupyter interactive access
 
-**Please remember not to run anything too computationally intensive on the math-alderaan head node**
+**Please remember not to run anything too computationally intensive on the math-alderaan head node.**
 
-On a computer on the campus network, ssh to math-alderaan. Off campus, you can use VPN, or go to https://remote.ucdenver.edu. It is highly recommended to download and use the VMware Horizon app instead of continuing the browser. Either way, log in and click on the b"Complimentary" button, which will give you a Windows virtual machine on the campus network. Then open a Powershell window (Windows button, search box opens, type `shell`, select `Powershell`). Type `ssh math-alderaan` in the Powershell window.
+On a computer on the campus network, ssh to math-alderaan. Off campus, you can use VPN, or VMware Horizon as described above in [How to log in](#logging-in).
 
 Start a Python environment with jupyter installed, such as in one of our singularity containers, or your own Anaconda installation, and then start jupyter hub or notebook. For example,
   
@@ -62,6 +62,7 @@ then
     jupyter notebook
 
 or
+
     jupyter hub
 
 You should see instructions with a link similar to
