@@ -75,9 +75,9 @@ Open another shell window and type, with 8888 replaced by the actual port number
 
     ssh -L 8888:127.0.0.1:8888 username@math-alderaan
 
-and log in again. You need to keep *both* ssh connections open. On VMware Horizon you can omit the username.
+and log in again. You need to keep *both* ssh connections open. On VMware Horizon, you can omit the username.
 
-Open a web browser (Firefox recomended) on the same computer where you run the ssh connections, and go the the link from jupyter above. (Use copy/paste or course).
+Open a web browser (Firefox recomended) on the same computer where you run the ssh connections, and go the the link from jupyter above. (Use copy/paste or course.)
   
 You should see a Jupyter screen in the browser. You can navigate your file tree, open shell windows, run computation in jupyter notebooks (remember nothing too computationally intensive), etc. 
 
