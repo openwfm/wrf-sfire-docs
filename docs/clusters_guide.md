@@ -71,7 +71,7 @@ You should see instructions with a link similar to
 
 The port number, here 8888, may be different at different times. 
 
-Open another shell window and type, with 8888 replaced by the actual port number you got,
+Open another shell window and type, with 8888 replaced by the actual port number jupyter gave you,
 
     ssh -L 8888:127.0.0.1:8888 username@math-alderaan
 
