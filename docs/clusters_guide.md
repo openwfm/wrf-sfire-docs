@@ -34,7 +34,33 @@ Using a server ‘interactively’ (aka not scheduling a job) is often needed fo
 
 **Please do not run anything directly on compute nodes, which are reserved for jobs under the control of the scheduler, even if you may be able to ssh there.  These are nodes with names like math-colibri-c01 with something else than "i" before the number. Using compute nodes, where other people run jobs through the scheduler, will interfere with their work and make you very unpopular.** It is OK to ssh to a compute node to check on your job, but  don't run anything there.
 
+### Jupyter interactive access
 
+**Please remember not to run anything too computationally intensive on the math-alderaan head node**
+
+1. On a computer on campus network, ssh to math-alderaan. Off campus, you can use VPN, or go to https://remote.ucdenver.edu. It is highly recommended to download the VMware Horizon app instead of browser. Either way, log in and click on "Complimentary" button, which will give you a Windows virtual machine on campus network. Then open a Powershell window (Windows button, search box opens, type `shell`, select `Powershell`). Type `ssh math-alderaan` in the Powershell window.
+
+2. Start a Python environment with jupyter installed, such as in one of our singularity containers, or your own Anaconda installation, and then start jupyter hub or notebook. For example,
+
+    singularity shell /storage/singularity/tensorflow.sif
+    jupyter hub
+ 
+You should see instructions with link similar to
+
+    http://127.0.0.1:8888/?token=cbdfb610423a3e58f6ab9132db0cf00ef02d1b455cb21a13
+
+The number, here 8888, may be different at different times. 
+
+3. Open another shell window and type, with 8888 replaced by the actual number you got,
+
+    ssh -L 8888:127.0.0.1:8888 math-alderaan
+
+   and log in again.
+
+4. Open on your computer a web browser (Firefox recomended) and go the the link you got in item 2 above. (Use copy/paste or course).
+  
+6. You should see Jupyter screen in the browser. You can navigate your files, open shell windows, run computation in jupyter notebooks (remember nothing too computationally intensive), etc. 
+   
 ### Screen virtual terminal
 
 If you use `screen`, if you get disconnected, whatever you were running is still going and you can connect to it later. This is called a virtual terminal session. It is generally a good idea to use `screen` on math-compute, math-alderaan, or on the interactive nodes.  
@@ -96,7 +122,7 @@ On a Linux or Mac computer, you can use file transfer utilities `rsync`, `scp`, 
 
 ### Windows
 
-On current Windows PC, you can use `scp` and `sftp` from the command window (a.k.a. Powershell window). 
+On current Windows PC, you can use `scp` and `sftp` from the command window (a.k.a. Powershell window). Current Windows 10 and 11 have OpenSSH client built in.
 
 ### From a Website
 
