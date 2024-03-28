@@ -42,16 +42,18 @@ Using a server ‘interactively’ (aka not scheduling a job) is often needed fo
 
 2. Start a Python environment with jupyter installed, such as in one of our singularity containers, or your own Anaconda installation, and then start jupyter hub or notebook. For example,
    
-```singularity shell /storage/singularity/tensorflow.sif
-```jupyter hub
+singularity shell /storage/singularity/tensorflow.sif
+jupyter hub
 You should see instructions with link similar to
-
-```http://127.0.0.1:8888/?token=cbdfb610423a3e58f6ab9132db0cf00ef02d1b455cb21a13
+```
+http://127.0.0.1:8888/?token=cbdfb610423a3e58f6ab9132db0cf00ef02d1b455cb21a13
+```
 The port number, here 8888, may be different at different times. 
 
 3. Open another shell window and type, with 8888 replaced by the actual port number you got,
-
-```ssh -L 8888:127.0.0.1:8888 math-alderaan
+```
+ssh -L 8888:127.0.0.1:8888 math-alderaan
+```
 and log in again. You need to keep *both* ssh connections open.
 
 4. Open on your computer a web browser (Firefox recomended) and go the the link you got in item 2 above. (Use copy/paste or course).
