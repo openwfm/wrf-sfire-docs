@@ -41,9 +41,10 @@ Using a server ‘interactively’ (aka not scheduling a job) is often needed fo
 1. On a computer on campus network, ssh to math-alderaan. Off campus, you can use VPN, or go to https://remote.ucdenver.edu. It is highly recommended to download the VMware Horizon app instead of browser. Either way, log in and click on "Complimentary" button, which will give you a Windows virtual machine on campus network. Then open a Powershell window (Windows button, search box opens, type `shell`, select `Powershell`). Type `ssh math-alderaan` in the Powershell window.
 
 2. Start a Python environment with jupyter installed, such as in one of our singularity containers, or your own Anaconda installation, and then start jupyter hub or notebook. For example,
-   
+```   
 singularity shell /storage/singularity/tensorflow.sif
 jupyter hub
+```
 You should see instructions with link similar to
 ```
 http://127.0.0.1:8888/?token=cbdfb610423a3e58f6ab9132db0cf00ef02d1b455cb21a13
