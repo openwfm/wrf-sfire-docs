@@ -59,11 +59,11 @@ Start a Python environment with jupyter installed, such as in one of our singula
 
 then
 
-    jupyter notebook
+    jupyter notebook --no-browser
 
-or
+or (if available)
 
-    jupyter hub
+    jupyter hub --no-browser
 
 You should see instructions with a link similar to
 
