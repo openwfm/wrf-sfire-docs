@@ -4,11 +4,11 @@
 
 ### How to log in
 
-The system uses CentOS 7 and 8 operating system. There are two head nodes (entry points) to the system, `math-alderaan.ucdenver.pvt` and `clas-compute.ucdenver.pvt`. You can use either. Alderann cluster runs Centos 8 while the other clusters and `clas-compute` run Centos 7.
+The main entry point to the system is `math-alderaan.ucdenver.pvt`, which is similar to Alderaan nodes. You can also log in through  `clas-compute.ucdenver.pvt`, which is similar to nodes of the other clusters, Score and Colibri. You can submit and monitor your batch jobs to any ofthe cluster from either entry pint.  The system uses CentOS 7 and 8 operating system.  Alderaan cluster runs Centos 8 while the other clusters and `clas-compute` run Centos 7.
 
 At this time, the main way of using the system is to use an SSH client to login to a terminal session on math-alderaan or clas-compute. You will need to be on the CU Denver private network (wired or CU Denver wireless, not CU Denver Guest). To connect from the internet, you need to use the [university's VPN](https://www.ucdenver.edu/offices/office-of-information-technology/get-help/remote-access-vpn) or [remote access](https://remote.ucdenver.edu) (click "Complimentary" to start Windows, then the Windows icon and search for Powershell). See [here](https://www.ucdenver.edu/docs/default-source/offices-oit-documents/vpn-client-software/multi-factor-vmware-horizon-user-guide.pdf?sfvrsn=3d3a4db9_2) for more on the remote client.
 
-This system uses your normal portal/email username and password, but your account must be set up before using the system. Please go to [accounts](../accounts/) to request an account.
+This system uses your normal portal/email username and password, but your account must be set up before using the system. Please go to [accounts](../accounts/) to request an account; if you are a student, the faculty project lead should request your account.
 
 On Linux or a Mac, you can use simply the Terminal app, which is built into the operating system. It is hidden away in Applications -> Utilities folder on a Mac and in similar places on various Linux desktops. You may want to drag it to your dock (on a Mac) or the desktop (on Linux) so that it is available more conveniently next time.
 
@@ -28,38 +28,11 @@ The username is your account name, a single short word which you can use to log 
 
 After connecting, ssh should ask for your CU Denver password and you enter it at this point. You should be then at the `math-alderaan` or `clas-compute` prompt and in your home directory, which is `/home/username`. 
 
-### Interactive use
+### Interactive use limitations
 
 Using a server ‘interactively’ (aka not scheduling a job) is often needed for troubleshooting a job or just watching what it is doing in real time. After SSH’ing into a head node, you can type <code>ssh math-colibri-i01</code> or whatever server you want to go to directly. 
 
-**Please do not run anything directly on compute nodes, which are reserved for jobs under the control of the scheduler, even if you may be able to ssh there.  These are nodes with names like math-colibri-c01 with something else than "i" before the number. Using compute nodes, where other people run jobs through the scheduler, will interfere with their work and make you very unpopular.** It is OK to ssh to a compute node to check on your job, but  don't run anything there.
-
-## Jupyter interactive access
-
-**Please remember not to run anything too computationally intensive on the math-alderaan head node**
-
-On a computer on campus network, ssh to math-alderaan. Off campus, you can use VPN, or go to https://remote.ucdenver.edu. It is highly recommended to download the VMware Horizon app instead of browser. Either way, log in and click on "Complimentary" button, which will give you a Windows virtual machine on campus network. Then open a Powershell window (Windows button, search box opens, type `shell`, select `Powershell`). Type `ssh math-alderaan` in the Powershell window.
-
-Start a Python environment with jupyter installed, such as in one of our singularity containers, or your own Anaconda installation, and then start jupyter hub or notebook. For example,
-  
-    singularity shell /storage/singularity/tensorflow.sif
-    jupyter hub
-
-You should see instructions with a link similar to
-
-    http://127.0.0.1:8888/?token=cbdfb610423a3e58f6ab9132db0cf00ef02d1b455cb21a13
-
-The port number, here 8888, may be different at different times. 
-
-Open another shell window and type, with 8888 replaced by the actual port number you got,
-
-    ssh -L 8888:127.0.0.1:8888 math-alderaan
-
-and log in again. You need to keep *both* ssh connections open.
-
-Open on your computer a web browser (Firefox recomended) and go the the link you got above. (Use copy/paste or course).
-  
-You should see Jupyter screen in the browser. You can navigate your files, open shell windows, run computation in jupyter notebooks (remember nothing too computationally intensive), etc. 
+**Please do not run anything directly on compute nodes, which are reserved for jobs under the control of the scheduler, even if you may be able to ssh there.  These are nodes with names like math-alderaan-c01 with something else than "i" before the number. Using compute nodes, where other people run jobs through the scheduler, will interfere with their work and make you very unpopular.** It is OK to ssh to a compute node to check on your job, but  don't run anything there.
    
 ### Screen virtual terminal
 
@@ -73,6 +46,39 @@ When you want to reconnect to your screen session later, log back onto wherever 
  
 You can't just scroll in `screen` to see your terminal history as you normally would.
 Press Control-A and then Esc and scrolling up and down will work temporarily the usual way. When you type anything, `screen` will leave the scrolling model.
+
+## Jupyter interactive access
+
+**Please remember not to run anything too computationally intensive on the math-alderaan head node**
+
+On a computer on the campus network, ssh to math-alderaan. Off campus, you can use VPN, or go to https://remote.ucdenver.edu. It is highly recommended to download and use the VMware Horizon app instead of continuing the browser. Either way, log in and click on the b"Complimentary" button, which will give you a Windows virtual machine on the campus network. Then open a Powershell window (Windows button, search box opens, type `shell`, select `Powershell`). Type `ssh math-alderaan` in the Powershell window.
+
+Start a Python environment with jupyter installed, such as in one of our singularity containers, or your own Anaconda installation, and then start jupyter hub or notebook. For example,
+  
+    singularity shell /storage/singularity/tensorflow.sif
+
+then
+
+    jupyter notebook
+
+or
+    jupyter hub
+
+You should see instructions with a link similar to
+
+    http://127.0.0.1:8888/?token=cbdfb610423a3e58f6ab9132db0cf00ef02d1b455cb21a13
+
+The port number, here 8888, may be different at different times. 
+
+Open another shell window and type, with 8888 replaced by the actual port number you got,
+
+    ssh -L 8888:127.0.0.1:8888 username@math-alderaan
+
+and log in again. You need to keep *both* ssh connections open. On VMware Horizon you can omit the username.
+
+Open a web browser (Firefox recomended) on the same computer where you run the ssh connections, and go the the link from jupyter above. (Use copy/paste or course).
+  
+You should see a Jupyter screen in the browser. You can navigate your file tree, open shell windows, run computation in jupyter notebooks (remember nothing too computationally intensive), etc. 
 
 ## File Storage
 
