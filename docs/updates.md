@@ -13,6 +13,11 @@ Real-time &nbsp; [Alderaan Temperature Log](https://demo.openwfm.org/web/alderaa
 
 To protect the hardware, should Alderaan CPUs get too hot, the CPUs will slow down intermittently. If datacenter temperature is too high, jobs will be first suspended to protect the hardware and reduce heat output. If temperature increases further, all alderaan nodes will be shut down automatically.
 
+### 2024/04/11
+
+* Slurm is down. Investigating.
+* User files were moved from /data001/projects to /data002/projects because of issues with /data001. The original location has soft links  and can be still used. No action required at this point.
+
 ### 2024/04/10
 
 * **Maintenance is planned from 11am**
