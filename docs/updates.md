@@ -16,7 +16,7 @@ To protect the hardware, should Alderaan CPUs get too hot, the CPUs will slow do
 ### 2024/04/11
 
 * Slurm is down. Investigating.
-* User files were moved from /data001/projects to /data002/projects because of issues with /data001. The original location has soft links  and can be still used. No action required at this point.
+* User files were moved from /data001/projects to /data002/projects because of issues with /data001 and replaced by soft links to the new location. Therefore, the original location shows the same files and can be still used. No action required at this point.
 
 ### 2024/04/10
 
