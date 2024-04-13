@@ -13,9 +13,15 @@ Real-time &nbsp; [Alderaan Temperature Log](https://demo.openwfm.org/web/alderaa
 
 To protect the hardware, should Alderaan CPUs get too hot, the CPUs will slow down intermittently. If datacenter temperature is too high, jobs will be first suspended to protect the hardware and reduce heat output. If temperature increases further, all alderaan nodes will be shut down automatically.
 
+### 2024/04/12
+
+* 2:30pm Files  in /home and /storage mounts dropped on randomly changing compute nodes. Investigating. All partitions are stopped, no new jobs will start. Existing jobs are allowed to continue, though they may have a difficulty doing so.
+* 5pm All nodes were rebooted and the issue has resolved. All partition queues started.
+
 ### 2024/04/11
 
-* Slurm is down. Investigating.
+* 4pm Slurm is down. Investigating.
+* 7pm Fixed
 * Users' directories in /data001/projects were moved to /data002/projects because of issues with /data001 and replaced by soft links to the new locations. Therefore, the original location shows the same files and it can still be used. No action required at this point.
 
 ### 2024/04/10
