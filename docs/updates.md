@@ -31,7 +31,7 @@ To protect the hardware, should Alderaan CPUs get too hot, the CPUs will slow do
 ### 2024/04/10
 
 * **Maintenance is planned from 11am**
-Several nodes are draining and partition math-alderaan-short is not accepting jobs. Nodes which become available will be rebooted. 
+Several nodes are draining and partition math-alderaan-short is not accepting jobs. Nodes which become available will be rebooted.
 
 ### 2024/03/26
 
@@ -41,6 +41,8 @@ shrinking as idle nodes become reserved for the upcoming maintance. I will try t
 The math-alderaan-short and math-alderaan-gpu-short partitions will not accept new jobs starting Monday 3/25 10am so that any jobs running on them can finish within the 1 day partition limits.
 The math-alderaan-gpu partition is not not accepting any new jobs until maintenance is complete.
 No jobs will be cancelled.
+
+* Node math-alderaan-c30 has a bad memory slot and runs with memory reduced to 480GB. It will not be allocated to jobs and currently is reserved for system service.
 
 ### 2024/03/21
 
