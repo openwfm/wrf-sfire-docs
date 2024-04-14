@@ -15,7 +15,7 @@ To protect the hardware, should Alderaan CPUs get too hot, the CPUs will slow do
 
 ### 2024/04/26
 
-* 9am-1pm Planned maintenance time for network testing and configuration. Logins will be disabled, partitions stopped, and running jobs suspended. Suspended jobs may be able to continue after the maintenance ends, but it is not guaranteed.
+* 9am-1pm Planned maintenance time for network testing and configuration. Logins will be disabled, partitions stopped, and running jobs suspended or cancelled. Suspended jobs may be able to continue after the maintenance ends, but it is not guaranteed.
 
 ### 2024/04/12
 
