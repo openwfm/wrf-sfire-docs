@@ -34,7 +34,7 @@ Using a server ‘interactively’ (aka not scheduling a job) is often needed fo
 
 **Please do not run anything directly on compute nodes, which are reserved for jobs under the control of the scheduler, even if you may be able to ssh there.  These are nodes with names like math-alderaan-c01 with something else than "i" before the number. Using compute nodes, where other people run jobs through the scheduler, will interfere with their work and make you very unpopular.** It is OK to ssh to a compute node to check on your job, but  don't run anything there.
    
-### Screen virtual terminal
+### Screen virtual terminal in interactive usage
 
 If you use `screen`, if you get disconnected, whatever you were running is still going and you can connect to it later. This is called a virtual terminal session. It is generally a good idea to use `screen` on math-compute, math-alderaan, or on the interactive nodes.  
 
@@ -86,6 +86,49 @@ Type <code>chmod og-rwx file_or_directory_name</code> to make the file or direct
 <!---
 `df –h` will show you the storage arrays and how much space is available. There are different types of "empty" space in linux so it may say there is plenty of space in `df –h` yet the array is full.
 -->
+
+## Where is the software? Modules and Singularity containers
+
+We normally do not install application software directly on the system because of software and version conflicts. Instead, we install sofware in *modules* or *singularity containers*. 
+
+### Modules
+
+To see what software is available in modules,
+
+    module avail
+
+provide a list of available software packages and their versions. A command `module load modulename/version` will change your environment (such as the `PATH` variable) temporarily so that the software and its various parts can be found, for example
+
+    module load R/4.2.1
+
+or
+    module load matlab
+
+Try that and use `env` command to see what has changed. 
+
+You may need to load multiple modules at the same time. When you are done with a module you can `module unload` it but it is strongly recommended to do
+
+    module purge
+
+and start over loading exactly the modules you need, or simply log out and back in again.
+
+Installed software and environment modules on our different clusters are generally different. See [modules](../modules) for more information.
+
+### Singularity containers
+
+A singularity container is a bit like a separate computer in itself which just runs on the same hardware. Thus, software in different containers won't conflict, and a container can provide a complete environment including a different operating system, libraries, etc. A disadvantage, however, is that you can use only the software installed in the container; software on the system outside of the contaier is not visible from the inside. 
+
+Using singularity is easy. Type, for example, 
+
+    singularity shell /storage/singularity/tensorflow
+    python3
+    
+and you can use many Python packages for machine learning. We have containers with statistics software, optimization, molecular chemistry, optimization,
+and more. See [Singularity](../singularity/) for more details and list of software in our containers.
+
+### Old software versions
+
+Sometimes, you may need a speficic version of some software package from few years ago. We'll try. If the software version is not too much in the past, we may be able to install the software in a module or in a singularity container. However, installing an older or a more complicated package may require recreating an entire software ecosystem at a certain point in computer history years ago, which is overwhelming or impossible.
 
 ## File Transfer
 
@@ -404,21 +447,6 @@ The command <code>sinfo</code> will show a summary of jobs and partitions status
     clas-dev             up   infinite      1   idle clas-devnode-c01
 
 Real-time system status including temperature, load, and the partitions from `sinfo`, is available in [News and Status Updates](./updates/).
-
-
-## Custom Application Software
-
-Additional software can be installed as modules. Software in a module is on the system all the time, "loading" a module just changes your environment so that your commands can find it. Installed software and environment modules on our different clusters are generally different. See [modules](../modules) for more information.
-
-We also use Singularity containters, which provide a complete enviroment, avoid software conflicts, and can execute anywhere on the clusters. The disadvantage, however, is that you can use only the software installed in the container; the system you are on is not visible from inside the container.
-
-Using singularity is easy. Type, for example, 
-
-    singularity shell /storage/singularity/tensorflow
-    python3
-    
-and you can use many Python packages for machine learning. We have containers with statistics software, optimization, molecular chemistry, optimization,
-and more. See [Singularity](../singularity/) for more details. 
 
 **We will be happy to install software and build containers for you, do not hesitate to ask!** 
 
