@@ -117,7 +117,7 @@ Installed software and environment modules on our different clusters are general
 
 ### Singularity containers
 
-A singularity container is a bit like a separate computer in itself which just runs on the same hardware. Thus, software in different containers won't conflict, and a container can provide a complete environment including a different operating system, libraries, etc. A disadvantage, however, is that you can use only the software installed in the container; software on the system outside of the contaier is not visible from the inside. 
+A singularity container is a bit like a separate computer in itself which just runs on the same hardware. Thus, software in different containers won't conflict, and a container can provide a complete environment including a different operating system, libraries, etc. A disadvantage, however, is that you can use only the software installed in the container; software on the system outside of the container is not visible from the inside. Containers are read only and cannot be changed. An exception is that some package managers, like conda, may allow installing software while you are inside the container. Additions made by conda this way actually reside in directory `.local` in your home directory.
 
 Using singularity is easy. Type, for example, 
 
@@ -129,7 +129,7 @@ and more. See [Singularity](../singularity/) for more details and list of softwa
 
 ### Old software versions
 
-Sometimes, you may need a speficic version of some software package from few years ago. We'll try. If the software version is not too much in the past, we may be able to install the software in a module or in a singularity container. However, installing an older or a more complicated package may require recreating an entire software ecosystem at a certain point in computer history years ago, which is overwhelming or impossible.
+Sometimes, you may need a specific version of some software package from few years ago. We'll try. If the software version is not too much in the past, we may be able to install the software in a module or in a singularity container. However, installing an older or a more complicated package may require recreating an entire software ecosystem at a certain point in computer history years ago, which would be overwhelming or impossible.
 
 ## File Transfer
 
