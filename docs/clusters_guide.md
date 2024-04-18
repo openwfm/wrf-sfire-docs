@@ -61,7 +61,7 @@ when the directory is created, usualy as a part of onboarding.
 The difference betwen project and home directories is that home directories are backed up occasionally 
 while project directories are not. Please keep your home directory small to make the backups possible.
 
-In addition, groups can reqquest shared project directories also in `/storage/department/projects' or `/data001/projects`. 
+In addition, groups can request shared project directories also in `/storage/department/projects' or `/data001/projects`. 
 
 Please monitor the usage of the partition you are on by 
 
