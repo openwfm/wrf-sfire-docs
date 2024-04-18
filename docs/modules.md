@@ -16,8 +16,7 @@ Alderaan modules include compilers (GNU, AMD, and Intel) and MPI.
 
 `module unload modulename` - make the software pointed to by the module unavailable
 
-`module purge` -  unload all modules, strongly recommended before loading modules to start clear and assure a predictable environment
-
+`module purge` -  unload all modules, strongly recommended before loading modules to start clean and assure a predictable environment
 
 `module list`  - list which modules are loaded
 
@@ -25,7 +24,7 @@ Alderaan modules include compilers (GNU, AMD, and Intel) and MPI.
 
 ## Modules and running code
 
-When you load a collection of modulea to compile a code, you generaly need to load
+When you load a collection of modules to compile a code, you generaly need to load
 the same modules before you run the resulting executable. Otherwise you may get
 runtime errors when the executable cannot find runtime libraries or it gets
 mismatched libraries, such as MPI.
