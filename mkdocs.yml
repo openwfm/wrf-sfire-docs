@@ -22,3 +22,4 @@ markdown_extensions:
   - admonition
 nav:
     - Home: index.md
+    - Fire Arrival Time: fire_arrival_time.md
